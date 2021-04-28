@@ -33,25 +33,25 @@
 /* 1. Theme default css */
 @font-face {
   font-family: "cerebri_sansbold";
-  src: url("../fonts/cerebrisans-bold-webfont.html") format("woff2"), url("../fonts/cerebrisans-bold-webfont.woff") format("woff");
+  /* src: url("../fonts/cerebrisans-bold-webfont.html") format("woff2"), url("../fonts/cerebrisans-bold-webfont.woff") format("woff"); */
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "cerebri_sansmedium";
-  src: url("../fonts/cerebrisans-medium-webfont.html") format("woff2"), url("../fonts/cerebrisans-medium-webfont.woff") format("woff");
+  /* src: url("../fonts/cerebrisans-medium-webfont.html") format("woff2"), url("../fonts/cerebrisans-medium-webfont.woff") format("woff"); */
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "cerebri_sansregular";
-  src: url("../fonts/cerebrisans-regular-webfont.html") format("woff2"), url("../fonts/cerebrisans-regular-webfont.woff") format("woff");
+  /* src: url("../fonts/cerebrisans-regular-webfont.html") format("woff2"), url("../fonts/cerebrisans-regular-webfont.woff") format("woff"); */
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "cerebri_sanssemibold";
-  src: url("../fonts/cerebrisans-semibold-webfont.html") format("woff2"), url("../fonts/cerebrisans-semibold-webfont.woff") format("woff");
+  /* src: url("../fonts/cerebrisans-semibold-webfont.html") format("woff2"), url("../fonts/cerebrisans-semibold-webfont.woff") format("woff"); */
   font-weight: normal;
   font-style: normal;
 }
@@ -1858,7 +1858,7 @@ label {
   -o-animation-timing-function: linear;
 }
 
-@-webkit-keyframes float-bob {
+@keyframes float-bob {
   0% {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
@@ -1893,7 +1893,7 @@ label {
     transform: rotate(360deg);
   }
 }
-@-webkit-keyframes rotateme {
+@keyframes rotateme {
   from {
     -webkit-transform: rotate(0deg);
   }
@@ -2182,7 +2182,7 @@ label {
 }
 
 .header-2-button a {
-  -moz-user-select: none;
+  user-select: none;
   border: 2px solid #ffffff;
   display: inline-block;
   font-size: 14px;
@@ -2406,7 +2406,7 @@ label {
 
 /* button style */
 .btn {
-  -moz-user-select: none;
+  user-select: none;
   background: #010101;
   border: medium none;
   display: inline-block;
@@ -2503,7 +2503,7 @@ label {
 }
 
 .border-btn {
-  -moz-user-select: none;
+  user-select: none;
   border: 2px solid #ffffff;
   display: inline-block;
   font-size: 14px;
@@ -2692,7 +2692,7 @@ label {
   position: relative;
 }
 
-@-webkit-keyframes btnIconRipple {
+@keyframes btnIconRipple {
   0% {
     border-width: 4px;
     -webkit-transform: scale(1);
@@ -3004,7 +3004,7 @@ label {
 }
 
 .slider-btn {
-  -moz-user-select: none;
+  user-select: none;
   background: #ffffff;
   border: medium none;
   display: inline-block;
@@ -5491,7 +5491,7 @@ label {
 }
 
 #contact-form button.btn {
-  -moz-user-select: none;
+  user-select: none;
   background: #fff;
   border: medium none;
   display: inline-block;
@@ -5658,7 +5658,7 @@ label {
 }
 
 #contact-us-form button.btn {
-  -moz-user-select: none;
+  user-select: none;
   background: #fff;
   border: medium none;
   display: inline-block;
@@ -6164,7 +6164,7 @@ textarea:focus::placeholder {
 
 .subscribe-1::before {
   position: absolute;
-  background-image: url(../img/icon/envelope.html);
+  background-image: #777;
   content: "";
   height: 326px;
   width: 322px;
@@ -6548,7 +6548,7 @@ textarea:focus::placeholder {
   border-right: 10px solid #ffffff;
 }
 
-@-webkit-keyframes animborder {
+@keyframes animborder {
   0% {
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
@@ -7564,7 +7564,7 @@ ul.cat li a:hover {
 }
 .fact-text a {
   color: #333333;
-  -moz-user-select: none;
+  user-select: none;
   background: #ffffff;
   border: medium none;
   display: inline-block;
