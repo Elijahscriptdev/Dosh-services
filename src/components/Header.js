@@ -1,17 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-// css
-// import "../assets/css/main.css";
-// import "../assets/css/responsive.css";
-// import "../assets/css/slick.css";
-// import "../assets/css/magnificPopup.css";
-// import "../assets/css/meanmenu.css";
-// import "../assets/css/bootstrapMin.css";
-// import "../assets/css/owlCarouselMin.css";
-// import "../assets/css/animateMin.css";
-// import "../assets/css/animateMin.css";
-// import "../assets/css/themifyIcons.css";
+
 import doshLogo from "../assets/img/logo/logo.jpg";
 
 
@@ -36,12 +26,13 @@ const Header = () => {
                         <i className="far fa-phone"> </i> +234 809 454 3296
                       </span>
                       <span className="header-en">
-                        <i className="far fa-envelope-open"></i>
+                        <i className="far fa-envelope-open"> </i>
                         <Link
                           to={url}
                           className="__cf_email__"
                           data-cfemail="20535550504f525460474d41494c0e434f4d"
                         >
+                          {" "}
                           info@doshservices.com
                         </Link>
                       </span>
@@ -57,16 +48,16 @@ const Header = () => {
                       </div>
                       <div className="header-icon f-right">
                         <Link to={url}>
-                          <i className="fab fa-facebook-f"></i>
+                          <i className="fab fa-facebook-f"> </i>{" "}
                         </Link>
                         <Link to={url}>
-                          <i className="fab fa-twitter"></i>
+                          <i className="fab fa-twitter"> </i>{" "}
                         </Link>
                         <Link to={url}>
-                          <i className="fab fa-instagram"></i>
+                          <i className="fab fa-instagram"> </i>{" "}
                         </Link>
                         <Link to={url}>
-                          <i className="fab fa-youtube"></i>
+                          <i className="fab fa-youtube"> </i>{" "}
                         </Link>
                       </div>
                     </div>
@@ -106,10 +97,10 @@ const Header = () => {
                                 <Link to="/Goals">Industries </Link>
                               </li>
                               <li>
-                                <Link to="/Goals">Mission & Vision</Link>
+                                <Link to="/SingleTeam">Our Team</Link>
                               </li>
                               <li>
-                                <Link to="single-team.html">Our Team</Link>
+                                <Link to="/Goals">Mission & Vision</Link>
                               </li>
                               <li>
                                 <Link to="/About">Clients</Link>
