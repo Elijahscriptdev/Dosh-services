@@ -2,17 +2,18 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 // css
-import "../assets/css/main.css";
-import "../assets/css/responsive.css";
-import "../assets/css/slick.css";
-import "../assets/css/magnificPopup.css";
-import "../assets/css/meanmenu.css";
-import "../assets/css/bootstrapMin.css";
-import "../assets/css/owlCarouselMin.css";
-import "../assets/css/animateMin.css";
-import "../assets/css/themifyIcons.css";
-import doshLogo from "../assets/img/logo/logo.jpg";
+// import "../assets/css/main.css";
+// import "../assets/css/responsive.css";
+// import "../assets/css/slick.css";
+// import "../assets/css/magnificPopup.css";
+// import "../assets/css/meanmenu.css";
+// import "../assets/css/bootstrapMin.css";
+// import "../assets/css/owlCarouselMin.css";
+// import "../assets/css/animateMin.css";
+// import "../assets/css/themifyIcons.css";
 
+//Imgs
+import doshLogo from "../assets/img/logo/logo.jpg";
 import bgSeven from "../assets/img/bg/bg-7.jpg";
 
 

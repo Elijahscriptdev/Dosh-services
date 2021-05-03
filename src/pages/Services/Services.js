@@ -8,20 +8,20 @@ import Header from "../../components/Header";
 import FooterDark from "../../components/FooterDark";
 
 // Imgs
-import iconImageOne from "../../../public/assets/img/icon/icon-01.png";
-import iconImageTwo from "../../../public/assets/img/icon/icon-2.png";
-import iconImageThree from "../../../public/assets/img/icon/icon-3.png";
-import iconImageFour from "../../../public/assets/img/icon/icon-4.png";
-import iconImageFive from "../../../public/assets/img/icon/icon-5.png";
-import iconImageSix from "../../../public/assets/img/icon/icon-6.png";
-import brandOne from "../../../public/assets/img/brand/brand-01.png";
-import brandTwo from "../../../public/assets/img/brand/brand-02.png";
-import brandThree from "../../../public/assets/img/brand/brand-03.png";
-import brandFour from "../../../public/assets/img/brand/brand-04.png";
-import brandFive from "../../../public/assets/img/brand/brand-05.png";
-import bgOne from "../../../public/assets/img/bg/bg-1.jpg";
-import bgMap from "../../../public/assets/img/bg/map.png";
-import bgFourteen from "../../../public/assets/img/bg/bg-14.jpg";
+import iconImageOne from "../../assets/img/icon/icon-01.png";
+import iconImageTwo from "../../assets/img/icon/icon-2.png";
+import iconImageThree from "../../assets/img/icon/icon-3.png";
+import iconImageFour from "../../assets/img/icon/icon-4.png";
+import iconImageFive from "../../assets/img/icon/icon-5.png";
+import iconImageSix from "../../assets/img/icon/icon-6.png";
+import brandOne from "../../assets/img/brand/brand-01.png";
+import brandTwo from "../../assets/img/brand/brand-02.png";
+import brandThree from "../../assets/img/brand/brand-03.png";
+import brandFour from "../../assets/img/brand/brand-04.png";
+import brandFive from "../../assets/img/brand/brand-05.png";
+import bgOne from "../../assets/img/bg/bg-1.jpg";
+import bgMap from "../../assets/img/bg/map.png";
+import bgFourteen from "../../assets/img/bg/bg-14.jpg";
 
 
 const Services = () => {

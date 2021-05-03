@@ -3,24 +3,23 @@ import { Link } from "react-router-dom";
 import { ReactTitle } from "react-meta-tags";
 
 // css
-// import "../../../public/assets/css/main.css";
-// import "../../../public/assets/css/responsive.css";
-// import "../../../public/assets/css/slick.css";
-// import "../../../public/assets/css/magnificPopup.css";
-// import "../../../public/assets/css/meanmenu.css";
-// import "../../../public/assets/css/bootstrapMin.css";
-// import "../../../public/assets/css/owlCarouselMin.css";
-// import "../../../public/assets/css/animateMin.css";
-// import "../../../public/assets/css/themifyIcons.css";
+// import "../../assets/css/main.css";
+// import "../../assets/css/responsive.css";
+// import "../../assets/css/slick.css";
+// import "../../assets/css/magnificPopup.css";
+// import "../../assets/css/meanmenu.css";
+// import "../../assets/css/bootstrapMin.css";
+// import "../../assets/css/owlCarouselMin.css";
+// import "../../assets/css/animateMin.css";
+// import "../../assets/css/themifyIcons.css";
 
 // components
 import Header from '../../components/Header';
 import FooterDark from '../../components/FooterDark';
 
 // Imgs
-import bgFourteen from "../../../public/assets/img/bg/bg-14.jpg";
-// import bgMap from "../../../public/assets/img/bg/c.jpg";
-import contactBg from "../../../public/assets/img/bg/contact-bg.png";
+import bgFourteen from "../../assets/img/bg/bg-14.jpg";
+import contactBg from "../../assets/img/bg/contact-bg.png";
 
 
 
