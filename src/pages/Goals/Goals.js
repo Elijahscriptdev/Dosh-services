@@ -3,37 +3,37 @@ import { Link } from "react-router-dom";
 import { ReactTitle } from "react-meta-tags";
 
 // css
-import "../../assets/css/main.css";
-import "../../assets/css/responsive.css";
-import "../../assets/css/slick.css";
-import "../../assets/css/magnificPopup.css";
-import "../../assets/css/meanmenu.css";
-import "../../assets/css/bootstrapMin.css";
-import "../../assets/css/owlCarouselMin.css";
-import "../../assets/css/animateMin.css";
-import "../../assets/css/themifyIcons.css";
+// import "../../../public/assets/css/main.css";
+// import "../../../public/assets/css/responsive.css";
+// import "../../../public/assets/css/slick.css";
+// import "../../../public/assets/css/magnificPopup.css";
+// import "../../../public/assets/css/meanmenu.css";
+// import "../../../public/assets/css/bootstrapMin.css";
+// import "../../../public/assets/css/owlCarouselMin.css";
+// import "../../../public/assets/css/animateMin.css";
+// import "../../../public/assets/css/themifyIcons.css";
 
 //components
 import Header from "../../components/Header";
 import FooterDark from "../../components/FooterDark";
 
 // Imgs
-import iconImageOne from "../../assets/img/icon/01.png";
-import iconImageTwo from "../../assets/img/icon/02.png";
-import iconImageThree from "../../assets/img/icon/03.png";
-import iconImageFour from "../../assets/img/icon/04.png";
-import iconImageFive from "../../assets/img/icon/05.png";
-import iconImageSix from "../../assets/img/icon/06.png";
-import brandOne from "../../assets/img/brand/brand-01.png";
-import brandTwo from "../../assets/img/brand/brand-02.png";
-import brandThree from "../../assets/img/brand/brand-03.png";
-import brandFour from "../../assets/img/brand/brand-04.png";
-import brandFive from "../../assets/img/brand/brand-05.png";
-import bgTwo from "../../assets/img/bg/bg-2.jpg";
-import goalsImgThree from "../../assets/img/goals/03.jpg";
-import goalsImgOne from "../../assets/img/goals/01.jpg";
-import goalsImgTwo from "../../assets/img/goals/02.jpg";
-import bgFourteen from "../../assets/img/bg/bg-14.jpg";
+import iconImageOne from "../../../public/assets/img/icon/01.png";
+import iconImageTwo from "../../../public/assets/img/icon/02.png";
+import iconImageThree from "../../../public/assets/img/icon/03.png";
+import iconImageFour from "../../../public/assets/img/icon/04.png";
+import iconImageFive from "../../../public/assets/img/icon/05.png";
+import iconImageSix from "../../../public/assets/img/icon/06.png";
+import brandOne from "../../../public/assets/img/brand/brand-01.png";
+import brandTwo from "../../../public/assets/img/brand/brand-02.png";
+import brandThree from "../../../public/assets/img/brand/brand-03.png";
+import brandFour from "../../../public/assets/img/brand/brand-04.png";
+import brandFive from "../../../public/assets/img/brand/brand-05.png";
+import bgTwo from "../../../public/assets/img/bg/bg-2.jpg";
+import goalsImgThree from "../../../public/assets/img/goals/03.jpg";
+import goalsImgOne from "../../../public/assets/img/goals/01.jpg";
+import goalsImgTwo from "../../../public/assets/img/goals/02.jpg";
+import bgFourteen from "../../../public/assets/img/bg/bg-14.jpg";
 
 
 const Goals = () => {

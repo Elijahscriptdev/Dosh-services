@@ -3,46 +3,46 @@ import { Link } from "react-router-dom";
 import { ReactTitle } from "react-meta-tags";
 
 // css
-import "../../assets/css/main.css";
-import "../../assets/css/responsive.css";
-import "../../assets/css/slick.css";
-import "../../assets/css/magnificPopup.css";
-import "../../assets/css/meanmenu.css";
-import "../../assets/css/bootstrapMin.css";
-import "../../assets/css/owlCarouselMin.css";
-import "../../assets/css/animateMin.css";
-import "../../assets/css/themifyIcons.css";
+// import "../../../public/assets/css/main.css";
+// import "../../../public/assets/css/responsive.css";
+// import "../../../public/assets/css/slick.css";
+// import "../../../public/assets/css/magnificPopup.css";
+// import "../../../public/assets/css/meanmenu.css";
+// import "../../../public/assets/css/bootstrapMin.css";
+// import "../../../public/assets/css/owlCarouselMin.css";
+// import "../../../public/assets/css/animateMin.css";
+// import "../../../public/assets/css/themifyIcons.css";
 
 // Imgs
-import sliderOne from "../../assets/img/slider/slider-1.jpg";
-import bgTwo from "../../assets/img/bg/bg-2.jpg";
-import bgFour from "../../assets/img/bg/bg-4.jpg";
-import bgFive from "../../assets/img/bg/bg-5.jpg";
-import bgMap from "../../assets/img/bg/map.png";
-import shapeFive from "../../assets/img/shape/05.png";
-import shapeThree from "../../assets/img/shape/03.png";
-import shapeTwo from "../../assets/img/shape/02.png";
-import shapeOne from "../../assets/img/shape/01.png";
-import shapeFour from "../../assets/img/shape/04.png";
-import aboutTwo from "../../assets/img/about/about-2.png";
-import serviceOne from "../../assets/img/service/ser-01.jpg";
-import serviceTwo from "../../assets/img/service/ser-02.jpg";
-import serviceThree from "../../assets/img/service/ser-03.jpg";
-import serviceFour from "../../assets/img/service/ser-04.jpg";
-import shapeShapeOne from "../../assets/img/shape/shape-1.png"
-import teamOne from "../../assets/img/team/team-01.jpg";
-import teamTwo from "../../assets/img/team/team-02.jpg";
-import teamThree from "../../assets/img/team/team-03.jpg";
-import teamFour from "../../assets/img/team/team-04.jpg";
-import projOne from "../../assets/img/project/01.jpg";
-import projTwo from "../../assets/img/project/02.jpg";
-import projThree from "../../assets/img/project/03.jpg";
-import testimonialImg from "../../assets/img/testimonial/test.png";
-import brandOne from "../../assets/img/brand/brand-01.png"
-import brandTwo from "../../assets/img/brand/brand-02.png"
-import brandThree from "../../assets/img/brand/brand-03.png"
-import brandFour from "../../assets/img/brand/brand-04.png"
-import brandFive from "../../assets/img/brand/brand-05.png"
+import sliderOne from "../../../public/assets/img/slider/slider-1.jpg";
+import bgTwo from "../../../public/assets/img/bg/bg-2.jpg";
+import bgFour from "../../../public/assets/img/bg/bg-4.jpg";
+import bgFive from "../../../public/assets/img/bg/bg-5.jpg";
+import bgMap from "../../../public/assets/img/bg/map.png";
+import shapeFive from "../../../public/assets/img/shape/05.png";
+import shapeThree from "../../../public/assets/img/shape/03.png";
+import shapeTwo from "../../../public/assets/img/shape/02.png";
+import shapeOne from "../../../public/assets/img/shape/01.png";
+import shapeFour from "../../../public/assets/img/shape/04.png";
+import aboutTwo from "../../../public/assets/img/about/about-2.png";
+import serviceOne from "../../../public/assets/img/service/ser-01.jpg";
+import serviceTwo from "../../../public/assets/img/service/ser-02.jpg";
+import serviceThree from "../../../public/assets/img/service/ser-03.jpg";
+import serviceFour from "../../../public/assets/img/service/ser-04.jpg";
+import shapeShapeOne from "../../../public/assets/img/shape/shape-1.png"
+import teamOne from "../../../public/assets/img/team/team-01.jpg";
+import teamTwo from "../../../public/assets/img/team/team-02.jpg";
+import teamThree from "../../../public/assets/img/team/team-03.jpg";
+import teamFour from "../../../public/assets/img/team/team-04.jpg";
+import projOne from "../../../public/assets/img/project/01.jpg";
+import projTwo from "../../../public/assets/img/project/02.jpg";
+import projThree from "../../../public/assets/img/project/03.jpg";
+import testimonialImg from "../../../public/assets/img/testimonial/test.png";
+import brandOne from "../../../public/assets/img/brand/brand-01.png"
+import brandTwo from "../../../public/assets/img/brand/brand-02.png"
+import brandThree from "../../../public/assets/img/brand/brand-03.png"
+import brandFour from "../../../public/assets/img/brand/brand-04.png"
+import brandFive from "../../../public/assets/img/brand/brand-05.png"
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 

@@ -3,37 +3,37 @@ import { Link } from 'react-router-dom';
 import { ReactTitle } from "react-meta-tags";
 
 // css
-import "../../assets/css/main.css";
-import "../../assets/css/responsive.css";
-import "../../assets/css/slick.css";
-import "../../assets/css/magnificPopup.css";
-import "../../assets/css/meanmenu.css";
-import "../../assets/css/bootstrapMin.css";
-import "../../assets/css/owlCarouselMin.css";
-import "../../assets/css/animateMin.css";
-import "../../assets/css/themifyIcons.css";
+// import "../../../public/assets/css/main.css";
+// import "../../../public/assets/css/responsive.css";
+// import "../../../public/assets/css/slick.css";
+// import "../../../public/assets/css/magnificPopup.css";
+// import "../../../public/assets/css/meanmenu.css";
+// import "../../../public/assets/css/bootstrapMin.css";
+// import "../../../public/assets/css/owlCarouselMin.css";
+// import "../../../public/assets/css/animateMin.css";
+// import "../../../public/assets/css/themifyIcons.css";
 import Header from '../../components/Header';
 import FooterDark from '../../components/FooterDark';
 
 // Imgs
-import bgFourteen from "../../assets/img/bg/bg-14.jpg";
-import bgFifteen from "../../assets/img/bg/bg-15.jpg";
-import bgC from "../../assets/img/bg/c.jpg";
-import bgTwo from "../../assets/img/bg/bg-2.jpg";
-import aboutTwo from "../../assets/img/about/02.png";
-import teamFourImg from "../../assets/img/team/team-04.jpg";
-import teamThreeImg from "../../assets/img/team/team-03.jpg";
-import teamTwoImg from "../../assets/img/team/team-02.jpg";
-import teamOneImg from "../../assets/img/team/team-01.jpg";
-import shapeOneAbout from "../../assets/img/shape/shape-1.png";
-import testimonialImgOne from "../../assets/img/testimonial/01.png";
-import testimonialImgTwo from "../../assets/img/testimonial/02.png";
-import testimonialImgThree from "../../assets/img/testimonial/03.png";
-import brandOne from "../../assets/img/brand/01.png";
-import brandTwo from "../../assets/img/brand/02.png";
-import brandThree from "../../assets/img/brand/03.png";
-import brandFour from "../../assets/img/brand/04.png";
-import brandFive from "../../assets/img/brand/05.png";
+import bgFourteen from "../../../public/assets/img/bg/bg-14.jpg";
+import bgFifteen from "../../../public/assets/img/bg/bg-15.jpg";
+import bgC from "../../../public/assets/img/bg/c.jpg";
+import bgTwo from "../../../public/assets/img/bg/bg-2.jpg";
+import aboutTwo from "../../../public/assets/img/about/02.png";
+import teamFourImg from "../../../public/assets/img/team/team-04.jpg";
+import teamThreeImg from "../../../public/assets/img/team/team-03.jpg";
+import teamTwoImg from "../../../public/assets/img/team/team-02.jpg";
+import teamOneImg from "../../../public/assets/img/team/team-01.jpg";
+import shapeOneAbout from "../../../public/assets/img/shape/shape-1.png";
+import testimonialImgOne from "../../../public/assets/img/testimonial/01.png";
+import testimonialImgTwo from "../../../public/assets/img/testimonial/02.png";
+import testimonialImgThree from "../../../public/assets/img/testimonial/03.png";
+import brandOne from "../../../public/assets/img/brand/01.png";
+import brandTwo from "../../../public/assets/img/brand/02.png";
+import brandThree from "../../../public/assets/img/brand/03.png";
+import brandFour from "../../../public/assets/img/brand/04.png";
+import brandFive from "../../../public/assets/img/brand/05.png";
 
 
 
