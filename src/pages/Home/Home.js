@@ -6,19 +6,19 @@ import { ReactTitle } from "react-meta-tags";
 import "../../assets/css/main.css";
 import "../../assets/css/responsive.css";
 import "../../assets/css/slick.css";
-import "../../assets/css/magnific-popup.css";
+import "../../assets/css/magnificPopup.css";
 import "../../assets/css/meanmenu.css";
-import "../../assets/css/bootstrap.min.css";
-import "../../assets/css/owl.carousel.min.css";
-import "../../assets/css/animate.min.css";
-import "../../assets/css/themify-icons.css";
+import "../../assets/css/bootstrapMin.css";
+import "../../assets/css/owlCarouselMin.css";
+import "../../assets/css/animateMin.css";
+import "../../assets/css/themifyIcons.css";
 
 // Imgs
-import doshLogo from "../../assets/img/logo/logo.jpg";
 import sliderOne from "../../assets/img/slider/slider-1.jpg";
 import bgTwo from "../../assets/img/bg/bg-2.jpg";
 import bgFour from "../../assets/img/bg/bg-4.jpg";
 import bgFive from "../../assets/img/bg/bg-5.jpg";
+import bgMap from "../../assets/img/bg/map.png";
 import shapeFive from "../../assets/img/shape/05.png";
 import shapeThree from "../../assets/img/shape/03.png";
 import shapeTwo from "../../assets/img/shape/02.png";
@@ -43,6 +43,8 @@ import brandTwo from "../../assets/img/brand/brand-02.png"
 import brandThree from "../../assets/img/brand/brand-03.png"
 import brandFour from "../../assets/img/brand/brand-04.png"
 import brandFive from "../../assets/img/brand/brand-05.png"
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 
 
@@ -53,158 +55,7 @@ const Home = () => {
     <>
       <ReactTitle title="Dosh Services - IT Solutions Service Providers" />
       <body>
-        <header>
-          <div className="header-top-area grey-bg d-none d-md-block">
-            <div className="container">
-              <div className="row">
-                <div className="col-xl-8 col-lg-8 col-md-6 d-flex align-items-center">
-                  <div className="header-info">
-                    <span>
-                      <i className="far fa-map-marker-alt"> </i>12b MacDonald
-                      Akano street. Omole phase 1
-                    </span>
-                    <span className="header-ph">
-                      <i className="far fa-phone"> </i> +234 809 454 3296
-                    </span>
-                    <span className="header-en">
-                      <i className="far fa-envelope-open"></i>
-                      <Link
-                        to={url}
-                        className="__cf_email__"
-                        data-cfemail="20535550504f525460474d41494c0e434f4d"
-                      >
-                        info@doshservices.com
-                      </Link>
-                    </span>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-lg-4 col-md-6">
-                  <div className="header-right f-right ">
-                    <div className="header-lang  pos-rel f-right">
-                      <div className="lang-icon">
-                        {/* <img src="assets/img/icon/flag.png" alt="" /> */}
-                        <Link to={url} />
-                      </div>
-                    </div>
-                    <div className="header-icon f-right">
-                      <Link to={url}>
-                        <i className="fab fa-facebook-f"></i>
-                      </Link>
-                      <Link to={url}>
-                        <i className="fab fa-twitter"></i>
-                      </Link>
-                      <Link to={url}>
-                        <i className="fab fa-instagram"></i>
-                      </Link>
-                      <Link to={url}>
-                        <i className="fab fa-youtube"></i>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="sticky-header" className="main-menu-area">
-            <div className="container">
-              <div className="row">
-                <div className="col-xl-3 col-lg-3 d-flex align-items-center">
-                  <div className="logo">
-                    <img src={doshLogo} alt="" />
-                  </div>
-                </div>
-                <div className="col-xl-9 col-lg-9">
-                  <div className="header-button f-right d-none d-lg-block">
-                    <Link className="btn" to="contact.html">
-                      <span className="btn-text">
-                        Contact US <i className="far fa-long-arrow-right" />
-                      </span>
-                    </Link>
-                  </div>
-                  <div className="main-menu text-right">
-                    <nav id="mobile-menu">
-                      <ul>
-                        <li className="active">
-                          <Link to="index.html">home</Link>
-                        </li>
-
-                        <li>
-                          <Link to="about.html">About</Link>
-                          <ul className="sub-menu text-left">
-                            <li>
-                              <Link to="goals.html">Industries </Link>
-                            </li>
-                            <li>
-                              <Link to="goals.html">Mission & Vision</Link>
-                            </li>
-                            <li>
-                              <Link to="single-team.html">Our Team</Link>
-                            </li>
-                            <li>
-                              <Link to="about.html">Clients</Link>
-                            </li>
-                          </ul>
-                        </li>
-
-                        <li>
-                          <Link to="services.html">Services</Link>
-                          <ul className="sub-menu text-left">
-                            <li>
-                              <Link to="services.html">
-                                Mobile Development{" "}
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="services-02.html">
-                                Web Development{" "}
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="services-03.html">
-                                Tech Consultation
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="it-management.html">Automation </Link>
-                            </li>
-                          </ul>
-                        </li>
-
-                        <li>
-                          <Link to={url}>Case Studies</Link>
-                          <ul className="sub-menu text-left">
-                            <li>
-                              <Link to="case-study.html">case study</Link>
-                            </li>
-                            <li>
-                              <Link to="case-study-02.html">case study 02</Link>
-                            </li>
-                            <li>
-                              <Link to="case-carousel.html">case carousel</Link>
-                            </li>
-                            <li>
-                              <Link to="case-details.html">case details</Link>
-                            </li>
-                          </ul>
-                        </li>
-
-                        <li>
-                          <Link to="packages.html">Packages</Link>
-                        </li>
-                        <li>
-                          <Link to="career.html">Careers</Link>
-                        </li>
-                      </ul>
-                    </nav>
-                  </div>
-                </div>
-                <div className="col-12">
-                  <div className="mobile-menu"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
+        <Header />
 
         <main>
           {/* <!-- slider-start --> */}
@@ -246,7 +97,7 @@ const Home = () => {
                       <div className="slider-video text-md-right">
                         <Link
                           className="popup-video"
-                          href="https://www.youtube.com/watch?v=LTXD6XZXc3U"
+                          to="https://www.youtube.com/watch?v=LTXD6XZXc3U"
                         >
                           <i className="fas fa-play"></i>
                         </Link>
@@ -308,7 +159,7 @@ const Home = () => {
                       </p>
                     </div>
                     <div className="about-button">
-                      <Link className="btn" href="about.html">
+                      <Link className="btn" to="/About">
                         <span className="btn-text">
                           Learn More <i className="far fa-long-arrow-right"></i>
                         </span>
@@ -429,7 +280,7 @@ const Home = () => {
                           to meet up with the latest technology standard and
                           trends.
                         </p>
-                        <Link href="services.html">
+                        <Link to="/Services">
                           view more <i className="far fa-long-arrow-right"></i>
                         </Link>
                       </div>
@@ -440,7 +291,7 @@ const Home = () => {
               <div className="row">
                 <div className="col-xl-12">
                   <div className="services-button text-center mt-30">
-                    <Link className="btn" href="services.html">
+                    <Link className="btn" to="/Services">
                       <span className="btn-text">
                         view All Services{" "}
                         <i className="far fa-long-arrow-right"></i>
@@ -610,7 +461,7 @@ const Home = () => {
                         Contact Us <i className="far fa-long-arrow-right"></i>
                       </span>
                     </Link>
-                    <Link className="cta-link" href="#contact-area">
+                    <Link className="cta-link" to="#contact-area">
                       <i className="far fa-phone"></i> +234 809 454 3296
                     </Link>
                   </div>
@@ -785,7 +636,13 @@ const Home = () => {
                 <div className="row">
                   <div className="col-xl-5 col-lg-5 mb-30">
                     <div className="map-wrapper">
-                      <div id="contact-map" className="contact-map"></div>
+                      <div id="contact-map" className="contact-map">
+                        <div class="col-xl-5 col-lg-5">
+                          <div class="map-img mb-30">
+                            <img src={bgMap} alt="" />
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="col-xl-7 col-lg-7 mb-30">
@@ -926,6 +783,7 @@ const Home = () => {
           </div>
           {/* <!-- newsletter-area-end --> */}
         </main>
+        <Footer />
       </body>
     </>
   );

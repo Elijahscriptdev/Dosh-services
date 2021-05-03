@@ -28,33 +28,34 @@
 
 -----------------------------------------------------------------------------------*/
 /*----------------------------------------*/
-/*  01. Theme default CSS
-/*----------------------------------------*/
-/* 1. Theme default css */
-@font-face {
+/*  01. Theme default CSS*/
+
+@import url(//db.onlinewebfonts.com/c/bb018e64d01355748d8ddc53553850b9?family=Cerebri+Sans);
+
+/* @font-face {
   font-family: "cerebri_sansbold";
-  /* src: url("../fonts/cerebrisans-bold-webfont.html") format("woff2"), url("../fonts/cerebrisans-bold-webfont.woff") format("woff"); */
+  src: url("../fonts/cerebrisans-bold-webfont.html") format("woff2"), url("../fonts/cerebrisans-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "cerebri_sansmedium";
-  /* src: url("../fonts/cerebrisans-medium-webfont.html") format("woff2"), url("../fonts/cerebrisans-medium-webfont.woff") format("woff"); */
+  src: url("../fonts/cerebrisans-medium-webfont.html") format("woff2"), url("../fonts/cerebrisans-medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "cerebri_sansregular";
-  /* src: url("../fonts/cerebrisans-regular-webfont.html") format("woff2"), url("../fonts/cerebrisans-regular-webfont.woff") format("woff"); */
+  src: url("../fonts/cerebrisans-regular-webfont.html") format("woff2"), url("../fonts/cerebrisans-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "cerebri_sanssemibold";
-  /* src: url("../fonts/cerebrisans-semibold-webfont.html") format("woff2"), url("../fonts/cerebrisans-semibold-webfont.woff") format("woff"); */
+  src: url("../fonts/cerebrisans-semibold-webfont.html") format("woff2"), url("../fonts/cerebrisans-semibold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-}
+} */
 body {
   font-family: "cerebri_sansregular";
   font-style: normal;
