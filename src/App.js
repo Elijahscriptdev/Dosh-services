@@ -4,6 +4,8 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Services from "./pages/Services/Services";
+import ServicesTwo from "./pages/Services/ServicesTwo";
+import ServicesThree from "./pages/Services/ServicesThree";
 import Careers from "./pages/Careers/Careers";
 import Packages from "./pages/Packages/Packages";
 import Goals from "./pages/Goals/Goals";
@@ -18,6 +20,8 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/About" exact component={About} />
           <Route path="/Services" exact component={Services} />
+          <Route path="/ServicesTwo" exact component={ServicesTwo} />
+          <Route path="/ServicesThree" exact component={ServicesThree} />
           <Route path="/Careers" exact component={Careers} />
           <Route path="/Packages" exact component={Packages} />
           <Route path="/Goals" exact component={Goals} />

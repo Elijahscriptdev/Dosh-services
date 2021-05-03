@@ -115,12 +115,10 @@ const Header = () => {
                                 <Link to="/Services">Mobile Development </Link>
                               </li>
                               <li>
-                                <Link to="services-02.html">
-                                  Web Development{" "}
-                                </Link>
+                                <Link to="/ServicesTwo">Web Development </Link>
                               </li>
                               <li>
-                                <Link to="services-03.html">
+                                <Link to="/ServicesThree">
                                   Tech Consultation
                                 </Link>
                               </li>

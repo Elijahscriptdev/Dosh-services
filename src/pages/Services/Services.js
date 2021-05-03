@@ -4,8 +4,8 @@ import { ReactTitle } from "react-meta-tags";
 
 
 //components
-import Header from "../../components/Header";
-import FooterDark from "../../components/FooterDark";
+import Header from "../../components/Headers/Header";
+import FooterDark from "../../components/Footers/FooterDark";
 
 // Imgs
 import iconImageOne from "../../assets/img/icon/icon-01.png";
@@ -57,27 +57,27 @@ const Services = () => {
 
         {/* <!-- services-area-start --> */}
         <div
-          class="services-area pt-120 pb-100"
+          className="services-area pt-120 pb-100"
           style={{ backgroundImage: `url(${bgOne})` }}
         >
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
-                <div class="section-title text-center ml-50 mr-50 mb-80">
-                  <span class="border-left-1"></span>
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
+                <div className="section-title text-center ml-50 mr-50 mb-80">
+                  <span className="border-left-1"></span>
                   <span>what we do</span>
-                  <span class="border-right-1"></span>
+                  <span className="border-right-1"></span>
                   <h1>We provide exclusive services for your business</h1>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                <div class="services-wrapper text-center">
-                  <div class="services-img">
+            <div className="row">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div className="services-wrapper text-center">
+                  <div className="services-img">
                     <img src={iconImageOne} alt="" />
                   </div>
-                  <div class="services-text">
+                  <div className="services-text">
                     <h3>Mobile App Development</h3>
                     <p>
                       We are specialist when it comes to building Android, IOS,
@@ -87,19 +87,19 @@ const Services = () => {
                     </p>
                     <Link to="#">
                       {" "}
-                      <span class="services-button">
-                        read more <i class="far fa-long-arrow-right"></i>
+                      <span className="services-button">
+                        read more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
                     </Link>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                <div class="services-wrapper text-center">
-                  <div class="services-img">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div className="services-wrapper text-center">
+                  <div className="services-img">
                     <img src={iconImageTwo} alt="" />
                   </div>
-                  <div class="services-text">
+                  <div className="services-text">
                     <h3>Web Development</h3>
                     <p>
                       We develop high-end, responsive and user-friendly website
@@ -109,19 +109,19 @@ const Services = () => {
                     </p>
                     <Link to="#">
                       {" "}
-                      <span class="services-button">
-                        read more <i class="far fa-long-arrow-right"></i>
+                      <span className="services-button">
+                        read more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
                     </Link>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                <div class="services-wrapper text-center">
-                  <div class="services-img">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div className="services-wrapper text-center">
+                  <div className="services-img">
                     <img src={iconImageThree} alt="" />
                   </div>
-                  <div class="services-text">
+                  <div className="services-text">
                     <h3>Digital Marketing</h3>
                     <p>
                       We understand how important customer perceptions is to
@@ -132,19 +132,19 @@ const Services = () => {
                     </p>
                     <Link to="#">
                       {" "}
-                      <span class="services-button">
-                        read more <i class="far fa-long-arrow-right"></i>
+                      <span className="services-button">
+                        read more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
                     </Link>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                <div class="services-wrapper text-center">
-                  <div class="services-img">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div className="services-wrapper text-center">
+                  <div className="services-img">
                     <img src={iconImageFour} alt="" />
                   </div>
-                  <div class="services-text">
+                  <div className="services-text">
                     <h3>Tech Consulting</h3>
                     <p>
                       At Dosh Services, We are not only inventors; we also offer
@@ -154,19 +154,19 @@ const Services = () => {
                     </p>
                     <Link to="#">
                       {" "}
-                      <span class="services-button">
-                        read more <i class="far fa-long-arrow-right"></i>
+                      <span className="services-button">
+                        read more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
                     </Link>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                <div class="services-wrapper text-center">
-                  <div class="services-img">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div className="services-wrapper text-center">
+                  <div className="services-img">
                     <img src={iconImageFive} alt="" />
                   </div>
-                  <div class="services-text">
+                  <div className="services-text">
                     <h3>TECH TRAINING</h3>
                     <p>
                       We train techy and savvy youths who are ready to invent
@@ -176,19 +176,19 @@ const Services = () => {
                     </p>
                     <Link to="#">
                       {" "}
-                      <span class="services-button">
-                        read more <i class="far fa-long-arrow-right"></i>
+                      <span className="services-button">
+                        read more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
                     </Link>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                <div class="services-wrapper text-center">
-                  <div class="services-img">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div className="services-wrapper text-center">
+                  <div className="services-img">
                     <img src={iconImageSix} alt="" />
                   </div>
-                  <div class="services-text">
+                  <div className="services-text">
                     <h3>CYBER SECURITY</h3>
                     <p>
                       At Dosh technology, we help you audit and check for bugs
@@ -196,8 +196,8 @@ const Services = () => {
                     </p>
                     <Link to="#">
                       {" "}
-                      <span class="services-button">
-                        read more <i class="far fa-long-arrow-right"></i>
+                      <span className="services-button">
+                        read more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
                     </Link>
                   </div>
@@ -210,14 +210,14 @@ const Services = () => {
         {/* <!-- services-area-end --> */}
 
         {/* <!-- contact-area-start --> */}
-        <div class="contact-2-area pt-130 pb-100 theme-bg ">
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-7 col-lg-7 ">
-                <div class="contact-wrapper mb-30">
-                  <div class="section-title section-title-white mb-25">
-                    <span class="b-sm-left-2"></span>
-                    <span class="sub-t-left">contact us</span>
+        <div className="contact-2-area pt-130 pb-100 theme-bg ">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-7 col-lg-7 ">
+                <div className="contact-wrapper mb-30">
+                  <div className="section-title section-title-white mb-25">
+                    <span className="b-sm-left-2"></span>
+                    <span className="sub-t-left">contact us</span>
                     <h1>
                       Don't Hesitate To <br /> Contact Us
                     </h1>
@@ -226,9 +226,9 @@ const Services = () => {
                     action="http://Dosh Services.net/Dosh Services/Dosh Services/assets/mail.php"
                     id="contact-form"
                   >
-                    <div class="row">
-                      <div class="col-xl-6 mb-10">
-                        <div class="form-2-box user-icon mb-10">
+                    <div className="row">
+                      <div className="col-xl-6 mb-10">
+                        <div className="form-2-box user-icon mb-10">
                           <input
                             name="name"
                             placeholder="Full Name Here"
@@ -236,8 +236,8 @@ const Services = () => {
                           />
                         </div>
                       </div>
-                      <div class="col-xl-6 mb-10">
-                        <div class="form-2-box email-2-icon mb-10">
+                      <div className="col-xl-6 mb-10">
+                        <div className="form-2-box email-2-icon mb-10">
                           <input
                             name="email"
                             placeholder="Email Address"
@@ -245,8 +245,8 @@ const Services = () => {
                           />
                         </div>
                       </div>
-                      <div class="col-xl-12 mb-35">
-                        <div class="form-2-box sub-icon mb-10">
+                      <div className="col-xl-12 mb-35">
+                        <div className="form-2-box sub-icon mb-10">
                           <input
                             name="subject"
                             placeholder="Subject"
@@ -254,8 +254,8 @@ const Services = () => {
                           />
                         </div>
                       </div>
-                      <div class="col-xl-12 mb-30">
-                        <div class="form-2-box message-2-icon mb-10">
+                      <div className="col-xl-12 mb-30">
+                        <div className="form-2-box message-2-icon mb-10">
                           <textarea
                             name="message"
                             cols="30"
@@ -265,21 +265,21 @@ const Services = () => {
                           ></textarea>
                         </div>
                       </div>
-                      <div class="col-xl-12">
-                        <button class="btn" type="submit">
-                          <span class="btn-texts">
-                            send message <i class="far fa-long-arrow-right"></i>
+                      <div className="col-xl-12">
+                        <button className="btn" type="submit">
+                          <span className="btn-texts">
+                            send message <i className="far fa-long-arrow-right"></i>
                           </span>{" "}
-                          <span class="btn-border"></span>
+                          <span className="btn-border"></span>
                         </button>
                       </div>
                     </div>
-                    <p class="form-message"></p>
+                    <p className="form-message"></p>
                   </form>
                 </div>
               </div>
-              <div class="col-xl-5 col-lg-5">
-                <div class="map-img mb-30">
+              <div className="col-xl-5 col-lg-5">
+                <div className="map-img mb-30">
                   <img src={bgMap} alt="" />
                 </div>
               </div>
@@ -289,37 +289,37 @@ const Services = () => {
         {/* <!-- contact-area-end --> */}
 
         {/* <!-- brand-area-start --> */}
-        <div class="brand-area pt-130 pb-130">
-          <div class="container">
-            <div class="row">
-              <div class="brand-active owl-carousel">
-                <div class="col-xl-12">
-                  <div class="brand-img text-center">
+        <div className="brand-area pt-130 pb-130">
+          <div className="container">
+            <div className="row">
+              <div className="brand-active owl-carousel">
+                <div className="col-xl-12">
+                  <div className="brand-img text-center">
                     <img src={brandOne} alt="" />
                   </div>
                 </div>
-                <div class="col-xl-12">
-                  <div class="brand-img text-center">
+                <div className="col-xl-12">
+                  <div className="brand-img text-center">
                     <img src={brandTwo} alt="" />
                   </div>
                 </div>
-                <div class="col-xl-12">
-                  <div class="brand-img text-center">
+                <div className="col-xl-12">
+                  <div className="brand-img text-center">
                     <img src={brandThree} alt="" />
                   </div>
                 </div>
-                <div class="col-xl-12">
-                  <div class="brand-img text-center">
+                <div className="col-xl-12">
+                  <div className="brand-img text-center">
                     <img src={brandFour} alt="" />
                   </div>
                 </div>
-                <div class="col-xl-12">
-                  <div class="brand-img text-center">
+                <div className="col-xl-12">
+                  <div className="brand-img text-center">
                     <img src={brandFive} alt="" />
                   </div>
                 </div>
-                <div class="col-xl-12 text-center">
-                  <div class="brand-img">
+                <div className="col-xl-12 text-center">
+                  <div className="brand-img">
                     <img src={brandTwo} alt="" />
                   </div>
                 </div>

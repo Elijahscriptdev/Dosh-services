@@ -1,17 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-// css
-// import "../assets/css/main.css";
-// import "../assets/css/responsive.css";
-// import "../assets/css/slick.css";
-// import "../assets/css/magnificPopup.css";
-// import "../assets/css/meanmenu.css";
-// import "../assets/css/bootstrapMin.css";
-// import "../assets/css/owlCarouselMin.css";
-// import "../assets/css/animateMin.css";
-// import "../assets/css/themifyIcons.css";
-
 //Imgs
 import doshLogo from "../assets/img/logo/logo.jpg";
 import bgSeven from "../assets/img/bg/bg-7.jpg";
@@ -26,58 +15,58 @@ const FooterDark = () => {
           {/* <!-- footer-area-start --> */}
           <footer>
             <div
-              class="footer-area pt-80"
+              className="footer-area pt-80"
               style={{ backgroundImage: `url(${bgSeven})` }}
             >
-              <div class="container">
-                <div class="newsletter-bg pb-50 mb-80">
-                  <div class="row">
-                    <div class="col-xl-6 col-lg-7 mb-30">
-                      <div class="single-newsletter ">
-                        <div class="newsletter-form">
+              <div className="container">
+                <div className="newsletter-bg pb-50 mb-80">
+                  <div className="row">
+                    <div className="col-xl-6 col-lg-7 mb-30">
+                      <div className="single-newsletter ">
+                        <div className="newsletter-form">
                           <form action="#">
                             <input
                               placeholder="Enter Your Email :"
                               type="email"
                             />
-                            <button class="btn" type="submit">
-                              <span class="btn-text">
+                            <button className="btn" type="submit">
+                              <span className="btn-text">
                                 subscribe{" "}
-                                <i class="far fa-long-arrow-right"></i>
+                                <i className="far fa-long-arrow-right"></i>
                               </span>{" "}
-                              <span class="btn-border"></span>
+                              <span className="btn-border"></span>
                             </button>
                           </form>
                         </div>
                       </div>
                     </div>
-                    <div class="col-xl-6 col-lg-5 mb-30">
-                      <div class="footer-2-icon text-lg-right">
+                    <div className="col-xl-6 col-lg-5 mb-30">
+                      <div className="footer-2-icon text-lg-right">
                         <Link to="#">
-                          <i class="fab fa-facebook-f"></i>
+                          <i className="fab fa-facebook-f"></i>
                         </Link>
                         <Link to="#">
-                          <i class="fab fa-twitter"></i>
+                          <i className="fab fa-twitter"></i>
                         </Link>
                         <Link to="#">
-                          <i class="fab fa-instagram"></i>
+                          <i className="fab fa-instagram"></i>
                         </Link>
                         <Link to="#">
-                          <i class="fab fa-google"></i>
+                          <i className="fab fa-google"></i>
                         </Link>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-xl-5 col-lg-5 col-md-6">
-                    <div class="footer-wrapper footer-2-wrapper mb-30">
-                      <div class="footer-logo">
+                <div className="row">
+                  <div className="col-xl-5 col-lg-5 col-md-6">
+                    <div className="footer-wrapper footer-2-wrapper mb-30">
+                      <div className="footer-logo">
                         <Link to="/">
                           <img src={doshLogo} alt="" />
                         </Link>
                       </div>
-                      <div class="footer-text">
+                      <div className="footer-text">
                         <p>
                           Your business is our business, working with us will
                           provide you with the opportunity to access new and
@@ -85,26 +74,27 @@ const FooterDark = () => {
                           increase your sales, grow your customer base and
                           ultimately keep you in business.
                         </p>
-                        <Link class="btn" to="#" tabindex="0">
-                          <span class="btn-text">
-                            learn more <i class="far fa-long-arrow-right"></i>
+                        <Link className="btn" to="#" tabindex="0">
+                          <span className="btn-text">
+                            learn more{" "}
+                            <i className="far fa-long-arrow-right"></i>
                           </span>{" "}
                         </Link>
                       </div>
                     </div>
                   </div>
-                  <div class="col-xl-2 col-lg-2 col-md-6">
-                    <div class="footer-wrapper mb-30">
-                      <h4 class="footer-title">Our Services</h4>
-                      <ul class="fotter-menu">
+                  <div className="col-xl-2 col-lg-2 col-md-6">
+                    <div className="footer-wrapper mb-30">
+                      <h4 className="footer-title">Our Services</h4>
+                      <ul className="fotter-menu">
                         <li>
                           <Link to="/Services">Mobile Development </Link>
                         </li>
                         <li>
-                          <Link to="services-02.html">Web Development </Link>
+                          <Link to="/ServicesTwo">Web Development </Link>
                         </li>
                         <li>
-                          <Link to="services-03.html">Tech Consultation</Link>
+                          <Link to="/ServicesThree">Tech Consultation</Link>
                         </li>
                         <li>
                           <Link to="it-management.html">Automation </Link>
@@ -112,10 +102,10 @@ const FooterDark = () => {
                       </ul>
                     </div>
                   </div>
-                  <div class="col-xl-3 col-lg-3 col-md-6">
-                    <div class="footer-wrapper footer-2-wrapper mb-30 pl-50">
-                      <h4 class="footer-title">Quick Links</h4>
-                      <ul class="fotter-menu">
+                  <div className="col-xl-3 col-lg-3 col-md-6">
+                    <div className="footer-wrapper footer-2-wrapper mb-30 pl-50">
+                      <h4 className="footer-title">Quick Links</h4>
+                      <ul className="fotter-menu">
                         <li>
                           <Link to="#">About Us</Link>
                         </li>
@@ -137,30 +127,30 @@ const FooterDark = () => {
                       </ul>
                     </div>
                   </div>
-                  <div class="col-xl-2 col-lg-2 col-md-6">
-                    <div class="footer-wrapper footer-2-wrapper mb-30">
-                      <h4 class="footer-title">Contact Us</h4>
-                      <div class="footer-info">
+                  <div className="col-xl-2 col-lg-2 col-md-6">
+                    <div className="footer-wrapper footer-2-wrapper mb-30">
+                      <h4 className="footer-title">Contact Us</h4>
+                      <div className="footer-info">
                         <p>But I must explain to you how all this mistaken</p>
                       </div>
-                      <ul class="contact-link">
+                      <ul className="contact-link">
                         <li>
-                          <div class="contact-address-icon">
-                            <i class="far fa-phone"></i>
+                          <div className="contact-address-icon">
+                            <i className="far fa-phone"></i>
                           </div>
-                          <div class="contact-address-text">
+                          <div className="contact-address-text">
                             <h4>+234 809 454 3296</h4>
                           </div>
                         </li>
                         <li>
-                          <div class="contact-address-icon">
-                            <i class="far fa-envelope-open"></i>
+                          <div className="contact-address-icon">
+                            <i className="far fa-envelope-open"></i>
                           </div>
-                          <div class="contact-address-text">
+                          <div className="contact-address-text">
                             <h4>
                               <Link
                                 to="http://Dosh Services.net/cdn-cgi/l/email-protection"
-                                class="__cf_email__"
+                                className="__cf_email__"
                                 data-cfemail="681b1d1818071a1c280f05090104460b0705"
                               >
                                 info@doshservices.com
@@ -169,10 +159,10 @@ const FooterDark = () => {
                           </div>
                         </li>
                         <li>
-                          <div class="contact-address-icon">
-                            <i class="far fa-map-marker-alt"></i>
+                          <div className="contact-address-icon">
+                            <i className="far fa-map-marker-alt"></i>
                           </div>
-                          <div class="contact-address-text">
+                          <div className="contact-address-text">
                             <h4>12b MacDonald Akano street. Omole phase 1</h4>
                           </div>
                         </li>
@@ -181,20 +171,20 @@ const FooterDark = () => {
                   </div>
                 </div>
               </div>
-              <div class="footer-bottom-area footer-2-bottom mt-50 pb-25 pt-25">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-8">
-                      <div class="copyright">
+              <div className="footer-bottom-area footer-2-bottom mt-50 pb-25 pt-25">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-xl-8 col-lg-8 col-md-8">
+                      <div className="copyright">
                         <p>
-                          <i class="far fa-copyright"></i> Copyright 2019{" "}
+                          <i className="far fa-copyright"></i> Copyright 2019{" "}
                           <Link to="#">Dosh Services</Link>. All rights
                           reserved.
                         </p>
                       </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4">
-                      <div class="footer-bottem-text text-md-right">
+                    <div className="col-xl-4 col-lg-4 col-md-4">
+                      <div className="footer-bottem-text text-md-right">
                         <p>
                           Design By <Link to="#">Dosh Services</Link>
                         </p>

@@ -2,18 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { ReactTitle } from "react-meta-tags";
 
-// css
-// import "../../assets/css/main.css";
-// import "../../assets/css/responsive.css";
-// import "../../assets/css/slick.css";
-// import "../../assets/css/magnificPopup.css";
-// import "../../assets/css/meanmenu.css";
-// import "../../assets/css/bootstrapMin.css";
-// import "../../assets/css/owlCarouselMin.css";
-// import "../../assets/css/animateMin.css";
-// import "../../assets/css/themifyIcons.css";
-import Header from '../../components/Header';
-import FooterDark from '../../components/FooterDark';
+//components
+import Header from '../../components/Headers/Header';
+import FooterDark from '../../components/Footers/FooterDark';
 
 // Imgs
 import bgFourteen from "../../assets/img/bg/bg-14.jpg";

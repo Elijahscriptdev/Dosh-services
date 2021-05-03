@@ -2,20 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ReactTitle } from "react-meta-tags";
 
-// css
-// import "../../assets/css/main.css";
-// import "../../assets/css/responsive.css";
-// import "../../assets/css/slick.css";
-// import "../../assets/css/magnificPopup.css";
-// import "../../assets/css/meanmenu.css";
-// import "../../assets/css/bootstrapMin.css";
-// import "../../assets/css/owlCarouselMin.css";
-// import "../../assets/css/animateMin.css";
-// import "../../assets/css/themifyIcons.css";
-
 //components
-import Header from "../../components/Header";
-import FooterDark from "../../components/FooterDark";
+import Header from "../../components/Headers/Header";
+import FooterDark from "../../components/Footers/FooterDark";
 
 // Imgs
 import iconImageOne from "../../assets/img/icon/01.png";
@@ -68,15 +57,15 @@ const Goals = () => {
         {/* <!-- breadcrumb-area-ends --> */}
 
         {/* <!-- our-goals-area-start --> */}
-        <div class="our-goals-area pt-130 pb-95">
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-4 col-md-4">
-                <div class="our-goals-wrapper mb-30">
-                  <div class="our-goals-img">
+        <div className="our-goals-area pt-130 pb-95">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-4 col-md-4">
+                <div className="our-goals-wrapper mb-30">
+                  <div className="our-goals-img">
                     <img src={goalsImgOne} alt="" />
                   </div>
-                  <div class="our-golas-text">
+                  <div className="our-golas-text">
                     <h3>MIssion & Vision</h3>
                     <p>
                       Sedut perspiciatis unde omnis natus error voluptatem
@@ -86,12 +75,12 @@ const Goals = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-xl-8 col-md-8">
-                <div class="our-goals-wrapper mb-30">
-                  <div class="our-goals-img">
+              <div className="col-xl-8 col-md-8">
+                <div className="our-goals-wrapper mb-30">
+                  <div className="our-goals-img">
                     <img src={goalsImgTwo} alt="" />
                   </div>
-                  <div class="our-golas-text">
+                  <div className="our-golas-text">
                     <h3>What DO We Want/ Our Goals</h3>
                     <p>
                       Must explain to you how all this mistaken idea of
@@ -101,7 +90,7 @@ const Goals = () => {
                       master-builder of human happiness. No one rejects,
                       dislikes, or avoids pleasure itself, because
                     </p>
-                    <p class="mt-15">
+                    <p className="mt-15">
                       Sed ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusantium doloremque laudantium totam rem
                       aperiam eaque ipsa quae ab illo inventore veritatis et
@@ -116,37 +105,37 @@ const Goals = () => {
         {/* <!-- our-goals-area-end --> */}
 
         {/* <!-- brand-area-start --> */}
-        <div class="brand-area pb-130">
-          <div class="container">
-            <div class="row">
-              <div class="brand-active owl-carousel">
-                <div class="col-xl-12">
-                  <div class="brand-img text-center">
+        <div className="brand-area pb-130">
+          <div className="container">
+            <div className="row">
+              <div className="brand-active owl-carousel">
+                <div className="col-xl-12">
+                  <div className="brand-img text-center">
                     <img src={brandOne} alt="" />
                   </div>
                 </div>
-                <div class="col-xl-12">
-                  <div class="brand-img text-center">
+                <div className="col-xl-12">
+                  <div className="brand-img text-center">
                     <img src={brandTwo} alt="" />
                   </div>
                 </div>
-                <div class="col-xl-12">
-                  <div class="brand-img text-center">
+                <div className="col-xl-12">
+                  <div className="brand-img text-center">
                     <img src={brandThree} alt="" />
                   </div>
                 </div>
-                <div class="col-xl-12">
-                  <div class="brand-img text-center">
+                <div className="col-xl-12">
+                  <div className="brand-img text-center">
                     <img src={brandFour} alt="" />
                   </div>
                 </div>
-                <div class="col-xl-12">
-                  <div class="brand-img text-center">
+                <div className="col-xl-12">
+                  <div className="brand-img text-center">
                     <img src={brandFive} alt="" />
                   </div>
                 </div>
-                <div class="col-xl-12 text-center">
-                  <div class="brand-img">
+                <div className="col-xl-12 text-center">
+                  <div className="brand-img">
                     <img src={brandTwo} alt="" />
                   </div>
                 </div>
@@ -157,22 +146,22 @@ const Goals = () => {
         {/* <!-- brand-area-end --> */}
 
         {/* <!-- goals-area-start --> */}
-        <div class="goals-area pos-rel">
+        <div className="goals-area pos-rel">
           <div
-            class="goals-img d-none d-lg-block"
+            className="goals-img d-none d-lg-block"
             style={{ backgroundImage: `url(${goalsImgThree})` }}
           ></div>
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-6 offset-xl-6 col-lg-6 offset-lg-6">
-                <div class="golas-wrapper">
-                  <div class="section-title section-title-white mb-30">
-                    <span class="b-sm-left-1"></span>
-                    <span class="b-sm-left-2"></span>
-                    <span class="sub-t-left">what we do</span>
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-6 offset-xl-6 col-lg-6 offset-lg-6">
+                <div className="golas-wrapper">
+                  <div className="section-title section-title-white mb-30">
+                    <span className="b-sm-left-1"></span>
+                    <span className="b-sm-left-2"></span>
+                    <span className="sub-t-left">what we do</span>
                     <h1>Super Quality IT Solutions Provide</h1>
                   </div>
-                  <div class="golas-text">
+                  <div className="golas-text">
                     <p>
                       {" "}
                       idea of denoun cing pleasure and praising pain was born
@@ -180,29 +169,29 @@ const Goals = () => {
                       the actual teachings of the great explorer of the truth
                       the master-builder of
                     </p>
-                    <ul class="goals-list">
+                    <ul className="goals-list">
                       <li>
-                        <i class="far fa-check"></i>
+                        <i className="far fa-check"></i>
                         <span>
                           Pleasure and praising pain was born and will complete
                         </span>
                       </li>
                       <li>
-                        <i class="far fa-check"></i>
+                        <i className="far fa-check"></i>
                         <span>
                           Pleasure and praising pain was born and will complete
                         </span>
                       </li>
                       <li>
-                        <i class="far fa-check"></i>
+                        <i className="far fa-check"></i>
                         <span>
                           Powerful Image Analysis With Google Cloud Vision
                         </span>
                       </li>
                     </ul>
-                    <Link class="btn" to="#">
-                      <span class="btn-text">
-                        learn more <i class="far fa-long-arrow-right"></i>
+                    <Link className="btn" to="#">
+                      <span className="btn-text">
+                        learn more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
                     </Link>
                   </div>
@@ -214,25 +203,25 @@ const Goals = () => {
         {/* <!-- goals-area-end --> */}
 
         {/* <!-- services-area-start --> */}
-        <div class="services-area pt-120 pb-60">
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
-                <div class="section-title text-center ml-50 mr-50 mb-80">
-                  <span class="border-left-1"></span>
+        <div className="services-area pt-120 pb-60">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
+                <div className="section-title text-center ml-50 mr-50 mb-80">
+                  <span className="border-left-1"></span>
                   <span>our services</span>
-                  <span class="border-right-1"></span>
+                  <span className="border-right-1"></span>
                   <h1>We provide exclusive services for your busainess</h1>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-75">
-                <div class="services-2-wrapper">
-                  <div class="services-img">
+            <div className="row">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-75">
+                <div className="services-2-wrapper">
+                  <div className="services-img">
                     <img src={iconImageOne} alt="" />
                   </div>
-                  <div class="services-text">
+                  <div className="services-text">
                     <h3>Web Development</h3>
                     <p>
                       It is a long established fact that a reader will be
@@ -240,19 +229,19 @@ const Goals = () => {
                     </p>
                     <Link to="#">
                       {" "}
-                      <span class="services-button">
-                        read more <i class="far fa-long-arrow-right"></i>
+                      <span className="services-button">
+                        read more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
                     </Link>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-75">
-                <div class="services-2-wrapper">
-                  <div class="services-img">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-75">
+                <div className="services-2-wrapper">
+                  <div className="services-img">
                     <img src={iconImageTwo} alt="" />
                   </div>
-                  <div class="services-text">
+                  <div className="services-text">
                     <h3>Database Analysis</h3>
                     <p>
                       It is a long established fact that a reader will be
@@ -260,19 +249,19 @@ const Goals = () => {
                     </p>
                     <Link to="#">
                       {" "}
-                      <span class="services-button">
-                        read more <i class="far fa-long-arrow-right"></i>
+                      <span className="services-button">
+                        read more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
                     </Link>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-75">
-                <div class="services-2-wrapper">
-                  <div class="services-img">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-75">
+                <div className="services-2-wrapper">
+                  <div className="services-img">
                     <img src={iconImageThree} alt="" />
                   </div>
-                  <div class="services-text">
+                  <div className="services-text">
                     <h3>Server Security</h3>
                     <p>
                       It is a long established fact that a reader will be
@@ -280,19 +269,19 @@ const Goals = () => {
                     </p>
                     <Link to="#">
                       {" "}
-                      <span class="services-button">
-                        read more <i class="far fa-long-arrow-right"></i>
+                      <span className="services-button">
+                        read more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
                     </Link>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-75">
-                <div class="services-2-wrapper">
-                  <div class="services-img">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-75">
+                <div className="services-2-wrapper">
+                  <div className="services-img">
                     <img src={iconImageFour} alt="" />
                   </div>
-                  <div class="services-text">
+                  <div className="services-text">
                     <h3>UX/UI Strategy</h3>
                     <p>
                       It is a long established fact that a reader will be
@@ -300,19 +289,19 @@ const Goals = () => {
                     </p>
                     <Link to="#">
                       {" "}
-                      <span class="services-button">
-                        read more <i class="far fa-long-arrow-right"></i>
+                      <span className="services-button">
+                        read more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
                     </Link>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-75">
-                <div class="services-2-wrapper">
-                  <div class="services-img">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-75">
+                <div className="services-2-wrapper">
+                  <div className="services-img">
                     <img src={iconImageFive} alt="" />
                   </div>
-                  <div class="services-text">
+                  <div className="services-text">
                     <h3>Analysis For Tools</h3>
                     <p>
                       It is a long established fact that a reader will be
@@ -320,19 +309,19 @@ const Goals = () => {
                     </p>
                     <Link to="#">
                       {" "}
-                      <span class="services-button">
-                        read more <i class="far fa-long-arrow-right"></i>
+                      <span className="services-button">
+                        read more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
                     </Link>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-75">
-                <div class="services-2-wrapper">
-                  <div class="services-img">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-75">
+                <div className="services-2-wrapper">
+                  <div className="services-img">
                     <img src={iconImageSix} alt="" />
                   </div>
-                  <div class="services-text">
+                  <div className="services-text">
                     <h3>Marketing Strategy</h3>
                     <p>
                       It is a long established fact that a reader will be
@@ -340,8 +329,8 @@ const Goals = () => {
                     </p>
                     <Link to="#">
                       {" "}
-                      <span class="services-button">
-                        read more <i class="far fa-long-arrow-right"></i>
+                      <span className="services-button">
+                        read more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
                     </Link>
                   </div>
@@ -354,26 +343,26 @@ const Goals = () => {
 
         {/* <!-- cta-area-start --> */}
         <div
-          class="cta-area pt-125 pb-95"
+          className="cta-area pt-125 pb-95"
           style={{ backgroundImage: `url(${bgTwo})` }}
         >
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-7 col-lg-7">
-                <div class="cta-text mb-30">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-7 col-lg-7">
+                <div className="cta-text mb-30">
                   <span>do you have any project ?</span>
                   <h1>Let’s Talk About Business Soluations With Us</h1>
                 </div>
               </div>
-              <div class="col-xl-5 col-lg-5">
-                <div class="cta-button text-lg-right mb-30">
-                  <Link class="btn btn-white btn-none" to="#">
-                    <span class="btn-text">
-                      join with us <i class="far fa-long-arrow-right"></i>
+              <div className="col-xl-5 col-lg-5">
+                <div className="cta-button text-lg-right mb-30">
+                  <Link className="btn btn-white btn-none" to="#">
+                    <span className="btn-text">
+                      join with us <i className="far fa-long-arrow-right"></i>
                     </span>{" "}
                   </Link>
-                  <Link class="cta-link" to="#">
-                    <i class="far fa-phone"></i> +812 (345) 789 88
+                  <Link className="cta-link" to="#">
+                    <i className="far fa-phone"></i> +812 (345) 789 88
                   </Link>
                 </div>
               </div>

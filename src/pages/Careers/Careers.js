@@ -14,8 +14,8 @@ import { ReactTitle } from "react-meta-tags";
 // import "../../assets/css/themifyIcons.css";
 
 //components
-import Header from "../../components/Header";
-import FooterDark from "../../components/FooterDark";
+import Header from "../../components/Headers/Header";
+import FooterDark from "../../components/Footers/FooterDark";
 
 //Imgs
 import bgFourteen from "../../assets/img/bg/bg-14.jpg";

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { ReactTitle } from "react-meta-tags";
 
 //components
-import Header from "../../components/Header";
-import FooterDark from "../../components/FooterDark";
+import Header from "../../components/Headers/Header";
+import FooterDark from "../../components/Footers/FooterDark";
 
 //Imgs
 import bgFourteen from "../../assets/img/bg/bg-14.jpg";
@@ -48,17 +48,17 @@ const SingleTeam = () => {
         {/* <!-- breadcrumb-area-ends --> */}
 
         {/* <!-- single-team-area-start --> */}
-        <div class="single-team-area pt-130 pb-100">
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-6 col-lg-6 mb-30">
-                <div class="single-img">
+        <div className="single-team-area pt-130 pb-100">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-6 col-lg-6 mb-30">
+                <div className="single-img">
                   <img src={singleItemImg} alt="" />
                 </div>
               </div>
-              <div class="col-xl-6  col-lg-6 mb-30">
-                <div class="single-team-wrapper">
-                  <div class="single-team-text">
+              <div className="col-xl-6  col-lg-6 mb-30">
+                <div className="single-team-wrapper">
+                  <div className="single-team-text">
                     <h1>I’m David Jeson</h1>
                     <span>sr IT Consultant</span>
                     <p>
@@ -68,26 +68,26 @@ const SingleTeam = () => {
                       actual teachings of the great explorer of the truth
                       master-builder of human happiness one rejects
                     </p>
-                    <div class="team-single">
-                      <div class="single-team-info">
-                        <div class="single-team-icon">
+                    <div className="team-single">
+                      <div className="single-team-info">
+                        <div className="single-team-icon">
                           <img src={teeOne} alt="" />
                         </div>
-                        <div class="team-info">
+                        <div className="team-info">
                           <span>Call For Me</span>
                           <h4>+812 (345) 789 99</h4>
                         </div>
                       </div>
-                      <div class="single-team-info">
-                        <div class="single-team-icon">
+                      <div className="single-team-info">
+                        <div className="single-team-icon">
                           <img src={teeTwo} alt="" />
                         </div>
-                        <div class="team-info">
+                        <div className="team-info">
                           <span>Email Me</span>
                           <h4>
                             <Link
                               to="http://Dosh Services.net/cdn-cgi/l/email-protection"
-                              class="__cf_email__"
+                              className="__cf_email__"
                               data-cfemail="4d3e383d3d223f3920280d2a202c2421632e2220"
                             >
                               info@doshservices.com
@@ -95,29 +95,29 @@ const SingleTeam = () => {
                           </h4>
                         </div>
                       </div>
-                      <div class="single-team-info">
-                        <div class="single-team-icon">
+                      <div className="single-team-info">
+                        <div className="single-team-icon">
                           <img src={teeThree} alt="" />
                         </div>
-                        <div class="team-info">
+                        <div className="team-info">
                           <span>Fax Me</span>
                           <h4>567 - 890 - 123</h4>
                         </div>
                       </div>
                     </div>
-                    <div class="team-2-icon">
+                    <div className="team-2-icon">
                       <span>Follow Me</span>
                       <Link to="#">
-                        <i class="fab fa-facebook-f"></i>
+                        <i className="fab fa-facebook-f"></i>
                       </Link>
                       <Link to="#">
-                        <i class="fab fa-twitter"></i>
+                        <i className="fab fa-twitter"></i>
                       </Link>
                       <Link to="#">
-                        <i class="fab fa-instagram"></i>
+                        <i className="fab fa-instagram"></i>
                       </Link>
                       <Link to="#">
-                        <i class="fab fa-google"></i>
+                        <i className="fab fa-google"></i>
                       </Link>
                     </div>
                   </div>
@@ -129,21 +129,21 @@ const SingleTeam = () => {
         {/* <!-- single-team-area-end --> */}
 
         {/* <!-- our-skill-area-start --> */}
-        <div class="our-skill-area">
-          <div class="container">
-            <div class="skill-bg">
-              <div class="row">
-                <div class="col-xl-6 col-lg-6 mb-30">
-                  <div class="progress-wrapper pr-25">
-                    <div class="progress-bar-text">
-                      <div class="progress-skill">
-                        <div class="single-skill mb-35">
-                          <div class="bar-title">
+        <div className="our-skill-area">
+          <div className="container">
+            <div className="skill-bg">
+              <div className="row">
+                <div className="col-xl-6 col-lg-6 mb-30">
+                  <div className="progress-wrapper pr-25">
+                    <div className="progress-bar-text">
+                      <div className="progress-skill">
+                        <div className="single-skill mb-35">
+                          <div className="bar-title">
                             <h4>Design Strategy</h4>
                           </div>
-                          <div class="progress">
+                          <div className="progress">
                             <div
-                              class="progress-bar wow slideInLeft"
+                              className="progress-bar wow slideInLeft"
                               role="progressbar"
                               style={{ width: "80%" }}
                               aria-valuenow="25"
@@ -156,13 +156,13 @@ const SingleTeam = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="single-skill mb-35">
-                          <div class="bar-title">
+                        <div className="single-skill mb-35">
+                          <div className="bar-title">
                             <h4>Marketing Strategy</h4>
                           </div>
-                          <div class="progress">
+                          <div className="progress">
                             <div
-                              class="progress-bar wow slideInLeft"
+                              className="progress-bar wow slideInLeft"
                               role="progressbar"
                               style={{ width: "90%" }}
                               aria-valuenow="25"
@@ -175,13 +175,13 @@ const SingleTeam = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="single-skill">
-                          <div class="bar-title">
+                        <div className="single-skill">
+                          <div className="bar-title">
                             <h4>UX/UI Strategy</h4>
                           </div>
-                          <div class="progress">
+                          <div className="progress">
                             <div
-                              class="progress-bar wow slideInLeft"
+                              className="progress-bar wow slideInLeft"
                               role="progressbar"
                               style={{ width: "85%" }}
                               aria-valuenow="25"
@@ -198,17 +198,17 @@ const SingleTeam = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 mb-30">
-                  <div class="progress-wrapper pl-25">
-                    <div class="progress-bar-text progress-bar-2-text">
-                      <div class="progress-skill">
-                        <div class="single-skill mb-35">
-                          <div class="bar-title">
+                <div className="col-xl-6 col-lg-6 mb-30">
+                  <div className="progress-wrapper pl-25">
+                    <div className="progress-bar-text progress-bar-2-text">
+                      <div className="progress-skill">
+                        <div className="single-skill mb-35">
+                          <div className="bar-title">
                             <h4>Design Strategy</h4>
                           </div>
-                          <div class="progress">
+                          <div className="progress">
                             <div
-                              class="progress-bar wow slideInLeft"
+                              className="progress-bar wow slideInLeft"
                               role="progressbar"
                               style={{ width: "95%" }}
                               aria-valuenow="25"
@@ -221,13 +221,13 @@ const SingleTeam = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="single-skill mb-35">
-                          <div class="bar-title">
+                        <div className="single-skill mb-35">
+                          <div className="bar-title">
                             <h4>IT Consulting</h4>
                           </div>
-                          <div class="progress">
+                          <div className="progress">
                             <div
-                              class="progress-bar wow slideInLeft"
+                              className="progress-bar wow slideInLeft"
                               role="progressbar"
                               style={{ width: "92%" }}
                               aria-valuenow="25"
@@ -240,13 +240,13 @@ const SingleTeam = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="single-skill">
-                          <div class="bar-title">
+                        <div className="single-skill">
+                          <div className="bar-title">
                             <h4>Software Development</h4>
                           </div>
-                          <div class="progress">
+                          <div className="progress">
                             <div
-                              class="progress-bar wow slideInLeft"
+                              className="progress-bar wow slideInLeft"
                               role="progressbar"
                               style={{ width: "98%" }}
                               aria-valuenow="25"
@@ -270,11 +270,11 @@ const SingleTeam = () => {
         {/* <!-- our-skill-area-end --> */}
 
         {/* <!-- experience-area-satrt --> */}
-        <div class="experience-area pt-130 pb-100">
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-7 col-lg-7 mb-30">
-                <div class="experience-text">
+        <div className="experience-area pt-130 pb-100">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-7 col-lg-7 mb-30">
+                <div className="experience-text">
                   <h1>Experience</h1>
                   <p>
                     Must explain to you how all this mistaken idea of denouncing
@@ -290,17 +290,17 @@ const SingleTeam = () => {
                   </p>
                 </div>
               </div>
-              <div class="col-xl-5 col-lg-5">
-                <div class="experience-single mb-30">
-                  <div class="experience-img">
+              <div className="col-xl-5 col-lg-5">
+                <div className="experience-single mb-30">
+                  <div className="experience-img">
                     <img src={exOne} alt="" />
-                    <div class="experience-video">
+                    <div className="experience-video">
                       <Link
-                        class="popup-video"
+                        className="popup-video"
                         to="https://www.youtube.com/watch?v=LTXD6XZXc3U"
                         tabindex="0"
                       >
-                        <i class="fas fa-play"></i>
+                        <i className="fas fa-play"></i>
                       </Link>
                     </div>
                   </div>
@@ -313,26 +313,26 @@ const SingleTeam = () => {
 
         {/* <!-- cta-area-start --> */}
         <div
-          class="cta-area pt-125 pb-95"
+          className="cta-area pt-125 pb-95"
           style={{ backgroundImage: `url(${bgTwo})` }}
         >
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-7 col-lg-7">
-                <div class="cta-text mb-30">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-7 col-lg-7">
+                <div className="cta-text mb-30">
                   <span>do you have any project ?</span>
                   <h1>Let’s Talk About Business Soluations With Us</h1>
                 </div>
               </div>
-              <div class="col-xl-5 col-lg-5">
-                <div class="cta-button text-lg-right mb-30">
-                  <Link class="btn btn-white btn-none" to="#">
-                    <span class="btn-text">
-                      join with us <i class="far fa-long-arrow-right"></i>
+              <div className="col-xl-5 col-lg-5">
+                <div className="cta-button text-lg-right mb-30">
+                  <Link className="btn btn-white btn-none" to="#">
+                    <span className="btn-text">
+                      join with us <i className="far fa-long-arrow-right"></i>
                     </span>{" "}
                   </Link>
-                  <Link class="cta-link" to="#">
-                    <i class="far fa-phone"></i> +812 (345) 789 88
+                  <Link className="cta-link" to="#">
+                    <i className="far fa-phone"></i> +812 (345) 789 88
                   </Link>
                 </div>
               </div>

@@ -43,8 +43,8 @@ import brandTwo from "../../assets/img/brand/brand-02.png"
 import brandThree from "../../assets/img/brand/brand-03.png"
 import brandFour from "../../assets/img/brand/brand-04.png"
 import brandFive from "../../assets/img/brand/brand-05.png"
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import Header from "../../components/Headers/Header";
+import Footer from "../../components/Footers/Footer";
 
 
 

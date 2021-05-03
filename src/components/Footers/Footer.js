@@ -1,17 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-// css
-// import "../assets/css/main.css";
-// import "../assets/css/responsive.css";
-// import "../assets/css/slick.css";
-// import "../assets/css/magnificPopup.css";
-// import "../assets/css/meanmenu.css";
-// import "../assets/css/bootstrapMin.css";
-// import "../assets/css/owlCarouselMin.css";
-// import "../assets/css/animateMin.css";
-// import "../assets/css/themifyIcons.css";
-
 //Imgs
 import doshLogo from "../assets/img/logo/logo.jpg";
 import footerOne from "../assets/img/footer/01.jpg";
@@ -68,10 +57,10 @@ const Footer = () => {
                           <Link to="/Services">Mobile Development </Link>
                         </li>
                         <li>
-                          <Link to="services-02.html">Web Development </Link>
+                          <Link to="/ServicesTwo">Web Development </Link>
                         </li>
                         <li>
-                          <Link to="services-03.html">Tech Consultation</Link>
+                          <Link to="/ServicesThree">Tech Consultation</Link>
                         </li>
                         <li>
                           <Link to="it-management.html">Automation </Link>
