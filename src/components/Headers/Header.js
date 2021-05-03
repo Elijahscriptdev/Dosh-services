@@ -129,7 +129,7 @@ const Header = () => {
                           </li>
 
                           <li>
-                            <Link to={url}>Case Studies</Link>
+                            <Link to="/CaseStudy">Case Studies</Link>
                             <ul className="sub-menu text-left">
                               <li>
                                 <Link to="/CaseStudy">case study</Link>

@@ -87,7 +87,7 @@ const CaseHeader = () => {
                                                 <li><Link to="blog-details.html">blog details</Link></li>
                                             </ul>
                                         </li>
-                                        <li><Link to="#">pages</Link>
+                                        <li><Link to="/CaseStudy">pages</Link>
                                             <ul className="sub-menu text-left">
                                                 <li><Link to="/CaseStudy">case study</Link></li>
                                                 <li><Link to="case-study-02.html">case study 02</Link></li>
