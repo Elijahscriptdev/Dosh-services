@@ -9,7 +9,7 @@ import FooterDark from "../../components/Footers/FooterDark";
 
 // Imgs
 import iconImageOne from "../../assets/img/icon/01.png";
-import iconImageTwo from "../../assets/img/icon/02.png.png";
+import iconImageTwo from "../../assets/img/icon/02.png";
 import iconImageThree from "../../assets/img/icon/03.png";
 import iconImageFour from "../../assets/img/icon/04.png";
 import iconImageFive from "../../assets/img/icon/05.png";

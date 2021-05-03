@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 
-import doshLogo from "../assets/img/logo/logo.jpg";
+import doshLogo from "../../assets/img/logo/logo.jpg";
 
 
 
@@ -132,7 +132,7 @@ const Header = () => {
                             <Link to={url}>Case Studies</Link>
                             <ul className="sub-menu text-left">
                               <li>
-                                <Link to="case-study.html">case study</Link>
+                                <Link to="/CaseStudy">case study</Link>
                               </li>
                               <li>
                                 <Link to="case-study-02.html">

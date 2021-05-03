@@ -11,6 +11,7 @@ import Packages from "./pages/Packages/Packages";
 import Goals from "./pages/Goals/Goals";
 import Contact from "./pages/Contact/Contact";
 import SingleTeam from "./pages/SingleTeam/SingleTeam";
+import CaseStudy from "./pages/Case Study/CaseStudy";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/Goals" exact component={Goals} />
           <Route path="/Contact" exact component={Contact} />
           <Route path="/SingleTeam" exact component={SingleTeam} />
+          <Route path="/CaseStudy" exact component={CaseStudy} />
        
         </Switch>
       </BrowserRouter>

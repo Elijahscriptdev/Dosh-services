@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 //Imgs
-import doshLogo from "../assets/img/logo/logo.jpg";
-import footerOne from "../assets/img/footer/01.jpg";
-import footerTwo from "../assets/img/footer/02.jpg";
+import doshLogo from "../../assets/img/logo/logo.jpg";
+import footerOne from "../../assets/img/footer/01.jpg";
+import footerTwo from "../../assets/img/footer/02.jpg";
 
 
 

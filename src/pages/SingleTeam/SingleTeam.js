@@ -31,13 +31,13 @@ const SingleTeam = () => {
             <div className="row">
               <div className="col-xl-12">
                 <div className="breadcrumb-text text-center">
-                  <h1>Career</h1>
+                  <h1>Team</h1>
                   <ul className="breadcrumb-menu">
                     <li>
                       <Link to="/">home</Link>
                     </li>
                     <li>
-                      <span>Career</span>
+                      <span>Team</span>
                     </li>
                   </ul>
                 </div>

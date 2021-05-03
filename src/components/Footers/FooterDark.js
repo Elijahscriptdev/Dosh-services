@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 //Imgs
-import doshLogo from "../assets/img/logo/logo.jpg";
-import bgSeven from "../assets/img/bg/bg-7.jpg";
+import doshLogo from "../../assets/img/logo/logo.jpg";
+import bgSeven from "../../assets/img/bg/bg-7.jpg";
 
 
 
