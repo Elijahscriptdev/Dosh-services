@@ -51,9 +51,6 @@ const FooterDark = () => {
                         <Link to="#">
                           <i className="fab fa-instagram"></i>
                         </Link>
-                        <Link to="#">
-                          <i className="fab fa-google"></i>
-                        </Link>
                       </div>
                     </div>
                   </div>

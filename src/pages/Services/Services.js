@@ -75,77 +75,10 @@ const Services = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
                 <div className="services-wrapper text-center">
                   <div className="services-img">
-                    <img src={iconImageOne} alt="" />
-                  </div>
-                  <div className="services-text">
-                    <h3>Mobile App Development</h3>
-                    <p>
-                      We are specialist when it comes to building Android, IOS,
-                      and Windows Application. We at Dosh pride ourselves in
-                      building apps that meet global standard with a
-                      user-friendly interface.{" "}
-                    </p>
-                    <Link to="#">
-                      {" "}
-                      <span className="services-button">
-                        read more <i className="far fa-long-arrow-right"></i>
-                      </span>{" "}
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
-                <div className="services-wrapper text-center">
-                  <div className="services-img">
-                    <img src={iconImageTwo} alt="" />
-                  </div>
-                  <div className="services-text">
-                    <h3>Web Development</h3>
-                    <p>
-                      We develop high-end, responsive and user-friendly website
-                      and Web Applications. Our websites are developed using
-                      different programming languages - (Php, Python, NodeJs,
-                      Java and C++). With Dosh Services.{" "}
-                    </p>
-                    <Link to="#">
-                      {" "}
-                      <span className="services-button">
-                        read more <i className="far fa-long-arrow-right"></i>
-                      </span>{" "}
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
-                <div className="services-wrapper text-center">
-                  <div className="services-img">
-                    <img src={iconImageThree} alt="" />
-                  </div>
-                  <div className="services-text">
-                    <h3>Digital Marketing</h3>
-                    <p>
-                      We understand how important customer perceptions is to
-                      sales generation in any business. We have therefore
-                      developed processes that can help position the
-                      brand/products/content of our client within their target
-                      audience.{" "}
-                    </p>
-                    <Link to="#">
-                      {" "}
-                      <span className="services-button">
-                        read more <i className="far fa-long-arrow-right"></i>
-                      </span>{" "}
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
-                <div className="services-wrapper text-center">
-                  <div className="services-img">
                     <img src={iconImageFour} alt="" />
                   </div>
                   <div className="services-text">
-                    <h3>Tech Consulting</h3>
+                    <h3>TECH CONSULTING</h3>
                     <p>
                       At Dosh Services, We are not only inventors; we also offer
                       consultations to businesses struggling to stay in
@@ -164,15 +97,59 @@ const Services = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
                 <div className="services-wrapper text-center">
                   <div className="services-img">
-                    <img src={iconImageFive} alt="" />
+                    <img src={iconImageTwo} alt="" />
                   </div>
                   <div className="services-text">
-                    <h3>TECH TRAINING</h3>
+                    <h3>WEB DEVELOPMENT</h3>
                     <p>
-                      We train techy and savvy youths who are ready to invent
-                      and change the world with their ideas. We help bring their
-                      ideas to life with technology tools in support for the
-                      training.{" "}
+                      We develop high-end, responsive and user-friendly website
+                      and Web Applications. Our websites are developed using
+                      different programming languages - (Php, Python, NodeJs,
+                      Java and C++). With Dosh Services.
+                    </p>
+                    <Link to="#">
+                      <span className="services-button">
+                        read more <i className="far fa-long-arrow-right"></i>
+                      </span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div className="services-wrapper text-center">
+                  <div className="services-img">
+                    <img src={iconImageOne} alt="" />
+                  </div>
+                  <div className="services-text">
+                    <h3>MOBILE APP DEVELOPMENT</h3>
+                    <p>
+                      We are specialist when it comes to building Android, IOS,
+                      and Windows Application. We at Dosh pride ourselves in
+                      building apps that meet global standard with a
+                      user-friendly interface.
+                    </p>
+                    <Link to="#">
+                      <span className="services-button">
+                        read more <i className="far fa-long-arrow-right"></i>
+                      </span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div className="services-wrapper text-center">
+                  <div className="services-img">
+                    <img src={iconImageThree} alt="" />
+                  </div>
+                  <div className="services-text">
+                    <h3>AUTOMATION</h3>
+                    <p>
+                      We understand how important customer perceptions is to
+                      sales generation in any business. We have therefore
+                      developed processes that can help position the
+                      brand/products/content of our client within their target
+                      audience.{" "}
                     </p>
                     <Link to="#">
                       {" "}
@@ -183,6 +160,7 @@ const Services = () => {
                   </div>
                 </div>
               </div>
+
               <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
                 <div className="services-wrapper text-center">
                   <div className="services-img">
@@ -200,6 +178,29 @@ const Services = () => {
                         read more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
                     </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div className="services-wrapper text-center">
+                  <div className="services-img">
+                    <img src={iconImageFive} alt="" />
+                  </div>
+                  <div className="services-text">
+                    <h3>TECH TRAINING</h3>
+                    <p>
+                      We train techy and savvy youths who are ready to invent
+                      and change the world with their ideas. We help bring their
+                      ideas to life with technology tools in support for the
+                      training.{" "}
+                    </p>{" "}
+                    <Link to="#">
+                      {" "}
+                      <span className="services-button">
+                        read more <i className="far fa-long-arrow-right"></i>
+                      </span>{" "}
+                    </Link>{" "}
                   </div>
                 </div>
               </div>
@@ -268,7 +269,8 @@ const Services = () => {
                       <div className="col-xl-12">
                         <button className="btn" type="submit">
                           <span className="btn-texts">
-                            send message <i className="far fa-long-arrow-right"></i>
+                            send message{" "}
+                            <i className="far fa-long-arrow-right"></i>
                           </span>{" "}
                           <span className="btn-border"></span>
                         </button>

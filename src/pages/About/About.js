@@ -12,11 +12,6 @@ import bgFifteen from "../../assets/img/bg/bg-15.jpg";
 import bgC from "../../assets/img/bg/c.jpg";
 import bgTwo from "../../assets/img/bg/bg-2.jpg";
 import aboutTwo from "../../assets/img/about/02.png";
-import teamFourImg from "../../assets/img/team/team-04.jpg";
-import teamThreeImg from "../../assets/img/team/team-03.jpg";
-import teamTwoImg from "../../assets/img/team/team-02.jpg";
-import teamOneImg from "../../assets/img/team/team-01.jpg";
-import shapeOneAbout from "../../assets/img/shape/shape-1.png";
 import testimonialImgOne from "../../assets/img/testimonial/01.png";
 import testimonialImgTwo from "../../assets/img/testimonial/02.png";
 import testimonialImgThree from "../../assets/img/testimonial/03.png";
@@ -328,7 +323,7 @@ const About = () => {
                         </div>
                         <div className="choose-img">
                           <img src={bgC} alt="" />
-                          <div className="choose-video">
+                          {/* <div className="choose-video">
                             <Link
                               className="popup-video"
                               to="https://www.youtube.com/watch?v=LTXD6XZXc3U"
@@ -336,7 +331,7 @@ const About = () => {
                             >
                               <i className="fas fa-play"></i>
                             </Link>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>
@@ -345,145 +340,6 @@ const About = () => {
               </div>
             </div>
             {/* <!-- choose-area-end --> */}
-
-            {/* <!-- team-area-start --> */}
-            <div className="team-area pt-120 pb-100 pos-rel">
-              <div className="shape d-none d-xl-block">
-                <div className="shape-item team-01 bounce-animate">
-                  <img src={shapeOneAbout} alt="" />
-                </div>
-              </div>
-              <div className="container">
-                <div className="row mb-50">
-                  <div className="col-xl-4 col-lg-6">
-                    <div className="section-title  mb-30">
-                      <span className="b-sm-left-1"></span>
-                      <span className="b-sm-left-2"></span>
-                      <span className="sub-t-left">our Team</span>
-                      <h1>Meet Experience Team Member</h1>
-                    </div>
-                  </div>
-                  <div className="col-xl-5 offset-xl-3 col-lg-6">
-                    <div className="team-section mb-30">
-                      <p>
-                        {" "}
-                        idea of denouncing pleasure and praising pain was born
-                        and I will give.
-                      </p>
-                      <Link className="btn" to="#">
-                        <span className="btn-text">
-                          join with us{" "}
-                          <i className="far fa-long-arrow-right"></i>
-                        </span>{" "}
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                    <div className="team-wrapper">
-                      <div className="team-img">
-                        <img src={teamOneImg} alt="" />
-                      </div>
-                      <div className="team-text">
-                        <h4>Solvina D Naliz</h4>
-                        <span>Web developer</span>
-                        <div className="team-icon">
-                          <Link to="#">
-                            <i className="fab fa-facebook-f"></i>
-                          </Link>
-                          <Link to="#">
-                            <i className="fab fa-twitter"></i>
-                          </Link>
-                          <Link to="#">
-                            <i className="fab fa-instagram"></i>
-                          </Link>
-                          <Link to="#">
-                            <i className="fab fa-youtube"></i>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                    <div className="team-wrapper">
-                      <div className="team-img">
-                        <img src={teamTwoImg} alt="" />
-                      </div>
-                      <div className="team-text">
-                        <h4>Jerry D.Silva</h4>
-                        <span>UI Designer</span>
-                        <div className="team-icon">
-                          <Link to="#">
-                            <i className="fab fa-facebook-f"></i>
-                          </Link>
-                          <Link to="#">
-                            <i className="fab fa-twitter"></i>
-                          </Link>
-                          <Link to="#">
-                            <i className="fab fa-instagram"></i>
-                          </Link>
-                          <Link to="#">
-                            <i className="fab fa-youtube"></i>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                    <div className="team-wrapper">
-                      <div className="team-img">
-                        <img src={teamThreeImg} alt="" />
-                      </div>
-                      <div className="team-text">
-                        <h4>David Walillams</h4>
-                        <span>sr consultant</span>
-                        <div className="team-icon">
-                          <Link to="#">
-                            <i className="fab fa-facebook-f"></i>
-                          </Link>
-                          <Link to="#">
-                            <i className="fab fa-twitter"></i>
-                          </Link>
-                          <Link to="#">
-                            <i className="fab fa-instagram"></i>
-                          </Link>
-                          <Link to="#">
-                            <i className="fab fa-youtube"></i>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                    <div className="team-wrapper">
-                      <div className="team-img">
-                        <img src={teamFourImg} alt="" />
-                      </div>
-                      <div className="team-text">
-                        <h4>Michel Z. Jones</h4>
-                        <span>CEO & Founder</span>
-                        <div className="team-icon">
-                          <Link to="#">
-                            <i className="fab fa-facebook-f"></i>
-                          </Link>
-                          <Link to="#">
-                            <i className="fab fa-twitter"></i>
-                          </Link>
-                          <Link to="#">
-                            <i className="fab fa-instagram"></i>
-                          </Link>
-                          <Link to="#">
-                            <i className="fab fa-youtube"></i>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- team-area-end --> */}
 
             {/* <!-- cta-area-start --> */}
             <div

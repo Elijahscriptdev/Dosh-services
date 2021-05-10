@@ -31,13 +31,13 @@ const SingleTeam = () => {
             <div className="row">
               <div className="col-xl-12">
                 <div className="breadcrumb-text text-center">
-                  <h1>Team</h1>
+                  <h1>Automation / Tech Training</h1>
                   <ul className="breadcrumb-menu">
                     <li>
                       <Link to="/">home</Link>
                     </li>
                     <li>
-                      <span>Team</span>
+                      <span>Tech Training</span>
                     </li>
                   </ul>
                 </div>
@@ -294,7 +294,7 @@ const SingleTeam = () => {
                 <div className="experience-single mb-30">
                   <div className="experience-img">
                     <img src={exOne} alt="" />
-                    <div className="experience-video">
+                    {/* <div className="experience-video">
                       <Link
                         className="popup-video"
                         to="https://www.youtube.com/watch?v=LTXD6XZXc3U"
@@ -302,7 +302,7 @@ const SingleTeam = () => {
                       >
                         <i className="fas fa-play"></i>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

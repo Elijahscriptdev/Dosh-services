@@ -4,7 +4,6 @@ import { ReactTitle } from "react-meta-tags";
 
 //components
 import FooterDark from "../../components/Footers/FooterDark";
-import CaseHeader from "../../components/Headers/CaseHeader";
 
 //Imgs
 import bgFourteen from "../../assets/img/bg/bg-14.jpg";
@@ -15,12 +14,13 @@ import projImgThree from "../../assets/img/project/ga-03.jpg";
 import projImgFour from "../../assets/img/project/ga-04.jpg";
 import projImgFive from "../../assets/img/project/ga-05.jpg";
 import projImgSix from "../../assets/img/project/ga-06.jpg";
+import Header from "../../components/Headers/Header";
 
 const CaseStudy = () => {
   return (
     <>
       <ReactTitle title="Dosh Services - Careers" />
-      <CaseHeader />
+      <Header />
       <main>
         {/* <!-- breadcrumb-area-start --> */}
         <div

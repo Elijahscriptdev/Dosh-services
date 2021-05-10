@@ -2,16 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ReactTitle } from "react-meta-tags";
 
-// css
-// import "../../assets/css/main.css";
-// import "../../assets/css/responsive.css";
-// import "../../assets/css/slick.css";
-// import "../../assets/css/magnificPopup.css";
-// import "../../assets/css/meanmenu.css";
-// import "../../assets/css/bootstrapMin.css";
-// import "../../assets/css/owlCarouselMin.css";
-// import "../../assets/css/animateMin.css";
-// import "../../assets/css/themifyIcons.css";
 
 // Imgs
 import sliderOne from "../../assets/img/slider/slider-1.jpg";
@@ -29,14 +19,6 @@ import serviceOne from "../../assets/img/service/ser-01.jpg";
 import serviceTwo from "../../assets/img/service/ser-02.jpg";
 import serviceThree from "../../assets/img/service/ser-03.jpg";
 import serviceFour from "../../assets/img/service/ser-04.jpg";
-import shapeShapeOne from "../../assets/img/shape/shape-1.png"
-import teamOne from "../../assets/img/team/team-01.jpg";
-import teamTwo from "../../assets/img/team/team-02.jpg";
-import teamThree from "../../assets/img/team/team-03.jpg";
-import teamFour from "../../assets/img/team/team-04.jpg";
-import projOne from "../../assets/img/project/01.jpg";
-import projTwo from "../../assets/img/project/02.jpg";
-import projThree from "../../assets/img/project/03.jpg";
 import testimonialImg from "../../assets/img/testimonial/test.png";
 import brandOne from "../../assets/img/brand/brand-01.png"
 import brandTwo from "../../assets/img/brand/brand-02.png"
@@ -69,17 +51,17 @@ const Home = () => {
                   <div className="row ">
                     <div className="col-xl-8 col-lg-8">
                       <div className="slider-content">
-                        <h1 data-animation="fadeInLeft" data-delay=".3s">
+                        <h1 data-animation="fadeInLeft" data-delay=".5s">
                           Perfect IT Solutions For Your Business
                         </h1>
-                        <p data-animation="fadeInLeft" data-delay=".5s">
+                        <p data-animation="fadeInLeft" data-delay=".8s">
                           Sed ut perspiciatis unde omnis iste natus error sit
                           voluptatem accusantium doloremque
                         </p>
                         <div
                           className="slider-button"
                           data-animation="fadeInUp"
-                          data-delay=".7s"
+                          data-delay="1s"
                         >
                           <Link className="btn" to={url}>
                             <span className="btn-text">
@@ -93,7 +75,7 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-xl-4 col-lg-3 d-none d-lg-block">
+                    {/* <div className="col-xl-4 col-lg-3 d-none d-lg-block">
                       <div className="slider-video text-md-right">
                         <Link
                           className="popup-video"
@@ -102,7 +84,7 @@ const Home = () => {
                           <i className="fas fa-play"></i>
                         </Link>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -181,38 +163,41 @@ const Home = () => {
                     <span className="border-left-1"></span>
                     <span>what we do</span>
                     <span className="border-right-1"></span>
-                    <h1>We provide exclusive services for your busainess</h1>
+                    <h1>We provide exclusive services for your business</h1>
                   </div>
                 </div>
               </div>
             </div>
             <div className="container-fluid">
               <div className="row">
-                <div className="col-xl-3 col-lg-3 col-md-6">
+                <div className="col-xl-4 col-lg-4 col-md-6">
                   <div className="our-services-wrapper mb-30">
                     <div className="our-services-img">
-                      <img src={serviceOne} alt="" />
+                      <img src={serviceFour} alt="" />
                     </div>
                     <div className="our-services-content">
                       <div className="our-services-icon">
-                        <i className="fal fa-gem"></i>
+                        <i className="fal fa-fingerprint"></i>
+                      </div>
+                      <div className="our-services-text ">
+                        <h3>Tech Consulting</h3>
                       </div>
                       <div className="our-services-text">
-                        <h3>Mobile App Development</h3>
-                        <p>
-                          We are specialist when it comes to building Android,
-                          IOS, and Windows Application. We at Dosh pride
-                          ourselves in building apps that meet global standard
-                          with a user-friendly interface.
+                        <p className="pt-25">
+                          At Dosh Services, We are not only inventors; we also
+                          offer consultations to businesses struggling to stay
+                          in business. We equally work with businesses seeking
+                          to meet up with the latest technology standard and
+                          trends.
                         </p>
-                        <Link to={url}>
+                        <Link to="/Services" className="">
                           view more <i className="far fa-long-arrow-right"></i>
                         </Link>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-3 col-lg-3 col-md-6">
+                <div className="col-xl-4 col-lg-4 col-md-6">
                   <div className="our-services-wrapper mb-30">
                     <div className="our-services-img">
                       <img src={serviceTwo} alt="" />
@@ -223,7 +208,9 @@ const Home = () => {
                       </div>
                       <div className="our-services-text">
                         <h3>Web Development</h3>
-                        <p>
+                      </div>
+                      <div className="our-services-text">
+                        <p className="pt-25">
                           We develop high-end, responsive and user-friendly
                           website and Web Applications. Our websites are
                           developed using different programming languages -
@@ -237,7 +224,34 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-3 col-lg-3 col-md-6">
+                <div className="col-xl-4 col-lg-4 col-md-6">
+                  <div className="our-services-wrapper mb-30">
+                    <div className="our-services-img">
+                      <img src={serviceOne} alt="" />
+                    </div>
+                    <div className="our-services-content">
+                      <div className="our-services-icon">
+                        <i className="fal fa-gem"></i>
+                      </div>
+                      <div className="our-services-text">
+                        <h3>Mobile App Development</h3>
+                      </div>
+                      <div className="our-services-text">
+                        <p className="pt-25">
+                          We are specialist when it comes to building Android,
+                          IOS, and Windows Application. We at Dosh pride
+                          ourselves in building apps that meet global standard
+                          with a user-friendly interface.
+                        </p>
+                        <Link to={url}>
+                          view more <i className="far fa-long-arrow-right"></i>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-xl-4 col-lg-4 col-md-6">
                   <div className="our-services-wrapper mb-30">
                     <div className="our-services-img">
                       <img src={serviceThree} alt="" />
@@ -247,8 +261,10 @@ const Home = () => {
                         <i className="fal fa-analytics"></i>
                       </div>
                       <div className="our-services-text">
-                        <h3>Digital Marketing</h3>
-                        <p>
+                        <h3>Automation</h3>
+                      </div>
+                      <div className="our-services-text">
+                        <p className="pt-25">
                           We understand how important customer perceptions is to
                           sales generation in any business. We have therefore
                           developed processes that can help position the
@@ -262,25 +278,53 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-3 col-lg-3 col-md-6">
+                <div className="col-xl-4 col-lg-4 col-md-6">
                   <div className="our-services-wrapper mb-30">
                     <div className="our-services-img">
-                      <img src={serviceFour} alt="" />
+                      <img src={serviceOne} alt="" />
                     </div>
                     <div className="our-services-content">
                       <div className="our-services-icon">
-                        <i className="fal fa-fingerprint"></i>
+                        <i className="fal fa-gem"></i>
                       </div>
                       <div className="our-services-text">
-                        <h3>Tech Consulting</h3>
-                        <p>
-                          At Dosh Services, We are not only inventors; we also
-                          offer consultations to businesses struggling to stay
-                          in business. We equally work with businesses seeking
-                          to meet up with the latest technology standard and
-                          trends.
+                        <h3>Cyber Security</h3>
+                      </div>
+                      <div className="our-services-text">
+                        <p className="pt-25">
+                          We are specialist when it comes to building Android,
+                          IOS, and Windows Application. We at Dosh pride
+                          ourselves in building apps that meet global standard
+                          with a user-friendly interface.
                         </p>
-                        <Link to="/Services">
+                        <Link to={url}>
+                          view more <i className="far fa-long-arrow-right"></i>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xl-4 col-lg-4 col-md-6">
+                  <div className="our-services-wrapper mb-30">
+                    <div className="our-services-img">
+                      <img src={serviceTwo} alt="" />
+                    </div>
+                    <div className="our-services-content">
+                      <div className="our-services-icon">
+                        <i className="fal fa-laptop-code"></i>
+                      </div>
+                      <div className="our-services-text">
+                        <h3>Tech Training</h3>
+                      </div>
+                      <div className="our-services-text">
+                        <p className="pt-25">
+                          We develop high-end, responsive and user-friendly
+                          website and Web Applications. Our websites are
+                          developed using different programming languages -
+                          (Php, Python, NodeJs, Java and C++). With Dosh
+                          Services.
+                        </p>
+                        <Link to={url}>
                           view more <i className="far fa-long-arrow-right"></i>
                         </Link>
                       </div>
@@ -293,7 +337,7 @@ const Home = () => {
                   <div className="services-button text-center mt-30">
                     <Link className="btn" to="/Services">
                       <span className="btn-text">
-                        view All Services{" "}
+                        View All Services{" "}
                         <i className="far fa-long-arrow-right"></i>
                       </span>
                     </Link>
@@ -303,143 +347,6 @@ const Home = () => {
             </div>
           </div>
           {/* <!-- our-services-area-end --> */}
-
-          {/* <!-- team-area-start --> */}
-          <div className="team-area pt-120 pb-100 pos-rel">
-            <div className="shape d-none d-xl-block">
-              <div className="shape-item team-01 bounce-animate">
-                <img src={shapeShapeOne} alt="" />
-              </div>
-            </div>
-            <div className="container">
-              <div className="row mb-50">
-                <div className="col-xl-4 col-lg-6">
-                  <div className="section-title  mb-30">
-                    <span className="b-sm-left-1"></span>
-                    <span className="b-sm-left-2"></span>
-                    <span className="sub-t-left">our Team</span>
-                    <h1>Meet Experience Team Member</h1>
-                  </div>
-                </div>
-                <div className="col-xl-5 offset-xl-3 col-lg-6">
-                  <div className="team-section mb-30">
-                    <p>
-                      idea of denouncing pleasure and praising pain was born and
-                      I will give.
-                    </p>
-                    <Link className="btn" to={url}>
-                      <span className="btn-text">
-                        join with us <i className="far fa-long-arrow-right"></i>
-                      </span>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                  <div className="team-wrapper">
-                    <div className="team-img">
-                      <img src={teamOne} alt="" />
-                    </div>
-                    <div className="team-text">
-                      <h4>Solvina D Naliz</h4>
-                      <span>Web developer</span>
-                      <div className="team-icon">
-                        <Link to={url}>
-                          <i className="fab fa-facebook-f"></i>
-                        </Link>
-                        <Link to={url}>
-                          <i className="fab fa-twitter"></i>
-                        </Link>
-                        <Link to={url}>
-                          <i className="fab fa-instagram"></i>
-                        </Link>
-                        <Link to={url}>
-                          <i className="fab fa-youtube"></i>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                  <div className="team-wrapper">
-                    <div className="team-img">
-                      <img src={teamTwo} alt="" />
-                    </div>
-                    <div className="team-text">
-                      <h4>Jerry D.Silva</h4>
-                      <span>UI Designer</span>
-                      <div className="team-icon">
-                        <Link to={url}>
-                          <i className="fab fa-facebook-f"></i>
-                        </Link>
-                        <Link to={url}>
-                          <i className="fab fa-twitter"></i>
-                        </Link>
-                        <Link to={url}>
-                          <i className="fab fa-instagram"></i>
-                        </Link>
-                        <Link to={url}>
-                          <i className="fab fa-youtube"></i>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                  <div className="team-wrapper">
-                    <div className="team-img">
-                      <img src={teamThree} alt="" />
-                    </div>
-                    <div className="team-text">
-                      <h4>David Walillams</h4>
-                      <span>sr consultant</span>
-                      <div className="team-icon">
-                        <Link to={url}>
-                          <i className="fab fa-facebook-f"></i>
-                        </Link>
-                        <Link to={url}>
-                          <i className="fab fa-twitter"></i>
-                        </Link>
-                        <Link to={url}>
-                          <i className="fab fa-instagram"></i>
-                        </Link>
-                        <Link to={url}>
-                          <i className="fab fa-youtube"></i>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                  <div className="team-wrapper">
-                    <div className="team-img">
-                      <img src={teamFour} alt="" />
-                    </div>
-                    <div className="team-text">
-                      <h4>Michel Z. Jones</h4>
-                      <span>CEO & Founder</span>
-                      <div className="team-icon">
-                        <Link to={url}>
-                          <i className="fab fa-facebook-f"></i>
-                        </Link>
-                        <Link to={url}>
-                          <i className="fab fa-twitter"></i>
-                        </Link>
-                        <Link to={url}>
-                          <i className="fab fa-instagram"></i>
-                        </Link>
-                        <Link to={url}>
-                          <i className="fab fa-youtube"></i>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <!-- team-area-end --> */}
 
           {/* <!-- cta-area-start --> */}
           <div
@@ -458,7 +365,7 @@ const Home = () => {
                   <div className="cta-button text-lg-right mb-30">
                     <Link className="btn btn-white btn-none" to={url}>
                       <span className="btn-text">
-                        Contact Us <i className="far fa-long-arrow-right"></i>
+                        CONSULTANCY <i className="far fa-long-arrow-right"></i>
                       </span>
                     </Link>
                     <Link className="cta-link" to="#contact-area">
@@ -471,76 +378,8 @@ const Home = () => {
           </div>
           {/* <!-- cta-area-end --> */}
 
-          {/* <!-- project-area-start --> */}
-          <div className="project-area pt-125 pb-185  pl-140 pr-140">
-            <div className="container">
-              <div className="row">
-                <div className="col-xl-6 col-lg-8 offset-lg-2 offset-xl-3">
-                  <div className="section-title text-center ml-50 mr-50 mb-75">
-                    <span className="border-left-1"></span>
-                    <span>our project</span>
-                    <span className="border-right-1"></span>
-                    <h1>Our Latest Case Studies</h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="container-fluid">
-              <div className="row">
-                <div className="project-active owl-carousel">
-                  <div className="col-xl-12">
-                    <div className="project-wrapper">
-                      <div className="project-img">
-                        <Link to={url}>
-                          <img src={projOne} alt="" />
-                        </Link>
-                        <div className="project-text">
-                          <span>business strategy</span>
-                          <h3>
-                            <Link to={url}>Financial Solutions</Link>
-                          </h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-12">
-                    <div className="project-wrapper">
-                      <div className="project-img">
-                        <Link to={url}>
-                          <img src={projTwo} alt="" />
-                        </Link>
-                        <div className="project-text">
-                          <span>business strategy</span>
-                          <h3>
-                            <Link to={url}>Financial Solutions</Link>
-                          </h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-12">
-                    <div className="project-wrapper">
-                      <div className="project-img">
-                        <Link to={url}>
-                          <img src={projThree} alt="" />
-                        </Link>
-                        <div className="project-text">
-                          <span>business strategy</span>
-                          <h3>
-                            <Link to={url}>Financial Solutions</Link>
-                          </h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <!-- project-area-end --> */}
-
           {/* <!-- testmonial-area-start --> */}
-          <div className="testimonial-area testimonial pb-100">
+          <div className="testimonial-area testimonial pb-100 pt-120">
             <div className="container">
               <div className="row">
                 <div className="col-xl-6 col-lg-6 mb-30">
