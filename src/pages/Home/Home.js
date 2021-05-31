@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ReactTitle } from "react-meta-tags";
+// import * as All from "../../custom-assets/AllImages"
 
 
 // Imgs
-import sliderOne from "../../assets/img/slider/slider-1.jpg";
+// import sliderOne from "../../assets/img/slider/slider-1.jpg";
+import sliderOne from "../../custom-assets/homepage-slider.jpg";
 import bgTwo from "../../assets/img/bg/bg-2.jpg";
 import bgFour from "../../assets/img/bg/bg-4.jpg";
 import bgFive from "../../assets/img/bg/bg-5.jpg";
@@ -14,11 +16,13 @@ import shapeThree from "../../assets/img/shape/03.png";
 import shapeTwo from "../../assets/img/shape/02.png";
 import shapeOne from "../../assets/img/shape/01.png";
 import shapeFour from "../../assets/img/shape/04.png";
-import aboutTwo from "../../assets/img/about/about-2.png";
-import serviceOne from "../../assets/img/service/ser-01.jpg";
-import serviceTwo from "../../assets/img/service/ser-02.jpg";
+import aboutTwo from "../../custom-assets/about-us.png";
+import serviceOne from "../../custom-assets/mobile-app-dev.jpg";
+import cyberSecurity from "../../custom-assets/cyber-security.jpg";
+import webDevImg from "../../custom-assets/web-dev.jpg";
+import serviceTwo from "../../custom-assets/tech-training.jpg";
 import serviceThree from "../../assets/img/service/ser-03.jpg";
-import serviceFour from "../../assets/img/service/ser-04.jpg";
+import serviceFour from "../../custom-assets/tech-consultancy.jpg";
 import testimonialImg from "../../assets/img/testimonial/test.png";
 import brandOne from "../../assets/img/brand/brand-01.png"
 import brandTwo from "../../assets/img/brand/brand-02.png"
@@ -200,7 +204,7 @@ const Home = () => {
                 <div className="col-xl-4 col-lg-4 col-md-6">
                   <div className="our-services-wrapper mb-30">
                     <div className="our-services-img">
-                      <img src={serviceTwo} alt="" />
+                      <img src={webDevImg} alt="" />
                     </div>
                     <div className="our-services-content">
                       <div className="our-services-icon">
@@ -281,7 +285,7 @@ const Home = () => {
                 <div className="col-xl-4 col-lg-4 col-md-6">
                   <div className="our-services-wrapper mb-30">
                     <div className="our-services-img">
-                      <img src={serviceOne} alt="" />
+                      <img src={cyberSecurity} alt="" />
                     </div>
                     <div className="our-services-content">
                       <div className="our-services-icon">
