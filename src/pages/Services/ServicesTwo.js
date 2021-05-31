@@ -8,12 +8,12 @@ import Header from "../../components/Headers/Header";
 import FooterDark from "../../components/Footers/FooterDark";
 
 // Imgs
-import servImgTen from "../../assets/img/service/ser-10.jpg";
-import servImgNine from "../../assets/img/service/ser-09.jpg";
-import servImgEight from "../../assets/img/service/ser-08.jpg";
-import servImgSeven from "../../assets/img/service/ser-07.jpg";
-import servImgSix from "../../assets/img/service/ser-06.jpg";
-import servImgFive from "../../assets/img/service/ser-05.jpg";
+import servImgTen from "../../custom-assets/tech-consultancy.jpg";
+import servImgNine from "../../custom-assets/web-dev.jpg";
+import servImgEight from "../../custom-assets/mobile-app-dev.jpg";
+import servImgSeven from "../../custom-assets/web-dev.jpg";
+import servImgSix from "../../custom-assets/tech-training.jpg";
+import servImgFive from "../../custom-assets/cyber-security.jpg";
 import brandOne from "../../assets/img/brand/brand-01.png";
 import brandTwo from "../../assets/img/brand/brand-02.png";
 import brandThree from "../../assets/img/brand/brand-03.png";
@@ -55,7 +55,7 @@ const Services = () => {
         {/* <!-- breadcrumb-area-ends --> */}
 
                      {/* <!-- services-area-start --> */}
-             <div className="services-area pt-130 pb-100">
+             {/* <div className="services-area pt-130 pb-100">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
@@ -88,7 +88,7 @@ const Services = () => {
                                     <i className="fal fa-server"></i>
                                 </div>
                                 <div className="services-text">
-                                    <h3>Server Security</h3>
+                                    <h3>Cyber Security</h3>
                                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking </p>
                                     <Link to="#"> <span className="services-button">read more <i className="far fa-long-arrow-right"></i></span> </Link>
                                 </div>
@@ -96,7 +96,7 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- services-area-end --> */}
 
             {/* <!-- our-services-area-start --> */}
@@ -123,7 +123,7 @@ const Services = () => {
                                         <i className="fal fa-gem"></i>
                                     </div>
                                     <div className="our-services-text">
-                                        <h3>Product Design</h3> 
+                                        <h3>Tech Consulting</h3> 
                                         <p>Set perspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantium</p>
                                         <Link to="#">view more <i className="far fa-long-arrow-right"></i></Link>
                                     </div>
@@ -140,7 +140,7 @@ const Services = () => {
                                         <i className="fal fa-laptop-code"></i>
                                     </div>
                                     <div className="our-services-text">
-                                        <h3>UX/UI Strategy</h3> 
+                                        <h3>Web Development</h3> 
                                         <p>Set perspiciatis unde omnis iste  natus error sit voluptatem accusan tium demqu laudantium </p>
                                         <Link to="#">view more <i className="far fa-long-arrow-right"></i></Link>
                                     </div>
@@ -157,7 +157,7 @@ const Services = () => {
                                         <i className="fal fa-analytics"></i>
                                     </div>
                                     <div className="our-services-text">
-                                        <h3>IT Marketing</h3> 
+                                        <h3>Mobile Apps</h3> 
                                         <p>Set perspiciatis unde omnis iste  natus error sit voluptatem accusan tium demqu laudantium </p>
                                         <Link to="#">view more <i className="far fa-long-arrow-right"></i></Link>
                                     </div>
@@ -174,7 +174,7 @@ const Services = () => {
                                         <i className="fal fa-fingerprint"></i>
                                     </div>
                                     <div className="our-services-text">
-                                        <h3>Web Security</h3> 
+                                        <h3>Automation</h3> 
                                         <p>Set perspiciatis unde omnis iste  natus error sit voluptatem accusan tium demqu laudantium </p>
                                         <Link to="#">view more <i className="far fa-long-arrow-right"></i></Link>
                                     </div>
@@ -191,7 +191,7 @@ const Services = () => {
                                         <i className="fal fa-fingerprint"></i>
                                     </div>
                                     <div className="our-services-text">
-                                        <h3>Marketing Strategy</h3> 
+                                        <h3>Cyber Security</h3> 
                                         <p>Set perspiciatis unde omnis iste  natus error sit voluptatem accusan tium demqu laudantium </p>
                                         <Link to="#">view more <i className="fal fa-bullhorn"></i></Link>
                                     </div>
@@ -208,7 +208,7 @@ const Services = () => {
                                         <i className="fal fa-fingerprint"></i>
                                     </div>
                                     <div className="our-services-text">
-                                        <h3>Desktop Computing</h3> 
+                                        <h3>Tech Training</h3> 
                                         <p>Set perspiciatis unde omnis iste  natus error sit voluptatem accusan tium demqu laudantium </p>
                                         <Link to="#">view more <i className="fal fa-cog"></i></Link>
                                     </div>
@@ -219,7 +219,7 @@ const Services = () => {
                     <div className="row">
                         <div className="col-xl-12">
                             <div className="services-button text-center mt-30">
-                                <Link className="btn" to="#"><span className="btn-text">view All Services <i className="far fa-long-arrow-right"></i></span> </Link>
+                                <Link className="btn" to="#"><span className="btn-text"> MORE ENQUIRIES... <i className="far fa-long-arrow-right"></i></span> </Link>
                             </div>
                         </div>
                     </div>

@@ -9,9 +9,9 @@ import FooterDark from '../../components/Footers/FooterDark';
 // Imgs
 import bgFourteen from "../../assets/img/bg/bg-14.jpg";
 import bgFifteen from "../../assets/img/bg/bg-15.jpg";
-import bgC from "../../assets/img/bg/c.jpg";
+import bgC from "../../custom-assets/mission.jpg";
 import bgTwo from "../../assets/img/bg/bg-2.jpg";
-import aboutTwo from "../../assets/img/about/02.png";
+import aboutTwo from "../../custom-assets/about-us.png";
 import testimonialImgOne from "../../assets/img/testimonial/01.png";
 import testimonialImgTwo from "../../assets/img/testimonial/02.png";
 import testimonialImgThree from "../../assets/img/testimonial/03.png";

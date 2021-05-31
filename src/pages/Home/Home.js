@@ -5,7 +5,6 @@ import { ReactTitle } from "react-meta-tags";
 
 
 // Imgs
-// import sliderOne from "../../assets/img/slider/slider-1.jpg";
 import sliderOne from "../../custom-assets/homepage-slider.jpg";
 import bgTwo from "../../assets/img/bg/bg-2.jpg";
 import bgFour from "../../assets/img/bg/bg-4.jpg";
