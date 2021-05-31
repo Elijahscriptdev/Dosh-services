@@ -8,7 +8,7 @@ import Header from "../../components/Headers/Header";
 import FooterDark from "../../components/Footers/FooterDark";
 
 // Imgs
-import servImgTen from "../../custom-assets/tech-consultancy.jpg";
+import servImgTen from "../../custom-assets/homepage-slider.jpg";
 import servImgNine from "../../custom-assets/web-dev.jpg";
 import servImgEight from "../../custom-assets/mobile-app-dev.jpg";
 import servImgSeven from "../../custom-assets/web-dev.jpg";
@@ -31,7 +31,7 @@ const Services = () => {
       <main>
         {/* <!-- breadcrumb-area-start --> */}
         <div
-          className="breadcrumb-area pt-230 pb-235"
+          className="single-slider slider-height slider-overlay breadcrumb-area pt-230 pb-235"
           style={{ backgroundImage: `url(${bgFourteen})` }}
         >
           <div className="container">
@@ -54,8 +54,8 @@ const Services = () => {
         </div>
         {/* <!-- breadcrumb-area-ends --> */}
 
-                     {/* <!-- services-area-start --> */}
-             {/* <div className="services-area pt-130 pb-100">
+        {/* <!-- services-area-start --> */}
+        {/* <div className="services-area pt-130 pb-100">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
@@ -97,135 +97,171 @@ const Services = () => {
                     </div>
                 </div>
             </div> */}
-            {/* <!-- services-area-end --> */}
+        {/* <!-- services-area-end --> */}
 
-            {/* <!-- our-services-area-start --> */}
-            <div className="our-services-area grey-bg-2 pt-120 pb-130">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
-                            <div className="section-title text-center ml-50 mr-50 mb-85">
-                                <span className="border-left-1"></span>
-                                <span>what we do</span>
-                                <span className="border-right-1"></span>
-                                <h1>We provide exclusive services for your busainess</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-xl-4 col-lg-4 col-md-6">
-                            <div className="our-services-wrapper mb-30">
-                                <div className="our-services-img">
-                                    <img src={servImgTen} alt=""/>
-                                </div>
-                                <div className="our-services-content">
-                                    <div className="our-services-icon">
-                                        <i className="fal fa-gem"></i>
-                                    </div>
-                                    <div className="our-services-text">
-                                        <h3>Tech Consulting</h3> 
-                                        <p>Set perspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantium</p>
-                                        <Link to="#">view more <i className="far fa-long-arrow-right"></i></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6">
-                            <div className="our-services-wrapper mb-30">
-                                <div className="our-services-img">
-                                    <img src={servImgNine} alt=""/>
-                                </div>
-                                <div className="our-services-content">
-                                    <div className="our-services-icon">
-                                        <i className="fal fa-laptop-code"></i>
-                                    </div>
-                                    <div className="our-services-text">
-                                        <h3>Web Development</h3> 
-                                        <p>Set perspiciatis unde omnis iste  natus error sit voluptatem accusan tium demqu laudantium </p>
-                                        <Link to="#">view more <i className="far fa-long-arrow-right"></i></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6">
-                            <div className="our-services-wrapper mb-30">
-                                <div className="our-services-img">
-                                    <img src={servImgEight} alt=""/>
-                                </div>
-                                <div className="our-services-content">
-                                    <div className="our-services-icon">
-                                        <i className="fal fa-analytics"></i>
-                                    </div>
-                                    <div className="our-services-text">
-                                        <h3>Mobile Apps</h3> 
-                                        <p>Set perspiciatis unde omnis iste  natus error sit voluptatem accusan tium demqu laudantium </p>
-                                        <Link to="#">view more <i className="far fa-long-arrow-right"></i></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6">
-                            <div className="our-services-wrapper mb-30">
-                                <div className="our-services-img">
-                                    <img src={servImgSeven} alt=""/>
-                                </div>
-                                <div className="our-services-content">
-                                    <div className="our-services-icon">
-                                        <i className="fal fa-fingerprint"></i>
-                                    </div>
-                                    <div className="our-services-text">
-                                        <h3>Automation</h3> 
-                                        <p>Set perspiciatis unde omnis iste  natus error sit voluptatem accusan tium demqu laudantium </p>
-                                        <Link to="#">view more <i className="far fa-long-arrow-right"></i></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6">
-                            <div className="our-services-wrapper mb-30">
-                                <div className="our-services-img">
-                                    <img src={servImgFive} alt=""/>
-                                </div>
-                                <div className="our-services-content">
-                                    <div className="our-services-icon">
-                                        <i className="fal fa-fingerprint"></i>
-                                    </div>
-                                    <div className="our-services-text">
-                                        <h3>Cyber Security</h3> 
-                                        <p>Set perspiciatis unde omnis iste  natus error sit voluptatem accusan tium demqu laudantium </p>
-                                        <Link to="#">view more <i className="fal fa-bullhorn"></i></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6">
-                            <div className="our-services-wrapper mb-30">
-                                <div className="our-services-img">
-                                    <img src={servImgSix} alt=""/>
-                                </div>
-                                <div className="our-services-content">
-                                    <div className="our-services-icon">
-                                        <i className="fal fa-fingerprint"></i>
-                                    </div>
-                                    <div className="our-services-text">
-                                        <h3>Tech Training</h3> 
-                                        <p>Set perspiciatis unde omnis iste  natus error sit voluptatem accusan tium demqu laudantium </p>
-                                        <Link to="#">view more <i className="fal fa-cog"></i></Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-xl-12">
-                            <div className="services-button text-center mt-30">
-                                <Link className="btn" to="#"><span className="btn-text"> MORE ENQUIRIES... <i className="far fa-long-arrow-right"></i></span> </Link>
-                            </div>
-                        </div>
-                    </div>
+        {/* <!-- our-services-area-start --> */}
+        <div className="our-services-area grey-bg-2 pt-120 pb-130">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
+                <div className="section-title text-center ml-50 mr-50 mb-85">
+                  <span className="border-left-1"></span>
+                  <span>what we do</span>
+                  <span className="border-right-1"></span>
+                  <h1>We provide exclusive services for your busainess</h1>
                 </div>
+              </div>
             </div>
-            {/* <!-- our-services-area-end --> */}
+            <div className="row">
+              <div className="col-xl-4 col-lg-4 col-md-6">
+                <div className="our-services-wrapper mb-30">
+                  <div className="our-services-img">
+                    <img src={servImgTen} alt="" />
+                  </div>
+                  <div className="our-services-content">
+                    <div className="our-services-icon">
+                      <i className="fal fa-gem"></i>
+                    </div>
+                    <div className="our-services-text">
+                      <h3>Tech Consulting</h3>
+                      <p>
+                        Set perspiciatis unde omnis iste natus error sit
+                        voluptatem accusan tium demqu laudantium
+                      </p>
+                      <Link to="#">
+                        view more <i className="far fa-long-arrow-right"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-4 col-md-6">
+                <div className="our-services-wrapper mb-30">
+                  <div className="our-services-img">
+                    <img src={servImgNine} alt="" />
+                  </div>
+                  <div className="our-services-content">
+                    <div className="our-services-icon">
+                      <i className="fal fa-laptop-code"></i>
+                    </div>
+                    <div className="our-services-text">
+                      <h3>Web Development</h3>
+                      <p>
+                        Set perspiciatis unde omnis iste natus error sit
+                        voluptatem accusan tium demqu laudantium{" "}
+                      </p>
+                      <Link to="#">
+                        view more <i className="far fa-long-arrow-right"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-4 col-md-6">
+                <div className="our-services-wrapper mb-30">
+                  <div className="our-services-img">
+                    <img src={servImgEight} alt="" />
+                  </div>
+                  <div className="our-services-content">
+                    <div className="our-services-icon">
+                      <i className="fal fa-analytics"></i>
+                    </div>
+                    <div className="our-services-text">
+                      <h3>Mobile Apps</h3>
+                      <p>
+                        Set perspiciatis unde omnis iste natus error sit
+                        voluptatem accusan tium demqu laudantium{" "}
+                      </p>
+                      <Link to="#">
+                        view more <i className="far fa-long-arrow-right"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-4 col-md-6">
+                <div className="our-services-wrapper mb-30">
+                  <div className="our-services-img">
+                    <img src={servImgSeven} alt="" />
+                  </div>
+                  <div className="our-services-content">
+                    <div className="our-services-icon">
+                      <i className="fal fa-fingerprint"></i>
+                    </div>
+                    <div className="our-services-text">
+                      <h3>Automation</h3>
+                      <p>
+                        Set perspiciatis unde omnis iste natus error sit
+                        voluptatem accusan tium demqu laudantium{" "}
+                      </p>
+                      <Link to="#">
+                        view more <i className="far fa-long-arrow-right"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-4 col-md-6">
+                <div className="our-services-wrapper mb-30">
+                  <div className="our-services-img">
+                    <img src={servImgFive} alt="" />
+                  </div>
+                  <div className="our-services-content">
+                    <div className="our-services-icon">
+                      <i className="fal fa-fingerprint"></i>
+                    </div>
+                    <div className="our-services-text">
+                      <h3>Cyber Security</h3>
+                      <p>
+                        Set perspiciatis unde omnis iste natus error sit
+                        voluptatem accusan tium demqu laudantium{" "}
+                      </p>
+                      <Link to="#">
+                        view more <i className="fal fa-bullhorn"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-4 col-md-6">
+                <div className="our-services-wrapper mb-30">
+                  <div className="our-services-img">
+                    <img src={servImgSix} alt="" />
+                  </div>
+                  <div className="our-services-content">
+                    <div className="our-services-icon">
+                      <i className="fal fa-fingerprint"></i>
+                    </div>
+                    <div className="our-services-text">
+                      <h3>Tech Training</h3>
+                      <p>
+                        Set perspiciatis unde omnis iste natus error sit
+                        voluptatem accusan tium demqu laudantium{" "}
+                      </p>
+                      <Link to="#">
+                        view more <i className="fal fa-cog"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-xl-12">
+                <div className="services-button text-center mt-30">
+                  <Link className="btn" to="#">
+                    <span className="btn-text">
+                      {" "}
+                      MORE ENQUIRIES...{" "}
+                      <i className="far fa-long-arrow-right"></i>
+                    </span>{" "}
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <!-- our-services-area-end --> */}
 
         {/* <!-- contact-area-start --> */}
         <div className="contact-2-area pt-130 pb-100 theme-bg ">
@@ -286,7 +322,8 @@ const Services = () => {
                       <div className="col-xl-12">
                         <button className="btn" type="submit">
                           <span className="btn-texts">
-                            send message <i className="far fa-long-arrow-right"></i>
+                            send message{" "}
+                            <i className="far fa-long-arrow-right"></i>
                           </span>{" "}
                           <span className="btn-border"></span>
                         </button>

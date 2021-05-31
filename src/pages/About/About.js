@@ -7,14 +7,11 @@ import Header from '../../components/Headers/Header';
 import FooterDark from '../../components/Footers/FooterDark';
 
 // Imgs
-import bgFourteen from "../../assets/img/bg/bg-14.jpg";
+import bgFourteen from "../../custom-assets/homepage-slider.jpg";
 import bgFifteen from "../../assets/img/bg/bg-15.jpg";
 import bgC from "../../custom-assets/mission.jpg";
 import bgTwo from "../../assets/img/bg/bg-2.jpg";
 import aboutTwo from "../../custom-assets/about-us.png";
-import testimonialImgOne from "../../assets/img/testimonial/01.png";
-import testimonialImgTwo from "../../assets/img/testimonial/02.png";
-import testimonialImgThree from "../../assets/img/testimonial/03.png";
 import brandOne from "../../assets/img/brand/01.png";
 import brandTwo from "../../assets/img/brand/02.png";
 import brandThree from "../../assets/img/brand/03.png";
@@ -33,7 +30,7 @@ const About = () => {
           <main>
             {/* <!-- breadcrumb-area-start --> */}
             <div
-              className="breadcrumb-area pt-230 pb-235"
+              className="single-slider slider-height slider-overlay breadcrumb-area pt-230 pb-235"
               style={{ backgroundImage: `url(${bgFourteen})` }}
             >
               <div className="container">
@@ -368,182 +365,46 @@ const About = () => {
             </div>
             {/* <!-- cta-area-end --> */}
 
-            {/* <!-- client-area-start --> */}
-            <div className="client-area dark pt-120 pb-100 grey-bg">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xl-7 col-lg-7">
-                            <div className="section-title  mb-70">
-                                <span className="b-sm-left-2"></span>
-                                <span className="sub-t-left">our testimonials</span>
-                                <h1>More Than 800+ Customer Satisfied Our Solutions</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="client-active owl-carousel">
-                            <div className="col-xl-12">
-                                <div className="client-say-wrapper mb-30">
-                                    <div className="client-say-text">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusante doloremque laudantium, totam rem  aperiam eaque ipsa illventore verit atis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                        <div className="client-rating">
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                        </div>
-                                        <div className="clientsay-name">
-                                            <div className="client-say-img">
-                                                <img src={testimonialImgOne} alt=""/>
-                                            </div>
-                                            <div className="client-say-content">
-                                                <h4>Sonix Paleda Joda</h4>
-                                                <span>Web Designer</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-12">
-                                <div className="client-say-wrapper mb-30">
-                                    <div className="client-say-text">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusante doloremque laudantium, totam rem  aperiam eaque ipsa illventore verit atis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                        <div className="client-rating">
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                        </div>
-                                        <div className="clientsay-name">
-                                            <div className="client-say-img">
-                                                <img src={testimonialImgTwo} alt=""/>
-                                            </div>
-                                            <div className="client-say-content">
-                                                <h4>Jeson Roy Newzi</h4>
-                                                <span>SR Consultant</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-12">
-                                <div className="client-say-wrapper mb-30">
-                                    <div className="client-say-text">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusante doloremque laudantium, totam rem  aperiam eaque ipsa illventore verit atis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                        <div className="client-rating">
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                        </div>
-                                        <div className="clientsay-name">
-                                            <div className="client-say-img">
-                                                <img src={testimonialImgThree} alt=""/>
-                                            </div>
-                                            <div className="client-say-content">
-                                                <h4>David Mexxwell</h4>
-                                                <span>Business manager</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-12">
-                                <div className="client-say-wrapper mb-30">
-                                    <div className="client-say-text">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusante doloremque laudantium, totam rem  aperiam eaque ipsa illventore verit atis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                        <div className="client-rating">
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                        </div>
-                                        <div className="clientsay-name">
-                                            <div className="client-say-img">
-                                                <img src={testimonialImgOne} alt=""/>
-                                            </div>
-                                            <div className="client-say-content">
-                                                <h4>Sonix Paleda Joda</h4>
-                                                <span>Web Designer</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-12">
-                                <div className="client-say-wrapper mb-30">
-                                    <div className="client-say-text">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusante doloremque laudantium, totam rem  aperiam eaque ipsa illventore verit atis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                        <div className="client-rating">
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                        </div>
-                                        <div className="clientsay-name">
-                                            <div className="client-say-img">
-                                                <img src={testimonialImgOne} alt=""/>
-                                            </div>
-                                            <div className="client-say-content">
-                                                <h4>Sonix Paleda Joda</h4>
-                                                <span>Web Designer</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* <!-- client-area-end --> */}
-
             {/* <!-- brand-area-start --> */}
             <div className="brand-area pt-130 pb-130">
-                <div className="container">
-                    <div className="row">
-                        <div className="brand-active owl-carousel">
-                            <div className="col-xl-12">
-                                <div className="brand-img text-center">
-                                    <img src={brandOne} alt="" />
-                                </div>
-                            </div>
-                            <div className="col-xl-12">
-                                <div className="brand-img text-center">
-                                    <img src={brandTwo} alt="" />
-                                </div>
-                            </div>
-                            <div className="col-xl-12">
-                                <div className="brand-img text-center">
-                                        <img src={brandThree} alt="" />
-                                </div>
-                            </div>
-                            <div className="col-xl-12">
-                                <div className="brand-img text-center">
-                                        <img src={brandFour} alt="" />
-                                </div>
-                            </div>
-                            <div className="col-xl-12">
-                                <div className="brand-img text-center">
-                                        <img src={brandFive} alt="" />
-                                </div>
-                            </div>
-                            <div className="col-xl-12 text-center">
-                                <div className="brand-img">
-                                        <img src={brandTwo} alt="" />
-                                </div>
-                            </div>
-                        </div>
+              <div className="container">
+                <div className="row">
+                  <div className="brand-active owl-carousel">
+                    <div className="col-xl-12">
+                      <div className="brand-img text-center">
+                        <img src={brandOne} alt="" />
+                      </div>
                     </div>
+                    <div className="col-xl-12">
+                      <div className="brand-img text-center">
+                        <img src={brandTwo} alt="" />
+                      </div>
+                    </div>
+                    <div className="col-xl-12">
+                      <div className="brand-img text-center">
+                        <img src={brandThree} alt="" />
+                      </div>
+                    </div>
+                    <div className="col-xl-12">
+                      <div className="brand-img text-center">
+                        <img src={brandFour} alt="" />
+                      </div>
+                    </div>
+                    <div className="col-xl-12">
+                      <div className="brand-img text-center">
+                        <img src={brandFive} alt="" />
+                      </div>
+                    </div>
+                    <div className="col-xl-12 text-center">
+                      <div className="brand-img">
+                        <img src={brandTwo} alt="" />
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
             {/* <!-- brand-area-end --> */}
-            
           </main>
 
           <FooterDark />
