@@ -7,7 +7,7 @@ import FooterDark from "../../components/Footers/FooterDark";
 
 //Imgs
 import bgFourteen from "../../custom-assets/homepage-slider.jpg";
-import bgTwo from "../../assets/img/bg/bg-2.jpg";
+// import bgTwo from "../../assets/img/bg/bg-2.jpg";
 import projImgOne from "../../assets/img/project/ga-01.jpg";
 import projImgTwo from "../../assets/img/project/ga-02.jpg";
 import projImgThree from "../../assets/img/project/ga-03.jpg";
@@ -216,7 +216,7 @@ const CaseStudy = () => {
         </div>
         {/* <!-- gallery-area-end --> */}
         {/* <!-- cta-area-start --> */}
-        <div
+        {/* <div
           className="cta-area pt-125 pb-95"
           style={{ backgroundImage: `url(${bgTwo})` }}
         >
@@ -242,7 +242,7 @@ const CaseStudy = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- cta-area-end --> */}
       </main>
 

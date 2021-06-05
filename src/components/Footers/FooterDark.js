@@ -19,7 +19,7 @@ const FooterDark = () => {
               style={{ backgroundImage: `url(${bgSeven})` }}
             >
               <div className="container">
-                <div className="newsletter-bg pb-50 mb-80">
+                {/* <div className="newsletter-bg pb-50 mb-80">
                   <div className="row">
                     <div className="col-xl-6 col-lg-7 mb-30">
                       <div className="single-newsletter ">
@@ -54,7 +54,7 @@ const FooterDark = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="row">
                   <div className="col-xl-5 col-lg-5 col-md-6">
                     <div className="footer-wrapper footer-2-wrapper mb-30">
@@ -71,16 +71,16 @@ const FooterDark = () => {
                           increase your sales, grow your customer base and
                           ultimately keep you in business.
                         </p>
-                        <Link className="btn" to="#" tabindex="0">
+                        {/* <Link className="btn" to="#" tabindex="0">
                           <span className="btn-text">
                             learn more{" "}
                             <i className="far fa-long-arrow-right"></i>
                           </span>{" "}
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
                   </div>
-                  <div className="col-xl-2 col-lg-2 col-md-6">
+                  {/* <div className="col-xl-2 col-lg-2 col-md-6">
                     <div className="footer-wrapper mb-30">
                       <h4 className="footer-title">Our Services</h4>
                       <ul className="fotter-menu">
@@ -98,7 +98,7 @@ const FooterDark = () => {
                         </li>
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="col-xl-3 col-lg-3 col-md-6">
                     <div className="footer-wrapper footer-2-wrapper mb-30 pl-50">
                       <h4 className="footer-title">Quick Links</h4>
@@ -106,20 +106,20 @@ const FooterDark = () => {
                         <li>
                           <Link to="#">About Us</Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link to="#">Need a Consultant?</Link>
-                        </li>
+                        </li> */}
                         <li>
-                          <Link to="#">Our Services</Link>
+                          <Link to="/Services">Our Services</Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link to="#">Have Any Questions?</Link>
                         </li>
                         <li>
                           <Link to="#">Meet Our Team</Link>
-                        </li>
+                        </li> */}
                         <li>
-                          <Link to="#">Contact Us</Link>
+                          <Link to="/Contact">Contact Us</Link>
                         </li>
                       </ul>
                     </div>
@@ -127,9 +127,9 @@ const FooterDark = () => {
                   <div className="col-xl-2 col-lg-2 col-md-6">
                     <div className="footer-wrapper footer-2-wrapper mb-30">
                       <h4 className="footer-title">Contact Us</h4>
-                      <div className="footer-info">
+                      {/* <div className="footer-info">
                         <p>But I must explain to you how all this mistaken</p>
-                      </div>
+                      </div> */}
                       <ul className="contact-link">
                         <li>
                           <div className="contact-address-icon">
@@ -174,19 +174,19 @@ const FooterDark = () => {
                     <div className="col-xl-8 col-lg-8 col-md-8">
                       <div className="copyright">
                         <p>
-                          <i className="far fa-copyright"></i> Copyright 2019{" "}
-                          <Link to="#">Dosh Services</Link>. All rights
+                          <i className="far fa-copyright"></i> Copyright 2020 
+                          <Link to="/" style={{color: "white"}}> Dosh Services</Link>. All rights
                           reserved.
                         </p>
                       </div>
                     </div>
-                    <div className="col-xl-4 col-lg-4 col-md-4">
+                    {/* <div className="col-xl-4 col-lg-4 col-md-4">
                       <div className="footer-bottem-text text-md-right">
                         <p>
                           Design By <Link to="#">Dosh Services</Link>
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { ReactTitle } from "react-meta-tags";
 // import * as All from "../../custom-assets/AllImages"
 
-
 // Imgs
 import sliderOne from "../../custom-assets/homepage-slider.jpg";
 import bgTwo from "../../assets/img/bg/bg-2.jpg";
@@ -22,16 +21,14 @@ import webDevImg from "../../custom-assets/web-dev.jpg";
 import serviceTwo from "../../custom-assets/tech-training.jpg";
 import serviceThree from "../../assets/img/service/ser-03.jpg";
 import serviceFour from "../../custom-assets/tech-consultancy.jpg";
-import testimonialImg from "../../assets/img/testimonial/test.png";
-import brandOne from "../../assets/img/brand/brand-01.png"
-import brandTwo from "../../assets/img/brand/brand-02.png"
-import brandThree from "../../assets/img/brand/brand-03.png"
-import brandFour from "../../assets/img/brand/brand-04.png"
-import brandFive from "../../assets/img/brand/brand-05.png"
+// import testimonialImg from "../../assets/img/testimonial/test.png";
+import brandOne from "../../assets/img/brand/brand-01.png";
+import brandTwo from "../../assets/img/brand/brand-02.png";
+import brandThree from "../../assets/img/brand/brand-03.png";
+import brandFour from "../../assets/img/brand/brand-04.png";
+import brandFive from "../../assets/img/brand/brand-05.png";
 import Header from "../../components/Headers/Header";
 import Footer from "../../components/Footers/Footer";
-
-
 
 let url = "/";
 
@@ -61,7 +58,7 @@ const Home = () => {
                           Sed ut perspiciatis unde omnis iste natus error sit
                           voluptatem accusantium doloremque
                         </p>
-                        <div
+                        {/* <div
                           className="slider-button"
                           data-animation="fadeInUp"
                           data-delay="1s"
@@ -75,7 +72,7 @@ const Home = () => {
                           <Link className="text-link" to={url}>
                             How It Works
                           </Link>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                     {/* <div className="col-xl-4 col-lg-3 d-none d-lg-block">
@@ -96,9 +93,9 @@ const Home = () => {
           {/* <!-- slider-start --> */}
 
           {/* <!-- about-area-start --> */}
-          <div className="about-area pt-130 pb-100 pos-rel">
+          <div className="about-area pt-200 pb-140 pos-rel">
             <div className="shape d-none d-xl-block">
-              <div className="shape-item ab-01 bounce-animate">
+              <div className="mt-80 shape-item ab-01 bounce-animate">
                 <img src={shapeFive} alt="" />
               </div>
               <div className="shape-item ab-02 bounce-animate">
@@ -143,13 +140,13 @@ const Home = () => {
                         your investment.
                       </p>
                     </div>
-                    <div className="about-button">
+                    {/* <div className="about-button">
                       <Link className="btn" to="/About">
                         <span className="btn-text">
                           Learn More <i className="far fa-long-arrow-right"></i>
                         </span>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -173,7 +170,7 @@ const Home = () => {
             </div>
             <div className="container-fluid">
               <div className="row">
-                <div className="col-xl-4 col-lg-4 col-md-6">
+                <div className="col-xl-4 col-lg-4 col-md-6 mb-60">
                   <div className="our-services-wrapper mb-30">
                     <div className="our-services-img">
                       <img src={serviceFour} alt="" />
@@ -200,7 +197,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-4 col-md-6">
+                <div className="col-xl-4 col-lg-4 col-md-6 mb-60">
                   <div className="our-services-wrapper mb-30">
                     <div className="our-services-img">
                       <img src={webDevImg} alt="" />
@@ -227,7 +224,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-4 col-md-6">
+                <div className="col-xl-4 col-lg-4 col-md-6 mb-60">
                   <div className="our-services-wrapper mb-30">
                     <div className="our-services-img">
                       <img src={serviceOne} alt="" />
@@ -237,7 +234,7 @@ const Home = () => {
                         <i className="fal fa-gem"></i>
                       </div>
                       <div className="our-services-text">
-                        <h3>Mobile App Development</h3>
+                        <h3>Mobile Development</h3>
                       </div>
                       <div className="our-services-text">
                         <p className="pt-25">
@@ -271,7 +268,7 @@ const Home = () => {
                           We understand how important customer perceptions is to
                           sales generation in any business. We have therefore
                           developed processes that can help position the
-                          brand/products/content of our client within their
+                          brand/products of our client within their
                           target audience.
                         </p>
                         <Link to={url}>
@@ -307,7 +304,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-4 col-md-6">
+                <div className="col-xl-4 col-lg-4 col-md-6 ">
                   <div className="our-services-wrapper mb-30">
                     <div className="our-services-img">
                       <img src={serviceTwo} alt="" />
@@ -335,7 +332,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="row">
+              {/* <div className="row">
                 <div className="col-xl-12">
                   <div className="services-button text-center mt-30">
                     <Link className="btn" to="/Services">
@@ -346,7 +343,7 @@ const Home = () => {
                     </Link>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* <!-- our-services-area-end --> */}
@@ -382,7 +379,7 @@ const Home = () => {
           {/* <!-- cta-area-end --> */}
 
           {/* <!-- testmonial-area-start --> */}
-          <div className="testimonial-area testimonial pb-100 pt-120">
+          {/* <div className="testimonial-area testimonial pb-100 pt-120">
             <div className="container">
               <div className="row">
                 <div className="col-xl-6 col-lg-6 mb-30">
@@ -447,7 +444,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <!-- testmonial-area-end --> */}
 
           {/* <!-- video-area-start --> */}

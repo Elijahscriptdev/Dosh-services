@@ -7,18 +7,18 @@ import Header from "../../components/Headers/Header";
 import FooterDark from "../../components/Footers/FooterDark";
 
 // Imgs
-import iconImageOne from "../../assets/img/icon/01.png";
-import iconImageTwo from "../../assets/img/icon/02.png";
-import iconImageThree from "../../assets/img/icon/03.png";
-import iconImageFour from "../../assets/img/icon/04.png";
-import iconImageFive from "../../assets/img/icon/05.png";
-import iconImageSix from "../../assets/img/icon/06.png";
-import brandOne from "../../assets/img/brand/brand-01.png";
-import brandTwo from "../../assets/img/brand/brand-02.png";
-import brandThree from "../../assets/img/brand/brand-03.png";
-import brandFour from "../../assets/img/brand/brand-04.png";
-import brandFive from "../../assets/img/brand/brand-05.png";
-import bgTwo from "../../assets/img/bg/bg-2.jpg";
+// import iconImageOne from "../../assets/img/icon/01.png";
+// import iconImageTwo from "../../assets/img/icon/02.png";
+// import iconImageThree from "../../assets/img/icon/03.png";
+// import iconImageFour from "../../assets/img/icon/04.png";
+// import iconImageFive from "../../assets/img/icon/05.png";
+// import iconImageSix from "../../assets/img/icon/06.png";
+// import brandOne from "../../assets/img/brand/brand-01.png";
+// import brandTwo from "../../assets/img/brand/brand-02.png";
+// import brandThree from "../../assets/img/brand/brand-03.png";
+// import brandFour from "../../assets/img/brand/brand-04.png";
+// import brandFive from "../../assets/img/brand/brand-05.png";
+// import bgTwo from "../../assets/img/bg/bg-2.jpg";
 import goalsImgThree from "../../assets/img/goals/03.jpg";
 import goalsImgOne from "../../assets/img/goals/01.jpg";
 import goalsImgTwo from "../../assets/img/goals/02.jpg";
@@ -40,13 +40,13 @@ const Goals = () => {
             <div className="row">
               <div className="col-xl-12">
                 <div className="breadcrumb-text text-center">
-                  <h1>Our Goals</h1>
+                  <h1>Mission & Vision</h1>
                   <ul className="breadcrumb-menu">
                     <li>
                       <Link to="/">home</Link>
                     </li>
                     <li>
-                      <span>Goals</span>
+                      <span>Mission & Vision</span>
                     </li>
                   </ul>
                 </div>
@@ -57,7 +57,7 @@ const Goals = () => {
         {/* <!-- breadcrumb-area-ends --> */}
 
         {/* <!-- our-goals-area-start --> */}
-        <div className="our-goals-area pt-130 pb-95">
+        <div className="our-goals-area pt-130 pb-100 mt-80">
           <div className="container">
             <div className="row">
               <div className="col-xl-4 col-md-4">
@@ -105,7 +105,7 @@ const Goals = () => {
         {/* <!-- our-goals-area-end --> */}
 
         {/* <!-- brand-area-start --> */}
-        <div className="brand-area pb-130">
+        {/* <div className="brand-area pb-130">
           <div className="container">
             <div className="row">
               <div className="brand-active owl-carousel">
@@ -142,11 +142,11 @@ const Goals = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- brand-area-end --> */}
 
         {/* <!-- goals-area-start --> */}
-        <div className="goals-area pos-rel">
+        <div className="goals-area pos-rel mt-80 mb-220">
           <div
             className="goals-img d-none d-lg-block"
             style={{ backgroundImage: `url(${goalsImgThree})` }}
@@ -161,10 +161,9 @@ const Goals = () => {
                     <span className="sub-t-left">what we do</span>
                     <h1>Super Quality IT Solutions Provide</h1>
                   </div>
-                  <div className="golas-text">
+                  <div className="goals-text">
                     <p>
-                      {" "}
-                      idea of denoun cing pleasure and praising pain was born
+                      Idea of denoun cing pleasure and praising pain was born
                       and I will giv complete account of the system, and expound
                       the actual teachings of the great explorer of the truth
                       the master-builder of
@@ -189,11 +188,11 @@ const Goals = () => {
                         </span>
                       </li>
                     </ul>
-                    <Link className="btn" to="#">
+                    {/* <Link className="btn" to="#">
                       <span className="btn-text">
                         learn more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
@@ -203,7 +202,7 @@ const Goals = () => {
         {/* <!-- goals-area-end --> */}
 
         {/* <!-- services-area-start --> */}
-        <div className="services-area pt-120 pb-60">
+        {/* <div className="services-area pt-120 pb-130">
           <div className="container">
             <div className="row">
               <div className="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
@@ -338,11 +337,11 @@ const Goals = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- services-area-end --> */}
 
         {/* <!-- cta-area-start --> */}
-        <div
+        {/* <div
           className="cta-area pt-125 pb-95"
           style={{ backgroundImage: `url(${bgTwo})` }}
         >
@@ -368,7 +367,7 @@ const Goals = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- cta-area-end --> */}
       </main>
 

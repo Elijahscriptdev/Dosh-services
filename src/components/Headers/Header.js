@@ -29,7 +29,6 @@ const Header = () => {
                         className="__cf_email__"
                         data-cfemail="20535550504f525460474d41494c0e434f4d"
                       >
-                        {" "}
                         info@doshservices.com
                       </Link>
                     </span>
@@ -93,9 +92,9 @@ const Header = () => {
                             <li>
                               <Link to="/Goals">Mission & Vision</Link>
                             </li>
-                            <li>
+                            {/* <li>
                               <Link to="/About">Clients</Link>
-                            </li>
+                            </li> */}
                           </ul>
                         </li>
 
@@ -114,7 +113,6 @@ const Header = () => {
                               </Link>
                             </li>
                             <li>
-                              {/* <Link to="it-management.html">Automation </Link> */}
                               <Link to="/SingleTeam">Automation </Link>
                             </li>
                             <li>
@@ -126,10 +124,10 @@ const Header = () => {
                           </ul>
                         </li>
 
-                        <li>
+                        {/* <li>
                           <Link to="/CaseStudy">Projects</Link>
-                          {/* <ul className="sub-menu text-left"> */}
-                          {/*<li>
+                          <ul className="sub-menu text-left">
+                          <li>
                                 <Link to="/CaseStudy">case study</Link>
                               </li>
                                <li>
@@ -144,12 +142,15 @@ const Header = () => {
                               </li>
                               <li>
                                 <Link to="case-details.html">case details</Link>
-                              </li> */}
-                          {/* </ul> */}
-                        </li>
+                              </li>
+                          </ul>
+                        </li> */}
 
-                        <li>
+                        {/* <li>
                           <Link to="/Packages">Packages</Link>
+                        </li> */}
+                        <li>
+                          <Link to="/Contact">Contact Us</Link>
                         </li>
                         {/* <li>
                             <Link to="/Careers">Careers</Link>
