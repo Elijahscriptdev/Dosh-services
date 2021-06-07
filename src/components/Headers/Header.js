@@ -152,6 +152,9 @@ const Header = () => {
                             <li>
                               <Link to="/Goals">Mission & Vision</Link>
                             </li>
+                            <li>
+                              <Link to="/CaseStudy">Portfolio</Link>
+                            </li>
                             {/* <li>
                               <Link to="/About">Clients</Link>
                             </li> */}
@@ -187,9 +190,7 @@ const Header = () => {
                         {/* <li>
                           <Link to="/CaseStudy">Projects</Link>
                           <ul className="sub-menu text-left">
-                          <li>
-                                <Link to="/CaseStudy">case study</Link>
-                              </li>
+                          
                                <li>
                                 <Link to="case-study-02.html">
                                   case study 02
