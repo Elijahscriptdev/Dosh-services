@@ -1,4 +1,6 @@
+import React from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+// import Modal from "react-modal";
 
 // components
 import Home from "./pages/Home/Home";
@@ -14,6 +16,10 @@ import SingleTeam from "./pages/SingleTeam/SingleTeam";
 import CaseStudy from "./pages/Case Study/CaseStudy";
 
 function App() {
+
+  // useEffect(() => {
+  //   Modal.setAppElement(App);
+  // }, []);
   return (
     <>
       <BrowserRouter>

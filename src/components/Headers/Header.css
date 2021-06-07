@@ -1,0 +1,248 @@
+/* .top-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.google {
+  box-shadow: 0px 4px 15px rgba(5, 0, 0, 0.1);
+  border-radius: 50%;
+  padding: 4px 8px;
+  margin: 0 3px;
+}
+
+.facebook {
+  box-shadow: 0px 4px 15px rgba(5, 0, 0, 0.1);
+  border-radius: 50%;
+  padding: 4px 8px;
+  color: #1976d2;
+  margin: 0 3px;
+}
+
+.horizontal {
+  display: flex;
+  margin: 30px 0 6px 0;
+} 
+
+.horizontal-line {
+  border-bottom: 1px solid #ededed;
+  width: 100%;
+  margin-bottom: 23px;
+}
+
+.horizontal p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ff7f00;
+} */
+
+.form-wrapper input,
+select,
+textarea {
+  width: 100%;
+  box-shadow: 0px 4px 15px rgba(43, 53, 130, 0.1);
+  border-radius: 7px;
+  border: none;
+  padding: 13px 15px;
+}
+
+/* Job application Component */
+.drag-drop-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em auto;
+  padding: 0 2em 2em;
+  min-height: 103px;
+  max-width: 363px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px dashed #9999ba;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.job-app-form-fields-wrap {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.password-input {
+  margin: 40px 0 15px 0;
+  position: relative;
+}
+
+.password-input span {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: #b4b4b4;
+}
+
+.recover {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+}
+
+.recover-link {
+  color: var(--text-color-link);
+}
+
+.signup-route-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  margin: 40px 0 0px 0;
+}
+
+
+
+/* sign up */
+.signup-password-input {
+  position: relative;
+}
+
+.signup-password-input span {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: #b4b4b4;
+}
+
+/* quote */
+
+.quote-form {
+  max-width: 400px;
+  background: #ffffff;
+  box-shadow: 0px 8px 30px rgba(43, 53, 130, 0.1);
+  border-radius: 20px;
+  transform: translate(0%, 10%);
+  /* margin: 150px auto; */
+   margin: 0 auto;
+  padding: 20px;
+}
+
+.consult-btn {
+  background: #0003B8;
+  box-shadow: 0px 6px 15px rgba(26, 33, 107, 0.15);
+  border-radius: 100px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 20px;
+  width: 100%;
+  margin: 15px auto;
+  }
+
+
+
+  /* Modals */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(0.75px);
+  }
+
+.modal-component__wrap {
+  margin: 0 auto;
+  background-color: #fff;
+  min-height: 704px;
+  max-width: 579px;
+  padding: 1em 2.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  /* overflow-y: unset; */
+}
+
+.modal-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modal-title > h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000152;
+}
+
+.modal-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 151px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.modal-div > p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #59597a;
+}
+
+.job-form_area {
+  margin-top: unset;
+}
+
+.modalBtn {
+  font-family: Poppins;
+  text-align: center;
+  color: #ffffff;
+  max-width: 363px;
+  width: 100%;
+  min-height: 55px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 10px 23px;
+  border-radius: 100px;
+  border: none;
+  margin: 0.5em auto;
+  background: #121212;
+  box-shadow: 0px 6px 15px rgba(26, 33, 107, 0.15);
+  border-radius: 100px;
+}
+
+.modalBtn:hover {
+  border: 2px solid #121212;
+  color: #121212;
+  background: #fff;
+}
+
+.modal-text-two {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #9999ba;
+}

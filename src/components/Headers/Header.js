@@ -1,11 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "./Header.css";
 
+import closeModalIcon from "../../assets/img//closeModalIcon.svg";
 import doshLogo from "../../assets/img/logo/logo.jpg";
+import { Modal } from "react-bootstrap";
+import JobApplication from "./JobApplication";
 
 let url = "/";
 
+
 const Header = () => {
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
+
+
   return (
     <>
       <body>
@@ -73,11 +90,54 @@ const Header = () => {
                 </div>
                 <div className="col-xl-9 col-lg-9">
                   <div className="header-button f-right d-none d-lg-block">
-                    <Link className="btn" to="/Contact">
+                    <div className="btn" onClick={() => openModal()}>
                       <span className="btn-text">
                         CONSULTANCY <i className="far fa-long-arrow-right" />
                       </span>
-                    </Link>
+                    </div>
+                    {/* 
+                    <Modal
+                      isOpen={modalIsOpen}
+                      onRequestClose={closeModal}
+                      style={customStyles}
+                      overlayClassName="modal-overlay"
+                      contentLabel="Example Modal"
+                     
+                    >
+                      <QuoteForm
+                        ctaBtnText={"Send Message"}
+                        ctaBtnStyle={"consult-btn"}
+                        formTitle={"Consult with Us"}
+                        formDescription={
+                          "Kindly fill the form alongsides details of your project"
+                        }
+                      />
+                    </Modal> */}
+                    <Modal
+                      show={modalIsOpen}
+                      onHide={closeModal}
+                      backdrop="static"
+                      keyboard={false}
+                    >
+                      <Modal.Body>
+                        <div className="modal-component__wrap">
+                          <div className="modal-title">
+                            <h3>Consult with Us</h3>
+                            <span
+                              onClick={closeModal}
+                              style={{ cursor: "pointer" }}
+                            >
+                              <img src={closeModalIcon} alt="" />
+                            </span>
+                          </div>
+                          <p className="modal-text-two">
+                            "Kindly fill the form alongsides details of your
+                            project"
+                          </p>
+                          <JobApplication applyBtnStyle={"modalBtn"} />
+                        </div>
+                      </Modal.Body>
+                    </Modal>
                   </div>
                   <div className="main-menu text-right">
                     <nav id="mobile-menu">
