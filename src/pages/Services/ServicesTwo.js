@@ -1,19 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ReactTitle } from "react-meta-tags";
-
+// import ReadMoreReact from "read-more-react";
 
 //components
 import Header from "../../components/Headers/Header";
 import FooterDark from "../../components/Footers/FooterDark";
 
 // Imgs
-import servImgTen from "../../custom-assets/homepage-slider.jpg";
-import servImgNine from "../../custom-assets/web-dev.jpg";
-import servImgEight from "../../custom-assets/mobile-app-dev.jpg";
-import servImgSeven from "../../custom-assets/web-dev.jpg";
-import servImgSix from "../../custom-assets/tech-training.jpg";
-import servImgFive from "../../custom-assets/cyber-security.jpg";
+// import servImgTen from "../../custom-assets/homepage-slider.jpg";
+// import servImgNine from "../../custom-assets/web-dev.jpg";
+// import servImgEight from "../../custom-assets/mobile-app-dev.jpg";
+// import servImgSeven from "../../custom-assets/web-dev.jpg";
+// import servImgSix from "../../custom-assets/tech-training.jpg";
+// import servImgFive from "../../custom-assets/cyber-security.jpg";
 import brandOne from "../../assets/img/brand/brand-01.png";
 import brandTwo from "../../assets/img/brand/brand-02.png";
 import brandThree from "../../assets/img/brand/brand-03.png";
@@ -21,7 +21,7 @@ import brandFour from "../../assets/img/brand/brand-04.png";
 import brandFive from "../../assets/img/brand/brand-05.png";
 import bgMap from "../../assets/img/bg/map.png";
 import bgFourteen from "../../assets/img/bg/bg-14.jpg";
-
+import exOne from "../../assets/img/bg/ex-1.jpg";
 
 const Services = () => {
   return (
@@ -53,7 +53,6 @@ const Services = () => {
           </div>
         </div>
         {/* <!-- breadcrumb-area-ends --> */}
-
         {/* <!-- services-area-start --> */}
         {/* <div className="services-area pt-130 pb-100">
                 <div className="container">
@@ -98,9 +97,8 @@ const Services = () => {
                 </div>
             </div> */}
         {/* <!-- services-area-end --> */}
-
         {/* <!-- our-services-area-start --> */}
-        <div className="our-services-area grey-bg-2 pt-120 pb-130">
+        {/* <div className="our-services-area grey-bg-2 pt-120 pb-130">
           <div className="container">
             <div className="row">
               <div className="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
@@ -124,9 +122,20 @@ const Services = () => {
                     </div>
                     <div className="our-services-text">
                       <h3>Tech Consulting</h3>
-                      <p>
-                        Set perspiciatis unde omnis iste natus error sit
-                        voluptatem accusan tium demqu laudantium
+                      <p style={{ cursor: "pointer" }}>
+                        <ReadMoreReact
+                          text={
+                            "Set perspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantium perspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiu"
+                          }
+                          min={60}
+                          ideal={100}
+                          max={300}
+                          readMoreText={
+                            <Link to="#" className="link-color services-button">
+                              Read more &gt;
+                            </Link>
+                          }
+                        />
                       </p>
                       <Link to="#">
                         view more <i className="far fa-long-arrow-right"></i>
@@ -146,9 +155,20 @@ const Services = () => {
                     </div>
                     <div className="our-services-text">
                       <h3>Web Development</h3>
-                      <p>
-                        Set perspiciatis unde omnis iste natus error sit
-                        voluptatem accusan tium demqu laudantium{" "}
+                      <p style={{ cursor: "pointer" }}>
+                        <ReadMoreReact
+                          text={
+                            "Set perspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantium perspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiu"
+                          }
+                          min={60}
+                          ideal={100}
+                          max={300}
+                          readMoreText={
+                            <Link to="#" className="link-color services-button">
+                              Read more &gt;
+                            </Link>
+                          }
+                        />
                       </p>
                       <Link to="#">
                         view more <i className="far fa-long-arrow-right"></i>
@@ -168,9 +188,20 @@ const Services = () => {
                     </div>
                     <div className="our-services-text">
                       <h3>Mobile Apps</h3>
-                      <p>
-                        Set perspiciatis unde omnis iste natus error sit
-                        voluptatem accusan tium demqu laudantium{" "}
+                      <p style={{ cursor: "pointer" }}>
+                        <ReadMoreReact
+                          text={
+                            "Set perspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantium perspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiu"
+                          }
+                          min={60}
+                          ideal={100}
+                          max={300}
+                          readMoreText={
+                            <Link to="#" className="link-color services-button">
+                              Read more &gt;
+                            </Link>
+                          }
+                        />
                       </p>
                       <Link to="#">
                         view more <i className="far fa-long-arrow-right"></i>
@@ -190,9 +221,20 @@ const Services = () => {
                     </div>
                     <div className="our-services-text">
                       <h3>Automation</h3>
-                      <p>
-                        Set perspiciatis unde omnis iste natus error sit
-                        voluptatem accusan tium demqu laudantium{" "}
+                      <p style={{ cursor: "pointer" }}>
+                        <ReadMoreReact
+                          text={
+                            "Set perspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantium perspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiu"
+                          }
+                          min={60}
+                          ideal={100}
+                          max={300}
+                          readMoreText={
+                            <Link to="#" className="link-color services-button">
+                              Read more &gt;
+                            </Link>
+                          }
+                        />
                       </p>
                       <Link to="#">
                         view more <i className="far fa-long-arrow-right"></i>
@@ -212,9 +254,20 @@ const Services = () => {
                     </div>
                     <div className="our-services-text">
                       <h3>Cyber Security</h3>
-                      <p>
-                        Set perspiciatis unde omnis iste natus error sit
-                        voluptatem accusan tium demqu laudantium{" "}
+                      <p style={{ cursor: "pointer" }}>
+                        <ReadMoreReact
+                          text={
+                            "Set perspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantium perspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiu"
+                          }
+                          min={60}
+                          ideal={100}
+                          max={300}
+                          readMoreText={
+                            <Link to="#" className="link-color services-button">
+                              Read more &gt;
+                            </Link>
+                          }
+                        />
                       </p>
                       <Link to="#">
                         view more <i className="fal fa-bullhorn"></i>
@@ -234,19 +287,30 @@ const Services = () => {
                     </div>
                     <div className="our-services-text">
                       <h3>Tech Training</h3>
-                      <p>
-                        Set perspiciatis unde omnis iste natus error sit
-                        voluptatem accusan tium demqu laudantium{" "}
-                      </p>
-                      <Link to="#">
-                        view more <i className="fal fa-cog"></i>
-                      </Link>
                     </div>
+                    <p style={{ cursor: "pointer" }}>
+                      <ReadMoreReact
+                        text={
+                          "Perspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiuperspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantiu. Set perspiciatis unde omnis iste natus error sit voluptatem accusan tium demqu laudantium"
+                        }
+                        min={60}
+                        ideal={100}
+                        max={300}
+                        readMoreText={
+                          <Link to="#" className="link-color services-button">
+                            Read more &gt;
+                          </Link>
+                        }
+                      />
+                    </p>
+                    <Link to="#" className="">
+                      view more <i className="fal fa-cog"></i>
+                    </Link>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="row">
+            </div> */}
+        {/* <div className="row">
               <div className="col-xl-12">
                 <div className="services-button text-center mt-30">
                   <Link className="btn" to="#">
@@ -258,11 +322,52 @@ const Services = () => {
                   </Link>
                 </div>
               </div>
+            </div> */}
+        {/* </div>
+        </div> */}
+        {/* <!-- our-services-area-end --> */}
+
+        {/* <!-- experience-area-satrt --> */}
+        <div className="experience-area pt-130 pb-100">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-7 col-lg-7 mb-30">
+                <div className="experience-text">
+                  <h1>Tech Consulting</h1>
+                  <p>
+                    Must explain to you how all this mistaken idea of denouncing
+                    pleasure and praising pain was born and I will give you a
+                    complete account of the system and expound the actual
+                    teachings of the great explorer of the truth the
+                    master-builder of human happiness. No one rejects dislikes
+                  </p>
+                  <p>
+                    Born and I will give you a complete account of the system
+                    and expound the actual teachings of the great explorer of
+                    the truth the master-builder.
+                  </p>
+                </div>
+              </div>
+              <div className="col-xl-5 col-lg-5">
+                <div className="experience-single mb-30">
+                  <div className="experience-img">
+                    <img src={exOne} alt="" />
+                    {/* <div className="experience-video">
+                      <Link
+                        className="popup-video"
+                        to="https://www.youtube.com/watch?v=LTXD6XZXc3U"
+                        tabindex="0"
+                      >
+                        <i className="fas fa-play"></i>
+                      </Link>
+                    </div> */}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        {/* <!-- our-services-area-end --> */}
-
+        {/* <!-- experience-area-end --> */}
         {/* <!-- contact-area-start --> */}
         <div className="contact-2-area pt-130 pb-100 theme-bg ">
           <div className="container">
@@ -342,7 +447,6 @@ const Services = () => {
           </div>
         </div>
         {/* <!-- contact-area-end --> */}
-
         {/* <!-- brand-area-start --> */}
         <div className="brand-area pt-130 pb-130">
           <div className="container">

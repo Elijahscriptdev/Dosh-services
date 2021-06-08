@@ -24,8 +24,7 @@ import bgMap from "../../assets/img/bg/map.png";
 import bgFourteen from "../../assets/img/bg/bg-14.jpg";
 
 const cardsTexts = {
-  techConsulting:
-    "At Dosh Services, We are not only inventors; we also offer consultations to businesses struggling to stay in business. We equally work with businesses seeking to meet up with the latest technology standard and trends.",
+  techConsulting: "At Dosh Services, We are not only inventors; we also offer consultations to businesses struggling to stay in business. We equally work with businesses seeking to meet up with the latest technology standard and trends.",
   automation: "We understand how important customer perceptions is to sales generation in any business. We have therefore developed processes that can help position the brand/products/content of our client within their target audience." ,
   mobileDev: "We are specialist when it comes to building Android, IOS, and Windows Application. We at Dosh pride ourselves in building apps that meet global standard with a user-friendly interface.",
   webDev: "We develop high-end, responsive and user-friendly website and Web Applications. Our websites are developed using different programming languages - (Php, Python, NodeJs, Java and C++). With Dosh Services.",
@@ -88,12 +87,6 @@ const Services = () => {
                   </div>
                   <div className="services-text">
                     <h3>TECH CONSULTING</h3>
-                    {/* <p>
-                      At Dosh Services, We are not only inventors; we also offer
-                      consultations to businesses struggling to stay in
-                      business. We equally work with businesses seeking to meet
-                      up with the latest technology standard and trends.{" "}
-                    </p> */}
                     <ReadMoreReact
                       text={cardsTexts.techConsulting}
                       min={60}
@@ -105,12 +98,7 @@ const Services = () => {
                         </Link>
                       }
                     />
-                    {/* <Link to="#">
-                      {" "}
-                      <span className="services-button">
-                        read more <i className="far fa-long-arrow-right"></i>
-                      </span>{" "}
-                    </Link> */}
+                    
                   </div>
                 </div>
               </div>
@@ -121,12 +109,7 @@ const Services = () => {
                   </div>
                   <div className="services-text">
                     <h3>WEB DEVELOPMENT</h3>
-                    {/* <p>
-                      We develop high-end, responsive and user-friendly website
-                      and Web Applications. Our websites are developed using
-                      different programming languages - (Php, Python, NodeJs,
-                      Java and C++). With Dosh Services.
-                    </p> */}
+           
                     <p>
                       <ReadMoreReact
                         text={cardsTexts.webDev}
@@ -140,11 +123,7 @@ const Services = () => {
                         }
                       />
                     </p>
-                    {/* <Link to="#">
-                      <span className="services-button">
-                        read more <i className="far fa-long-arrow-right"></i>
-                      </span>
-                    </Link> */}
+                    
                   </div>
                 </div>
               </div>
@@ -156,10 +135,7 @@ const Services = () => {
                   <div className="services-text">
                     <h3>MOBILE DEVELOPMENT</h3>
                     <p>
-                      {/* We are specialist when it comes to building Android, IOS,
-                      and Windows Application. We at Dosh pride ourselves in
-                      building apps that meet global standard with a
-                      user-friendly interface. */}
+                   
                       <ReadMoreReact
                         text={cardsTexts.mobileDev}
                         min={60}
@@ -172,11 +148,7 @@ const Services = () => {
                         }
                       />
                     </p>
-                    {/* <Link to="#">
-                      <span className="services-button">
-                        read more <i className="far fa-long-arrow-right"></i>
-                      </span>
-                    </Link> */}
+                   
                   </div>
                 </div>
               </div>
@@ -189,11 +161,7 @@ const Services = () => {
                   <div className="services-text">
                     <h3>AUTOMATION</h3>
                     <p>
-                      {/* We understand how important customer perceptions is to
-                      sales generation in any business. We have therefore
-                      developed processes that can help position the
-                      brand/products/content of our client within their target
-                      audience. */}
+                   
                       <ReadMoreReact
                         text={cardsTexts.automation}
                         min={60}
@@ -206,12 +174,7 @@ const Services = () => {
                         }
                       />
                     </p>
-                    {/* <Link to="#">
-                      {" "}
-                      <span className="services-button">
-                        read more <i className="far fa-long-arrow-right"></i>
-                      </span>{" "}
-                    </Link> */}
+                    
                   </div>
                 </div>
               </div>
@@ -224,8 +187,7 @@ const Services = () => {
                   <div className="services-text">
                     <h3>CYBER SECURITY</h3>
                     <p>
-                      {/* At Dosh technology, we help you audit and check for bugs
-                      or loopholes on your mobile and web based platform. */}
+                      
                       <ReadMoreReact
                         text={cardsTexts.cyberSecurity}
                         min={60}
@@ -238,12 +200,7 @@ const Services = () => {
                         }
                       />
                     </p>
-                    {/* <Link to="#">
-                      {" "}
-                      <span className="services-button">
-                        read more <i className="far fa-long-arrow-right"></i>
-                      </span>{" "}
-                    </Link> */}
+                    
                   </div>
                 </div>
               </div>
@@ -256,10 +213,7 @@ const Services = () => {
                   <div className="services-text">
                     <h3>TECH TRAINING</h3>
                     <p>
-                      {/* We train techy and savvy youths who are ready to invent
-                      and change the world with their ideas. We help bring their
-                      ideas to life with technology tools in support for the
-                      training. */}
+                      
                       <ReadMoreReact
                         text={cardsTexts.techTraining}
                         min={60}
@@ -272,11 +226,7 @@ const Services = () => {
                         }
                       />
                     </p>
-                    {/* <Link to="#">
-                      <span className="services-button">
-                        read more <i className="far fa-long-arrow-right"></i>
-                      </span>
-                    </Link> */}
+                   
                   </div>
                 </div>
               </div>

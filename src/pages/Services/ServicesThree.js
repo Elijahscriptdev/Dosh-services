@@ -1,30 +1,31 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ReactTitle } from "react-meta-tags";
-
+// import ReadMoreReact from "read-more-react";
 
 //components
 import Header from "../../components/Headers/Header";
 import FooterDark from "../../components/Footers/FooterDark";
 
 // Imgs
-import iconImageOne from "../../assets/img/icon/01.png";
-import iconImageTwo from "../../assets/img/icon/02.png";
-import iconImageThree from "../../assets/img/icon/03.png";
-import iconImageFour from "../../assets/img/icon/04.png";
-import iconImageFive from "../../assets/img/icon/05.png";
-import iconImageSix from "../../assets/img/icon/06.png";
-import brandOne from "../../assets/img/brand/brand-01.png";
-import brandTwo from "../../assets/img/brand/brand-02.png";
-import brandThree from "../../assets/img/brand/brand-03.png";
-import brandFour from "../../assets/img/brand/brand-04.png";
-import brandFive from "../../assets/img/brand/brand-05.png";
-import bgOne from "../../assets/img/bg/01.jpg";
-import blogFour from "../../assets/img/blog/blog-1.jpg";
-import blogFive from "../../assets/img/blog/blog-5.jpg";
-import blogOne from "../../assets/img/blog/blog-1.jpg";
+// import iconImageOne from "../../assets/img/icon/01.png";
+// import iconImageTwo from "../../assets/img/icon/02.png";
+// import iconImageThree from "../../assets/img/icon/03.png";
+// import iconImageFour from "../../assets/img/icon/04.png";
+// import iconImageFive from "../../assets/img/icon/05.png";
+// import iconImageSix from "../../assets/img/icon/06.png";
+// import brandOne from "../../assets/img/brand/brand-01.png";
+// import brandTwo from "../../assets/img/brand/brand-02.png";
+// import brandThree from "../../assets/img/brand/brand-03.png";
+// import brandFour from "../../assets/img/brand/brand-04.png";
+// import brandFive from "../../assets/img/brand/brand-05.png";
+// import bgOne from "../../assets/img/bg/01.jpg";
+// import blogFour from "../../assets/img/blog/blog-1.jpg";
+// import blogFive from "../../assets/img/blog/blog-5.jpg";
+// import blogOne from "../../assets/img/blog/blog-1.jpg";
 import bgFourteen from "../../assets/img/bg/bg-14.jpg";
-import bgNine from "../../assets/img/bg/bg-9.jpg";
+// import bgNine from "../../assets/img/bg/bg-9.jpg";
+import exOne from "../../assets/img/bg/ex-1.jpg";
 
 
 const Services = () => {
@@ -59,7 +60,7 @@ const Services = () => {
         {/* <!-- breadcrumb-area-ends --> */}
 
         {/* <!-- services-area-start --> */}
-        <div className="services-area pt-120 pb-60">
+        {/* <div className="services-area pt-120 pb-60">
           <div className="container">
             <div className="row">
               <div className="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
@@ -79,10 +80,14 @@ const Services = () => {
                   </div>
                   <div className="services-text">
                     <h3>Web Development</h3>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking{" "}
-                    </p>
+                     <p style={{cursor: "pointer"}}>
+                      <ReadMoreReact
+                      text={"It is a long established fact that a reader will be distracted by the readable content of a page when looking"}
+                      min={60}
+                      ideal={100}
+                      max={300}
+                    />
+                      </p>
                     <Link to="#">
                       {" "}
                       <span className="services-button">
@@ -99,10 +104,14 @@ const Services = () => {
                   </div>
                   <div className="services-text">
                     <h3>Database Analysis</h3>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking{" "}
-                    </p>
+                    <p style={{cursor: "pointer"}}>
+                      <ReadMoreReact
+                      text={"It is a long established fact that a reader will be distracted by the readable content of a page when looking"}
+                      min={30}
+                      ideal={50}
+                      max={70}
+                    />
+                      </p>
                     <Link to="#">
                       {" "}
                       <span className="services-button">
@@ -119,10 +128,14 @@ const Services = () => {
                   </div>
                   <div className="services-text">
                     <h3>Server Security</h3>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking{" "}
-                    </p>
+                     <p style={{cursor: "pointer"}}>
+                      <ReadMoreReact
+                      text={"It is a long established fact that a reader will be distracted by the readable content of a page when looking"}
+                      min={30}
+                      ideal={50}
+                      max={70}
+                    />
+                      </p>
                     <Link to="#">
                       {" "}
                       <span className="services-button">
@@ -139,10 +152,14 @@ const Services = () => {
                   </div>
                   <div className="services-text">
                     <h3>UX/UI Strategy</h3>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking{" "}
-                    </p>
+                     <p style={{cursor: "pointer"}}>
+                      <ReadMoreReact
+                      text={"It is a long established fact that a reader will be distracted by the readable content of a page when looking"}
+                      min={30}
+                      ideal={50}
+                      max={70}
+                    />
+                      </p>
                     <Link to="#">
                       {" "}
                       <span className="services-button">
@@ -159,10 +176,14 @@ const Services = () => {
                   </div>
                   <div className="services-text">
                     <h3>Analysis For Tools</h3>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking{" "}
-                    </p>
+                     <p style={{cursor: "pointer"}}>
+                      <ReadMoreReact
+                      text={"It is a long established fact that a reader will be distracted by the readable content of a page when looking"}
+                      min={30}
+                      ideal={50}
+                      max={70}
+                    />
+                      </p>
                     <Link to="#">
                       {" "}
                       <span className="services-button">
@@ -179,10 +200,14 @@ const Services = () => {
                   </div>
                   <div className="services-text">
                     <h3>Marketing Strategy</h3>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking{" "}
-                    </p>
+                     <p style={{cursor: "pointer"}}>
+                      <ReadMoreReact
+                      text={"It is a long established fact that a reader will be distracted by the readable content of a page when looking"}
+                      min={30}
+                      ideal={50}
+                      max={70}
+                    />
+                      </p>
                     <Link to="#">
                       {" "}
                       <span className="services-button">
@@ -194,14 +219,14 @@ const Services = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- services-area-end --> */}
 
         {/* <!-- fact-area-start --> */}
-        <div
+        {/* <div
           className="fact-are-area pt-130 pb-100"
           style={{ backgroundImage: `url(${bgNine})` }}
-       >
+        >
           <div className="container">
             <div className="row">
               <div className="col-xl-5 col-lg-5 mb-30">
@@ -272,11 +297,11 @@ const Services = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- fact-area-end --> */}
 
         {/* <!-- our-skills-area-start --> */}
-        <div className="our-skills-area pt-130 pb-100">
+        {/* <div className="our-skills-area pt-130 pb-100">
           <div className="container">
             <div className="row">
               <div className="col-xl-5 col-lg-6 mb-30">
@@ -394,11 +419,11 @@ const Services = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- our-skills-area-end --> */}
 
         {/* <!-- brand-area-start --> */}
-        <div className="brand-area pt-130 pb-130">
+        {/* <div className="brand-area pt-130 pb-130">
           <div className="container">
             <div className="row">
               <div className="brand-active owl-carousel">
@@ -435,11 +460,11 @@ const Services = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- brand-area-end --> */}
 
         {/* <!-- blog-area-start --> */}
-        <div className="blog-area pt-120 pb-100">
+        {/* <div className="blog-area pt-120 pb-100">
           <div className="container">
             <div className="row">
               <div className="col-xl-6 col-lg-8 offset-lg-2 offset-xl-3">
@@ -574,8 +599,50 @@ const Services = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- blog-area-end --> */}
+
+        {/* <!-- experience-area-satrt --> */}
+        <div className="experience-area pt-130 pb-100">
+          <div className="container">
+            <div className="row">
+              <div className="col-xl-7 col-lg-7 mb-30">
+                <div className="experience-text">
+                  <h1>Automation/Tech Training</h1>
+                  <p>
+                    Must explain to you how all this mistaken idea of denouncing
+                    pleasure and praising pain was born and I will give you a
+                    complete account of the system and expound the actual
+                    teachings of the great explorer of the truth the
+                    master-builder of human happiness. No one rejects dislikes
+                  </p>
+                  <p>
+                    Born and I will give you a complete account of the system
+                    and expound the actual teachings of the great explorer of
+                    the truth the master-builder.
+                  </p>
+                </div>
+              </div>
+              <div className="col-xl-5 col-lg-5">
+                <div className="experience-single mb-30">
+                  <div className="experience-img">
+                    <img src={exOne} alt="" />
+                    {/* <div className="experience-video">
+                      <Link
+                        className="popup-video"
+                        to="https://www.youtube.com/watch?v=LTXD6XZXc3U"
+                        tabindex="0"
+                      >
+                        <i className="fas fa-play"></i>
+                      </Link>
+                    </div> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <!-- experience-area-end --> */}
       </main>
 
       <FooterDark />

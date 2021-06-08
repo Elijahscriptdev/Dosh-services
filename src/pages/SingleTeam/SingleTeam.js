@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ReactTitle } from "react-meta-tags";
+// import ReadMoreReact from "read-more-react";
+
 
 //components
 import Header from "../../components/Headers/Header";
@@ -8,13 +10,12 @@ import FooterDark from "../../components/Footers/FooterDark";
 
 //Imgs
 import bgFourteen from "../../assets/img/bg/bg-14.jpg";
-import bgTwo from "../../assets/img/bg/bg-2.jpg";
-import singleItemImg from "../../assets/img/team/single-tem.png";
-import teeOne from "../../assets/img/icon/t-1.png";
-import teeTwo from "../../assets/img/icon/t-2.png";
-import teeThree from "../../assets/img/icon/t-3.png";
+// import bgTwo from "../../assets/img/bg/bg-2.jpg";
+// import singleItemImg from "../../assets/img/team/single-tem.png";
+// import teeOne from "../../assets/img/icon/t-1.png";
+// import teeTwo from "../../assets/img/icon/t-2.png";
+// import teeThree from "../../assets/img/icon/t-3.png";
 import exOne from "../../assets/img/bg/ex-1.jpg";
-
 
 const SingleTeam = () => {
   return (
@@ -48,7 +49,7 @@ const SingleTeam = () => {
         {/* <!-- breadcrumb-area-ends --> */}
 
         {/* <!-- single-team-area-start --> */}
-        <div className="single-team-area pt-130 pb-100">
+        {/* <div className="single-team-area pt-130 pb-100">
           <div className="container">
             <div className="row">
               <div className="col-xl-6 col-lg-6 mb-30">
@@ -125,11 +126,11 @@ const SingleTeam = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- single-team-area-end --> */}
 
         {/* <!-- our-skill-area-start --> */}
-        <div className="our-skill-area">
+        {/* <div className="our-skill-area">
           <div className="container">
             <div className="skill-bg">
               <div className="row">
@@ -266,7 +267,7 @@ const SingleTeam = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- our-skill-area-end --> */}
 
         {/* <!-- experience-area-satrt --> */}
@@ -275,7 +276,7 @@ const SingleTeam = () => {
             <div className="row">
               <div className="col-xl-7 col-lg-7 mb-30">
                 <div className="experience-text">
-                  <h1>Experience</h1>
+                  <h1>Automation/Tech Training</h1>
                   <p>
                     Must explain to you how all this mistaken idea of denouncing
                     pleasure and praising pain was born and I will give you a
@@ -288,6 +289,7 @@ const SingleTeam = () => {
                     and expound the actual teachings of the great explorer of
                     the truth the master-builder.
                   </p>
+                  
                 </div>
               </div>
               <div className="col-xl-5 col-lg-5">
@@ -312,7 +314,7 @@ const SingleTeam = () => {
         {/* <!-- experience-area-end --> */}
 
         {/* <!-- cta-area-start --> */}
-        <div
+        {/* <div
           className="cta-area pt-125 pb-95"
           style={{ backgroundImage: `url(${bgTwo})` }}
         >
@@ -338,7 +340,7 @@ const SingleTeam = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- cta-area-end --> */}
       </main>
 
