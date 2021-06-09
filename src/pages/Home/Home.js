@@ -1,11 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ReactTitle } from "react-meta-tags";
-// import * as All from "../../custom-assets/AllImages"
 
 // Imgs
 import sliderOne from "../../custom-assets/homepage-slider.jpg";
-import bgTwo from "../../assets/img/bg/bg-2.jpg";
 import bgFour from "../../assets/img/bg/bg-4.jpg";
 import bgFive from "../../assets/img/bg/bg-5.jpg";
 import bgMap from "../../assets/img/bg/map.png";
@@ -21,7 +19,6 @@ import webDevImg from "../../custom-assets/web-dev.jpg";
 import serviceTwo from "../../custom-assets/tech-training.jpg";
 import serviceThree from "../../assets/img/service/ser-03.jpg";
 import serviceFour from "../../custom-assets/tech-consultancy.jpg";
-// import testimonialImg from "../../assets/img/testimonial/test.png";
 import brandOne from "../../assets/img/brand/brand-01.png";
 import brandTwo from "../../assets/img/brand/brand-02.png";
 import brandThree from "../../assets/img/brand/brand-03.png";
@@ -30,7 +27,6 @@ import brandFive from "../../assets/img/brand/brand-05.png";
 import Header from "../../components/Headers/Header";
 import Footer from "../../components/Footers/Footer";
 
-let url = "/";
 
 const Home = () => {
   return (
@@ -190,7 +186,7 @@ const Home = () => {
                           to meet up with the latest technology standard and
                           trends.
                         </p>
-                        <Link to="/Services" className="">
+                        <Link to="/TechConsult" className="">
                           view more <i className="far fa-long-arrow-right"></i>
                         </Link>
                       </div>
@@ -217,7 +213,7 @@ const Home = () => {
                           (Php, Python, NodeJs, Java and C++). With Dosh
                           Services.
                         </p>
-                        <Link to={url}>
+                        <Link to="/WebDev">
                           view more <i className="far fa-long-arrow-right"></i>
                         </Link>
                       </div>
@@ -243,7 +239,7 @@ const Home = () => {
                           ourselves in building apps that meet global standard
                           with a user-friendly interface.
                         </p>
-                        <Link to={url}>
+                        <Link to="/MobileDev">
                           view more <i className="far fa-long-arrow-right"></i>
                         </Link>
                       </div>
@@ -268,10 +264,10 @@ const Home = () => {
                           We understand how important customer perceptions is to
                           sales generation in any business. We have therefore
                           developed processes that can help position the
-                          brand/products of our client within their
-                          target audience.
+                          brand/products of our client within their target
+                          audience.
                         </p>
-                        <Link to={url}>
+                        <Link to="/Automation">
                           view more <i className="far fa-long-arrow-right"></i>
                         </Link>
                       </div>
@@ -297,7 +293,7 @@ const Home = () => {
                           ourselves in building apps that meet global standard
                           with a user-friendly interface.
                         </p>
-                        <Link to={url}>
+                        <Link to="/CyberSecurity">
                           view more <i className="far fa-long-arrow-right"></i>
                         </Link>
                       </div>
@@ -324,7 +320,7 @@ const Home = () => {
                           (Php, Python, NodeJs, Java and C++). With Dosh
                           Services.
                         </p>
-                        <Link to={url}>
+                        <Link to="/TechTraining">
                           view more <i className="far fa-long-arrow-right"></i>
                         </Link>
                       </div>
@@ -347,36 +343,6 @@ const Home = () => {
             </div>
           </div>
           {/* <!-- our-services-area-end --> */}
-
-          {/* <!-- cta-area-start --> */}
-          <div
-            className="cta-area pt-125 pb-95"
-            style={{ backgroundImage: `url(${bgTwo})` }}
-          >
-            <div className="container">
-              <div className="row">
-                <div className="col-xl-7 col-lg-7">
-                  <div className="cta-text mb-30">
-                    <span>Do you have any project ?</span>
-                    <h1>Let’s Talk About Your New Project</h1>
-                  </div>
-                </div>
-                <div className="col-xl-5 col-lg-5">
-                  <div className="cta-button text-lg-right mb-30">
-                    <Link className="btn btn-white btn-none" to={url}>
-                      <span className="btn-text">
-                        CONSULTANCY <i className="far fa-long-arrow-right"></i>
-                      </span>
-                    </Link>
-                    <Link className="cta-link" to="#contact-area">
-                      <i className="far fa-phone"></i> +234 809 454 3296
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <!-- cta-area-end --> */}
 
           {/* <!-- testmonial-area-start --> */}
           {/* <div className="testimonial-area testimonial pb-100 pt-120">
@@ -462,85 +428,48 @@ const Home = () => {
           <div className="contact-area">
             <div className="container">
               <div className="row">
-                <div className="col-xl-6 col-lg-6 offset-lg-3 offset-xl-3">
-                  <div className="section-title section-title-white text-center ml-50 mr-50 mb-75">
-                    <span className="border-left-1"></span>
-                    <span>contact us</span>
-                    <span className="border-right-1"></span>
-                    <h1>Don't Hesitate To Contact Us</h1>
-                  </div>
-                </div>
-              </div>
-              <div className="contact-bg">
-                <div className="row">
-                  <div className="col-xl-5 col-lg-5 mb-30">
-                    <div className="map-wrapper">
-                      <div id="contact-map" className="contact-map">
-                        <div class="col-xl-5 col-lg-5">
-                          <div class="map-img mb-30">
-                            <img src={bgMap} alt="" />
-                          </div>
+                <div className="col-xl-6 col-lg-6 mb-30">
+                  <div className="map-wrapper">
+                    <div id="contact-map" className="contact-map">
+                      <div class="col-xl-4 col-lg-4">
+                        <div class="map-img mb-30">
+                          <img src={bgMap} alt="" />
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="col-xl-7 col-lg-7 mb-30">
-                    <div className="appointment-wrapper">
-                      <form id="appointment-form" action="#">
-                        <div className="row">
-                          <div className="col-lg-6">
-                            <div className="form-box user-icon mb-30">
-                              <input
-                                type="text"
-                                name="name"
-                                placeholder="Full Name Here"
-                              />
-                            </div>
-                          </div>
-                          <div className="col-lg-6">
-                            <div className="form-box email-icon mb-30">
-                              <input
-                                type="text"
-                                name="email"
-                                placeholder="Email Here"
-                              />
-                            </div>
-                          </div>
-                          <div className="col-lg-12">
-                            <div className="form-box date-icon mb-30">
-                              <input
-                                type="text"
-                                name="text"
-                                placeholder="Subject"
-                              />
-                            </div>
-                          </div>
-                          <div className="col-lg-12">
-                            <div className="form-box message-icon mb-30">
-                              <textarea
-                                name="message"
-                                id="message"
-                                cols="30"
-                                rows="10"
-                                placeholder="Write message"
-                              ></textarea>
-                            </div>
-                            <div className="contact-btn">
-                              <button className="btn" type="submit">
-                                <span className="btn-text">
-                                  send message
-                                  <i className="far fa-long-arrow-right"></i>
-                                </span>
-                                <span className="btn-border"></span>
-                              </button>
-                            </div>
-                          </div>
-                        </div>
-                      </form>
+                </div>
+                <div className="col-xl-6 col-lg-6">
+                  <div className="section-title section-title-white text-center ml-50 mr-30 mt-130">
+                    <span className="border-left-1"></span>
+                    <span>contact us</span>
+                    <span className="border-right-1"></span>
+                    <h1>Don't Hesitate To Contact Us</h1>
+                    <div className="col-lg-12 mt-5">
+                      <div className="contact-btn">
+                        <Link
+                          to="mailto:info@doshservices.com"
+                          onClick={(e) => {
+                            window.location = "mailto:info@doshservices.com";
+                            e.preventDefault();
+                          }}
+                        >
+                          <button className="btn" type="submit">
+                            <span className="btn-text">
+                              Send message
+                              <i className="far fa-long-arrow-right"></i>
+                            </span>
+                            <span className="btn-border"></span>
+                          </button>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+              {/* <div className="contact-bg">
+                <div className="row"></div>
+              </div> */}
             </div>
           </div>
           {/* <!-- contact-area-end --> */}

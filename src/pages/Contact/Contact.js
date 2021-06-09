@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Link } from "react-router-dom";
 import { ReactTitle } from "react-meta-tags";
 
@@ -14,14 +14,12 @@ import { ReactTitle } from "react-meta-tags";
 // import "../../assets/css/themifyIcons.css";
 
 // components
-import Header from '../../components/Headers/Header';
-import FooterDark from '../../components/Footers/FooterDark';
+import Header from "../../components/Headers/Header";
+import FooterDark from "../../components/Footers/FooterDark";
 
 // Imgs
 import bgFourteen from "../../assets/img/bg/bg-14.jpg";
 import contactBg from "../../assets/img/bg/contact-bg.png";
-
-
 
 const Contact = () => {
   return (
@@ -57,7 +55,7 @@ const Contact = () => {
         {/* <!-- contact-area start --> */}
         <section
           className="contact-info-area"
-        //   style={{ backgroundImage: `url(${bgMap})` }}
+          //   style={{ backgroundImage: `url(${bgMap})` }}
         >
           <div className="container">
             <div className="row">
@@ -131,7 +129,7 @@ const Contact = () => {
               <div className="appointment-wrapper contact-form-page">
                 <form className="appointment-form" action="#">
                   <div className="row">
-                    <div className="col-lg-4">
+                    {/* <div className="col-lg-4">
                       <div className="form-box user-icon mb-30">
                         <input
                           type="text"
@@ -139,8 +137,8 @@ const Contact = () => {
                           placeholder="Full Name Here"
                         />
                       </div>
-                    </div>
-                    <div className="col-lg-4">
+                    </div> */}
+                    {/* <div className="col-lg-4">
                       <div className="form-box email-icon mb-30">
                         <input
                           type="text"
@@ -148,14 +146,14 @@ const Contact = () => {
                           placeholder="Email Here"
                         />
                       </div>
-                    </div>
-                    <div className="col-lg-4">
+                    </div> */}
+                    {/* <div className="col-lg-4">
                       <div className="form-box date-icon mb-30">
                         <input type="text" name="text" placeholder="Subject" />
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-12">
-                      <div className="form-box message-icon mb-30">
+                      {/* <div className="form-box message-icon mb-30">
                         <textarea
                           name="message"
                           id="message"
@@ -163,15 +161,18 @@ const Contact = () => {
                           rows="10"
                           placeholder="Write message"
                         ></textarea>
-                      </div>
+                      </div> */}
+
                       <div className="contact-btn contact-2-btn text-center">
-                        <button className="btn" type="submit">
-                          <span className="btn-text">
-                            send message{" "}
-                            <i className="far fa-long-arrow-right"></i>
-                          </span>{" "}
-                          <span className="btn-border"></span>
-                        </button>
+                        <Link to="mailto: info@doshservices.com">
+                          <button className="btn" type="submit">
+                            <span className="btn-text">
+                              Send message
+                              <i className="far fa-long-arrow-right"></i>
+                            </span>
+                            <span className="btn-border"></span>
+                          </button>
+                        </Link>
                       </div>
                     </div>
                   </div>

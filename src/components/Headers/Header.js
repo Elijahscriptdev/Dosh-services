@@ -153,7 +153,7 @@ const Header = () => {
                               <Link to="/Goals">Mission & Vision</Link>
                             </li>
                             <li>
-                              <Link to="/CaseStudy">Portfolio</Link>
+                              <Link to="/Portfolio">Portfolio</Link>
                             </li>
                             {/* <li>
                               <Link to="/About">Clients</Link>
@@ -165,24 +165,24 @@ const Header = () => {
                           <Link to="/Services">Services</Link>
                           <ul className="sub-menu text-left">
                             <li>
-                              <Link to="/ServicesTwo"> Tech Consultation</Link>
+                              <Link to="/TechConsult"> Tech Consultation</Link>
                             </li>
                             <li>
-                              <Link to="/Services">Web Development </Link>
+                              <Link to="/WebDev">Web Development </Link>
                             </li>
                             <li>
-                              <Link to="/ServicesThree">
+                              <Link to="/MobileDev">
                                 Mobile Development
                               </Link>
                             </li>
                             <li>
-                              <Link to="/SingleTeam">Automation </Link>
+                              <Link to="/Automation">Automation </Link>
                             </li>
                             <li>
-                              <Link to="ServicesThree">Cyber Security </Link>
+                              <Link to="CyberSecurity">Cyber Security </Link>
                             </li>
                             <li>
-                              <Link to="/SingleTeam">Tech Training</Link>
+                              <Link to="/TechTraining">Tech Training</Link>
                             </li>
                           </ul>
                         </li>

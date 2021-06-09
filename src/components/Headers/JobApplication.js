@@ -46,48 +46,58 @@ const JobApplication = ({ applyBtnStyle }) => {
         }) => (
           <form onSubmit={handleSubmit}>
             <div className="job-app-form-fields-wrap">
+              {/* Full name */}
+              <div>
+                <input
+                  type="text"
+                  name="fullName"
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.fullName}
+                  placeholder="Business Name"
+                  className="mb-3"
+                />
+                {/* {errors.email && touched.email && errors.email} */}
+              </div>
 
-            {/* Full name */}
-            <div>
-              <input
-                type="text"
-                name="fullName"
-                onChange={handleChange}
-                onBlur={handleBlur}
-                value={values.fullName}
-                placeholder="Full Name"
-                className="mb-3"
-              />
-              {/* {errors.email && touched.email && errors.email} */}
-            </div>
+              {/* email */}
+              <div>
+                <input
+                  type="email"
+                  name="email"
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.email}
+                  placeholder="Email"
+                  className="mb-3"
+                />
+                {errors.email && touched.email && errors.email}
+              </div>
 
-            {/* email */}
-            <div>
-              <input
-                type="email"
-                name="email"
-                onChange={handleChange}
-                onBlur={handleBlur}
-                value={values.email}
-                placeholder="Email"
-                className="mb-3"
-              />
-              {errors.email && touched.email && errors.email}
-            </div>
+              {/* Phone number */}
+              <div>
+                <input
+                  type="tel"
+                  name="mobile"
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.mobile}
+                  placeholder="Mobile"
+                  className="mb-3"
+                />
+                {/* {errors.email && touched.email && errors.email} */}
+              </div>
 
-            {/* Phone number */}
-            <div>
-              <input
-                type="tel"
-                name="mobile"
-                onChange={handleChange}
-                onBlur={handleBlur}
-                value={values.mobile}
-                placeholder="Mobile"
-                className="mb-3"
-              />
-              {/* {errors.email && touched.email && errors.email} */}
-            </div>
+              {/* Select Project Type */}
+              <div className="">
+                <select name="project type" className="mb-3">
+                  <option value="">Project Type : </option>
+                  <option value="Web App">Web App</option>
+                  <option value="Mobile App">Mobile App</option>
+                  <option value="Full Stack">Full Stack App</option>
+                  <option value="Automation">Automation</option>
+                </select>
+              </div>
             </div>
 
             {/* Handle drag and drop */}
@@ -125,7 +135,9 @@ const JobApplication = ({ applyBtnStyle }) => {
                           <img src={DragNDropIcon} alt="" />
                         )}
                       </span>
-                      <p className="text-center">Drag or Click to Upload your Project brief (PDF)</p>
+                      <p className="text-center">
+                        Drag or Click to Upload your Project brief (PDF)
+                      </p>
                     </div>
                   </div>
                 );
@@ -146,7 +158,7 @@ const JobApplication = ({ applyBtnStyle }) => {
                 type="submit"
                 disabled={isSubmitting}
               >
-                Apply
+                Submit
               </button>
             </div>
           </form>

@@ -7,16 +7,16 @@ import FooterDark from "../../components/Footers/FooterDark";
 
 //Imgs
 import bgFourteen from "../../custom-assets/homepage-slider.jpg";
-// import bgTwo from "../../assets/img/bg/bg-2.jpg";
-import projImgOne from "../../assets/img/project/ga-01.jpg";
-import projImgTwo from "../../assets/img/project/ga-02.jpg";
-import projImgThree from "../../assets/img/project/ga-03.jpg";
-import projImgFour from "../../assets/img/project/ga-04.jpg";
-import projImgFive from "../../assets/img/project/ga-05.jpg";
-import projImgSix from "../../assets/img/project/ga-06.jpg";
+// // import bgTwo from "../../assets/img/bg/bg-2.jpg";
+// import projImgOne from "../../assets/img/project/ga-01.jpg";
+// import projImgTwo from "../../assets/img/project/ga-02.jpg";
+// import projImgThree from "../../assets/img/project/ga-03.jpg";
+// import projImgFour from "../../assets/img/project/ga-04.jpg";
+// import projImgFive from "../../assets/img/project/ga-05.jpg";
+// import projImgSix from "../../assets/img/project/ga-06.jpg";
 import Header from "../../components/Headers/Header";
 
-const CaseStudy = () => {
+const Portfolio = () => {
   return (
     <>
       <ReactTitle title="Dosh Services - Careers" />
@@ -55,30 +55,30 @@ const CaseStudy = () => {
                 <div class="section-title  mb-30">
                   <span class="b-sm-left-2"></span>
                   <span class="sub-t-left">our project</span>
-                  <h1>Our Latest Case Studies</h1>
+                  <h1>Our Portfolio</h1>
                 </div>
               </div>
               <div class="col-xl-7 col-lg-7mb-30">
                 <div class="portfolio-menu mt-120 text-lg-right mb-30">
                   <button class="active" data-filter="*">
-                    All Project
+                    All Projects
                   </button>
                   <button data-filter=".cat1" class="">
-                    Product
+                    Web Apps
                   </button>
                   <button data-filter=".cat2" class="">
-                    Development
+                    Mobile Apps
                   </button>
                   <button data-filter=".cat3" class="">
-                    Software
+                    Tech Trainings
                   </button>
                   <button data-filter=".cat4" class="">
-                    Design
+                    Automations
                   </button>
                 </div>
               </div>
             </div>
-            <div id="portfolio-grid" class="row row-portfolio">
+            {/*<div id="portfolio-grid" class="row row-portfolio">
               <div class="grid-sizer"></div>
               <div class="col-xl-4 col-lg-4 col-md-6 grid-item cat2 cat4 mb-30">
                 <div class="portfolio-wrapper">
@@ -204,46 +204,17 @@ const CaseStudy = () => {
             <div class="row">
               <div class="col-xl-12">
                 <div class="portfolio-button text-center mt-30">
-                  <Link class="btn" to="#">
+                  <Link class="btn" to="/">
                     <span class="btn-text">
                       view more <i class="far fa-long-arrow-right"></i>
                     </span>{" "}
                   </Link>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
         {/* <!-- gallery-area-end --> */}
-        {/* <!-- cta-area-start --> */}
-        {/* <div
-          className="cta-area pt-125 pb-95"
-          style={{ backgroundImage: `url(${bgTwo})` }}
-        >
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-7 col-lg-7">
-                <div className="cta-text mb-30">
-                  <span>do you have any project ?</span>
-                  <h1>Let’s Talk About Business Soluations With Us</h1>
-                </div>
-              </div>
-              <div className="col-xl-5 col-lg-5">
-                <div className="cta-button text-lg-right mb-30">
-                  <Link className="btn btn-white btn-none" to="#">
-                    <span className="btn-text">
-                      join with us <i className="far fa-long-arrow-right"></i>
-                    </span>{" "}
-                  </Link>
-                  <Link className="cta-link" to="#">
-                    <i className="far fa-phone"></i> +812 (345) 789 88
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* <!-- cta-area-end --> */}
       </main>
 
       <FooterDark />
@@ -251,4 +222,4 @@ const CaseStudy = () => {
   );
 };
 
-export default CaseStudy;
+export default Portfolio;

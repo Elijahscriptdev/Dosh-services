@@ -104,7 +104,7 @@ const FooterDark = () => {
                       <h4 className="footer-title">Quick Links</h4>
                       <ul className="fotter-menu">
                         <li>
-                          <Link to="#">About Us</Link>
+                          <Link to="About">About Us</Link>
                         </li>
                         {/* <li>
                           <Link to="#">Need a Consultant?</Link>
@@ -133,7 +133,10 @@ const FooterDark = () => {
                       <ul className="contact-link">
                         <li>
                           <div className="contact-address-icon">
-                            <i className="far fa-phone"></i>
+                            <i
+                              className="far fa-phone"
+                              style={{ color: "white" }}
+                            ></i>
                           </div>
                           <div className="contact-address-text">
                             <h4>+234 809 454 3296</h4>
@@ -141,7 +144,10 @@ const FooterDark = () => {
                         </li>
                         <li>
                           <div className="contact-address-icon">
-                            <i className="far fa-envelope-open"></i>
+                            <i
+                              className="far fa-envelope-open"
+                              style={{ color: "white" }}
+                            ></i>
                           </div>
                           <div className="contact-address-text">
                             <h4>
@@ -157,7 +163,10 @@ const FooterDark = () => {
                         </li>
                         <li>
                           <div className="contact-address-icon">
-                            <i className="far fa-map-marker-alt"></i>
+                            <i
+                              className="far fa-map-marker-alt"
+                              style={{ color: "white" }}
+                            ></i>
                           </div>
                           <div className="contact-address-text">
                             <h4>12b MacDonald Akano street. Omole phase 1</h4>
@@ -174,9 +183,12 @@ const FooterDark = () => {
                     <div className="col-xl-8 col-lg-8 col-md-8">
                       <div className="copyright">
                         <p>
-                          <i className="far fa-copyright"></i> Copyright 2020 
-                          <Link to="/" style={{color: "white"}}> Dosh Services</Link>. All rights
-                          reserved.
+                          <i className="far fa-copyright"></i> Copyright 2020
+                          <Link to="/" style={{ color: "white" }}>
+                            {" "}
+                            Dosh Services
+                          </Link>
+                          . All rights reserved.
                         </p>
                       </div>
                     </div>
