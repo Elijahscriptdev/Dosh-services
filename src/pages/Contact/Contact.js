@@ -67,22 +67,22 @@ const Contact = () => {
                   <i className="fal fa-envelope-open"></i>
                   <h3>Email</h3>
                   <p>
-                    <Link
-                      to="http://Dosh Services.net/cdn-cgi/l/email-protection"
+                    <a
+                      href="mailto:info@doshservices.com"
                       className="__cf_email__"
-                      data-cfemail="c9babcb9b9a6bbbd89aea4a8a0a5e7aaa6a4"
+                      data-cfemail="681b1d1818071a1c280f05090104460b0705"
                     >
                       info@doshservices.com
-                    </Link>
+                    </a>
                   </p>
                   <p>
-                    <Link
-                      to="http://Dosh Services.net/cdn-cgi/l/email-protection"
+                    <a
+                      href="mailto:info@doshservices.com"
                       className="__cf_email__"
-                      data-cfemail="c9babcb9b9a6bbbd89aea4a8a0a5e7aaa6a4"
+                      data-cfemail="681b1d1818071a1c280f05090104460b0705"
                     >
-                      talk2@doshservices.com
-                    </Link>
+                      info@doshservices.com
+                    </a>
                   </p>
                 </div>
               </div>
@@ -164,7 +164,7 @@ const Contact = () => {
                       </div> */}
 
                       <div className="contact-btn contact-2-btn text-center">
-                        <Link to="mailto: info@doshservices.com">
+                        <a href="mailto: info@doshservices.com">
                           <button className="btn" type="submit">
                             <span className="btn-text">
                               Send message
@@ -172,7 +172,7 @@ const Contact = () => {
                             </span>
                             <span className="btn-border"></span>
                           </button>
-                        </Link>
+                        </a>
                       </div>
                     </div>
                   </div>

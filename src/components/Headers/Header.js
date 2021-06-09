@@ -38,13 +38,13 @@ const Header = () => {
                     </span>
                     <span className="header-en">
                       <i className="far fa-envelope-open"> </i>
-                      <Link
-                        to={url}
+                      <a
+                        href="mailto:info@doshservices.com"
                         className="__cf_email__"
-                        data-cfemail="20535550504f525460474d41494c0e434f4d"
+                        data-cfemail="681b1d1818071a1c280f05090104460b0705"
                       >
                         info@doshservices.com
-                      </Link>
+                      </a>
                     </span>
                   </div>
                 </div>
@@ -57,15 +57,15 @@ const Header = () => {
                       </div>
                     </div>
                     <div className="header-icon f-right">
-                      <Link to="https://www.facebook.com/Dosh-services-198595744310071">
+                      <a href="https://www.facebook.com/Dosh-services-198595744310071">
                         <i className="fab fa-facebook-f"> </i>
-                      </Link>
-                      <Link to="https://www.twitter.com/doshservices">
+                      </a>
+                      <a href="https://www.twitter.com/doshservices">
                         <i className="fab fa-twitter"> </i>{" "}
-                      </Link>
-                      <Link to="https://www.instagram.com/doshservices">
+                      </a>
+                      <a href="https://www.instagram.com/doshservices">
                         <i className="fab fa-instagram"> </i>{" "}
-                      </Link>
+                      </a>
                       {/* <Link to={url}>
                           <i className="fab fa-youtube"> </i>{" "}
                         </Link> */}

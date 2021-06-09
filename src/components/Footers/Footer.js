@@ -32,15 +32,24 @@ const Footer = () => {
                       </p>
                     </div>
                     <div className="footer-icon">
-                      <Link to="https://www.facebook.com/Dosh-services-198595744310071">
+                      <a
+                        href="https://www.facebook.com/Dosh-services-198595744310071"
+                        style={{ color: "white", background: "black" }}
+                      >
                         <i className="fab fa-facebook-f"></i>
-                      </Link>
-                      <Link to="https://www.twitter.com/doshservices">
+                      </a>
+                      <a
+                        href="https://www.twitter.com/doshservices"
+                        style={{ color: "white", background: "black" }}
+                      >
                         <i className="fab fa-twitter"></i>
-                      </Link>
-                      <Link to="https://www.instagram.com/doshservices">
+                      </a>
+                      <a
+                        href="https://www.instagram.com/doshservices"
+                        style={{ color: "white", background: "black" }}
+                      >
                         <i className="fab fa-instagram"></i>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>

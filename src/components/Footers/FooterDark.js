@@ -151,13 +151,13 @@ const FooterDark = () => {
                           </div>
                           <div className="contact-address-text">
                             <h4>
-                              <Link
-                                to="http://Dosh Services.net/cdn-cgi/l/email-protection"
+                              <a
+                                href="mailto:info@doshservices.com"
                                 className="__cf_email__"
                                 data-cfemail="681b1d1818071a1c280f05090104460b0705"
                               >
                                 info@doshservices.com
-                              </Link>
+                              </a>
                             </h4>
                           </div>
                         </li>

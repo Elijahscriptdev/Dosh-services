@@ -27,7 +27,6 @@ import brandFive from "../../assets/img/brand/brand-05.png";
 import Header from "../../components/Headers/Header";
 import Footer from "../../components/Footers/Footer";
 
-
 const Home = () => {
   return (
     <>
@@ -446,22 +445,22 @@ const Home = () => {
                     <span className="border-right-1"></span>
                     <h1>Don't Hesitate To Contact Us</h1>
                     <div className="col-lg-12 mt-5">
-                      <div className="contact-btn">
-                        <Link
-                          to="mailto:info@doshservices.com"
-                          onClick={(e) => {
-                            window.location = "mailto:info@doshservices.com";
-                            e.preventDefault();
-                          }}
-                        >
-                          <button className="btn" type="submit">
-                            <span className="btn-text">
+                      <div
+                        className="contact-btn"
+                        onClick={(e) => {
+                          window.location = "mailto:info@doshservices.com";
+                          e.preventDefault();
+                        }}
+                      >
+                        <button className="btn" type="submit">
+                          <span className="btn-text">
+                            <a href="mailto: info@doshservices.com">
                               Send message
                               <i className="far fa-long-arrow-right"></i>
-                            </span>
-                            <span className="btn-border"></span>
-                          </button>
-                        </Link>
+                            </a>
+                          </span>
+                          <span className="btn-border"></span>
+                        </button>
                       </div>
                     </div>
                   </div>
