@@ -90,8 +90,8 @@ const JobApplication = ({ applyBtnStyle }) => {
 
               {/* Select Project Type */}
               <div className="">
-                <select name="project type" className="mb-3">
-                  <option value="">Project Type : </option>
+                <select name="project category" className="mb-3">
+                  <option value="">Project Category : </option>
                   <option value="Web App">Web App</option>
                   <option value="Mobile App">Mobile App</option>
                   <option value="Full Stack">Full Stack App</option>

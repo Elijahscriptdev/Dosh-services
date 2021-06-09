@@ -78,6 +78,9 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
+            <div id="portfolio-grid" className="row row-portfolio mb-230 mt-100">
+              <h3 style={{margin: "2em auto"}}>Gallery coming soon...</h3>
+            </div>
             {/*<div id="portfolio-grid" class="row row-portfolio">
               <div class="grid-sizer"></div>
               <div class="col-xl-4 col-lg-4 col-md-6 grid-item cat2 cat4 mb-30">
