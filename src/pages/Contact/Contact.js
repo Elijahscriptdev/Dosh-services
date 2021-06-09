@@ -18,7 +18,7 @@ import Header from "../../components/Headers/Header";
 import FooterDark from "../../components/Footers/FooterDark";
 
 // Imgs
-import bgFourteen from "../../assets/img/bg/bg-14.jpg";
+import bgFourteen from "../../custom-assets/homepage-slider.jpg";
 import contactBg from "../../assets/img/bg/contact-bg.png";
 
 const Contact = () => {
@@ -29,7 +29,7 @@ const Contact = () => {
       <main>
         {/* <!-- breadcrumb-area-start --> */}
         <div
-          className="breadcrumb-area pt-230 pb-235"
+          className="breadcrumb-area pt-230 pb-235 single-slider slider-height slider-overlay d-flex align-items-center"
           style={{ backgroundImage: `url(${bgFourteen})` }}
         >
           <div className="container">

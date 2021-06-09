@@ -9,7 +9,6 @@ import JobApplication from "./JobApplication";
 
 let url = "/";
 
-
 const Header = () => {
   const [modalIsOpen, setIsOpen] = useState(false);
 
@@ -20,8 +19,6 @@ const Header = () => {
   function closeModal() {
     setIsOpen(false);
   }
-
-
 
   return (
     <>
@@ -60,13 +57,13 @@ const Header = () => {
                       </div>
                     </div>
                     <div className="header-icon f-right">
-                      <Link to={url}>
-                        <i className="fab fa-facebook-f"> </i>{" "}
+                      <Link to="https://www.facebook.com/Dosh-services-198595744310071">
+                        <i className="fab fa-facebook-f"> </i>
                       </Link>
-                      <Link to={url}>
+                      <Link to="https://www.twitter.com/doshservices">
                         <i className="fab fa-twitter"> </i>{" "}
                       </Link>
-                      <Link to={url}>
+                      <Link to="https://www.instagram.com/doshservices">
                         <i className="fab fa-instagram"> </i>{" "}
                       </Link>
                       {/* <Link to={url}>
@@ -171,9 +168,7 @@ const Header = () => {
                               <Link to="/WebDev">Web Development </Link>
                             </li>
                             <li>
-                              <Link to="/MobileDev">
-                                Mobile Development
-                              </Link>
+                              <Link to="/MobileDev">Mobile Development</Link>
                             </li>
                             <li>
                               <Link to="/Automation">Automation </Link>

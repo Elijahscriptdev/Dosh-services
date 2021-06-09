@@ -20,7 +20,7 @@ import brandThree from "../../assets/img/brand/brand-03.png";
 import brandFour from "../../assets/img/brand/brand-04.png";
 import brandFive from "../../assets/img/brand/brand-05.png";
 import bgOne from "../../assets/img/bg/bg-1.jpg";
-import bgFourteen from "../../assets/img/bg/bg-14.jpg";
+import bgFourteen from "../../custom-assets/homepage-slider.jpg";
 
 const cardsTexts = {
   techConsulting: "At Dosh Services, We are not only inventors; we also offer consultations to businesses struggling to stay in business. We equally work with businesses seeking to meet up with the latest technology standard and trends.",
@@ -39,7 +39,7 @@ const Services = () => {
       <main>
         {/* <!-- breadcrumb-area-start --> */}
         <div
-          className="breadcrumb-area pt-230 pb-235"
+          className="breadcrumb-area pt-230 pb-235 single-slider slider-height slider-overlay d-flex align-items-center"
           style={{ backgroundImage: `url(${bgFourteen})` }}
         >
           <div className="container">
@@ -224,8 +224,6 @@ const Services = () => {
         </div>
 
         {/* <!-- services-area-end --> */}
-
-       
 
         {/* <!-- brand-area-start --> */}
         <div className="brand-area pt-130 pb-130">

@@ -32,13 +32,13 @@ const Footer = () => {
                       </p>
                     </div>
                     <div className="footer-icon">
-                      <Link to="#">
+                      <Link to="https://www.facebook.com/Dosh-services-198595744310071">
                         <i className="fab fa-facebook-f"></i>
                       </Link>
-                      <Link to="#">
+                      <Link to="https://www.twitter.com/doshservices">
                         <i className="fab fa-twitter"></i>
                       </Link>
-                      <Link to="#">
+                      <Link to="https://www.instagram.com/doshservices">
                         <i className="fab fa-instagram"></i>
                       </Link>
                     </div>
