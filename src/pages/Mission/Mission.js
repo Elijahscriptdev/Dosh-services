@@ -25,7 +25,7 @@ import goalsImgTwo from "../../assets/img/goals/02.jpg";
 import bgFourteen from "../../assets/img/bg/bg-14.jpg";
 
 
-const Goals = () => {
+const Mission = () => {
   return (
     <>
       <ReactTitle title="Dosh Services - Services" />
@@ -376,4 +376,4 @@ const Goals = () => {
   );
 };
 
-export default Goals;
+export default Mission;
