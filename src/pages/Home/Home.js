@@ -47,11 +47,10 @@ const Home = () => {
                     <div className="col-xl-8 col-lg-8">
                       <div className="slider-content">
                         <h1 data-animation="fadeInLeft" data-delay=".5s">
-                          Perfect IT Solutions For Your Business
+                         The Perfect IT Solutions For Your Business
                         </h1>
                         <p data-animation="fadeInLeft" data-delay=".8s">
-                          Sed ut perspiciatis unde omnis iste natus error sit
-                          voluptatem accusantium doloremque
+                          Dosh is a technology company that offers valuable business solutions via understanding the client's needs and designing the best solution towards the business goals.
                         </p>
                         {/* <div
                           className="slider-button"
@@ -120,19 +119,10 @@ const Home = () => {
                       <h1>
                         A leading <br />
                         Nigeria based
-                        <span>Information Technology Provider</span>
+                        <span>A Leading Nigeria-based Information Technology Provider</span>
                       </h1>
                       <p>
-                        Since inception, we at Dosh have provided our growing
-                        list of clients in the Education, Finance, Health and
-                        Agriculture industry with IT solutions focused on
-                        bringing their ideas to life. Our team comprises of
-                        developers, software engineers, data analyst, design
-                        thinkers and process analysts who are the best in their
-                        field, Our customers are our only priority; this is why
-                        we remain committed to delivering professional advice
-                        with the goal of making sure they get a high return on
-                        your investment.
+                        Since inception, we have provided outstanding IT solutions including Web Applications and Security services that takes businesses to the next level and bring our clients ideas to life. Our Team is comprised of experienced IT professionals to give you the best experience in information technology, Web Development and Customer services. We are the technology partner you need to accomplish your business goals.
                       </p>
                     </div>
                     {/* <div className="about-button">
@@ -179,11 +169,7 @@ const Home = () => {
                       </div>
                       <div className="our-services-text">
                         <p className="pt-25">
-                          At Dosh Services, We are not only inventors; we also
-                          offer consultations to businesses struggling to stay
-                          in business. We equally work with businesses seeking
-                          to meet up with the latest technology standard and
-                          trends.
+                          From requirement assembling to IT framework strategy, we furnish our clients with fair-minded and target perspective to adjust technology to their business goals. We can help you in accomplishing your business goals using technology and... 
                         </p>
                         <Link to="/TechConsult" className="">
                           view more <i className="far fa-long-arrow-right"></i>
@@ -206,11 +192,7 @@ const Home = () => {
                       </div>
                       <div className="our-services-text">
                         <p className="pt-25">
-                          We develop high-end, responsive and user-friendly
-                          website and Web Applications. Our websites are
-                          developed using different programming languages -
-                          (Php, Python, NodeJs, Java and C++). With Dosh
-                          Services.
+                          We build top notch, responsive and user-friendly website that create credibility for your business and give you optimum result. Our websites are developed using different programming languages; (React Js, Php, Python, Node Js, Java and C++). 
                         </p>
                         <Link to="/WebDev">
                           view more <i className="far fa-long-arrow-right"></i>
@@ -233,10 +215,7 @@ const Home = () => {
                       </div>
                       <div className="our-services-text">
                         <p className="pt-25">
-                          We are specialist when it comes to building Android,
-                          IOS, and Windows Application. We at Dosh pride
-                          ourselves in building apps that meet global standard
-                          with a user-friendly interface.
+                  We pride ourselves in building stellar applications that helps your business connect with your current and prospective customers, thus, driving high engagement levels for your business. We are specialist when it comes to building Android, iOS and Windows Applications.
                         </p>
                         <Link to="/MobileDev">
                           view more <i className="far fa-long-arrow-right"></i>
@@ -260,11 +239,7 @@ const Home = () => {
                       </div>
                       <div className="our-services-text">
                         <p className="pt-25">
-                          We understand how important customer perceptions is to
-                          sales generation in any business. We have therefore
-                          developed processes that can help position the
-                          brand/products of our client within their target
-                          audience.
+                          Automation manages business processes for uniformity and transparency, it can also deliver new insights into business challenges and suggest solutions. High information accuracy is guaranteed whereby... 
                         </p>
                         <Link to="/Automation">
                           view more <i className="far fa-long-arrow-right"></i>
@@ -287,10 +262,7 @@ const Home = () => {
                       </div>
                       <div className="our-services-text">
                         <p className="pt-25">
-                          We are specialist when it comes to building Android,
-                          IOS, and Windows Application. We at Dosh pride
-                          ourselves in building apps that meet global standard
-                          with a user-friendly interface.
+                          We provide digital protection and improve security strategy by checking for bugs and loopholes on your mobile and web platform. We design, install and support complete and progressive solutions.
                         </p>
                         <Link to="/CyberSecurity">
                           view more <i className="far fa-long-arrow-right"></i>
@@ -313,11 +285,7 @@ const Home = () => {
                       </div>
                       <div className="our-services-text">
                         <p className="pt-25">
-                          We develop high-end, responsive and user-friendly
-                          website and Web Applications. Our websites are
-                          developed using different programming languages -
-                          (Php, Python, NodeJs, Java and C++). With Dosh
-                          Services.
+                          We train tech savvy youths and equip them with skills needed to help them bring their ideas to life and kick start their career in tech. Flexible structure and curriculum have been put in place for...
                         </p>
                         <Link to="/TechTraining">
                           view more <i className="far fa-long-arrow-right"></i>
@@ -454,7 +422,7 @@ const Home = () => {
                       >
                         <button className="btn" type="submit">
                           <span className="btn-text">
-                            <a href="mailto: info@doshservices.com">
+                            <a target="_" href="mailto: info@doshservices.com">
                               Send message
                               <i className="far fa-long-arrow-right"></i>
                             </a>

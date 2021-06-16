@@ -23,22 +23,23 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      {/* Routes are written in alphabetical order for easy access and readability */}
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/About" exact component={About} />
-          <Route path="/Services" exact component={Services} />
+          <Route path="/Automation" exact component={Automation} />
           <Route path="/Careers" exact component={Careers} />
-          <Route path="/Packages" exact component={Packages} />
-          <Route path="/Mission" exact component={Mission} />
           <Route path="/Contact" exact component={Contact} />
+          <Route path="/CyberSecurity" exact component={CyberSecurity} />
+          <Route path="/Mission" exact component={Mission} />
+          <Route path="/MobileDev" exact component={MobileDev} />
+          <Route path="/Packages" exact component={Packages} />
+          <Route path="/Portfolio" exact component={Portfolio} />
+          <Route path="/Services" exact component={Services} />
           <Route path="/SingleTeam" exact component={SingleTeam} />
           <Route path="/TechConsult" exact component={TechConsult} />
-          <Route path="/WebDev" exact component={WebDev} />
-          <Route path="/MobileDev" exact component={MobileDev} />
           <Route path="/TechTraining" exact component={TechTraining} />
-          <Route path="/Automation" exact component={Automation} />
-          <Route path="/CyberSecurity" exact component={CyberSecurity} />
-          <Route path="/Portfolio" exact component={Portfolio} />
+          <Route path="/WebDev" exact component={WebDev} />
           <Redirect to="/" />
         </Switch>
       </BrowserRouter>

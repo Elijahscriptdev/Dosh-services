@@ -7,10 +7,10 @@ const TechConsult = () => {
       <ServiceComponent
         title={"Tech Consultancy"}
         firstText={
-          "Must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth the master-builder of human happiness. No one rejects dislikes"
+          "At Dosh, we give advice to organizations on how best to use information technology in achieving their business objectives as well as helping them keep up with tech standards and trends. From requirement assembling to IT framework strategy, we furnish our clients with fair-minded and target perspective to adjust technology to their business goals. We can help you in accomplishing your business goals using technology and build out your digital transformation roadmap."
         }
         secondText={
-          "Born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth the master-builder."
+          "We enable our clients with more brilliant methods of working together and frictionless ways of delivering an extraordinary customer experience to their customers. We bring years of experience across various industry and sectors, as well as a wealth of experience in involving digital technology solutions, giving approaches to our clients to maximize value creation across resource and activities while improving profitability. We equally work with businesses seeking to meet up with the latest technology standard and trends."
         }
         imgSrc={techConsultImg}
       />

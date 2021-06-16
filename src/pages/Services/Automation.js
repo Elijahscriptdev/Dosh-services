@@ -7,10 +7,10 @@ const Automation = () => {
       <ServiceComponent
         title={"Automation"}
         firstText={
-          "Must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth the master-builder of human happiness. No one rejects dislikes"
+          "Automation manages business processes for uniformity and transparency, it can also deliver new insights into business challenges and suggest solutions. High information accuracy is guaranteed whereby, you get key production, improve data accuracy and reduce data collection costs. It provides you with the facts to make the right decisions when it comes to reducing waste and improving your processes."
         }
         secondText={
-          "Born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth the master-builder."
+          "We understand how important customer perceptions is to sales generation in any business, hence, we developed processes that can help position the brand/products of our clients within their target audience. We have put this in place to improve the quality of your business output, help your business save on time and cost to meet your set objectives."
         }
         imgSrc={automationImg}
       />

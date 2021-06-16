@@ -7,10 +7,10 @@ const CyberSecurity = () => {
       <ServiceComponent
         title={"Cyber Security"}
         firstText={
-          "Must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth the master-builder of human happiness. No one rejects dislikes"
+          "We provide digital protection and improve security strategy by checking for bugs and loopholes on your mobile and web platform. We design, install and support complete and progressive solutions."
         }
         secondText={
-          "Born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth the master-builder."
+          "Our goal is to protect the usability, reliability, integrity and safety of your network and data by providing to you a good logical security. We will help you to improve the speed of your hardware and software system, make sure that all computer systems on the network are updated, and undertake any troubleshooting in order to prevent system problems."
         }
         imgSrc={cyberSecurityImg}
       />

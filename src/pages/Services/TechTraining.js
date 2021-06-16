@@ -7,10 +7,7 @@ const TechTraining = () => {
       <ServiceComponent
         title={"Tech Training"}
         firstText={
-          "Must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth the master-builder of human happiness. No one rejects dislikes"
-        }
-        secondText={
-          "Born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth the master-builder."
+          "We train tech savvy youths and equip them with skills needed to help them bring their ideas to life and kick start their career in tech. Flexible structure and curriculum have been put in place for the trainees and its definitely worthwhile."
         }
         imgSrc={techTrainingImg}
       />

@@ -80,28 +80,32 @@ const FooterDark = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <div className="col-xl-2 col-lg-2 col-md-6">
-                    <div className="footer-wrapper mb-30">
-                      <h4 className="footer-title">Our Services</h4>
+                  <div className="col-xl-2 col-lg-2 col-md-6">
+                    <div className="footer-wrapper footer-2-wrapper mb-30">
+                      <h4 className="footer-title footer-title-dark">
+                        Our Services
+                      </h4>
                       <ul className="fotter-menu">
                         <li>
-                          <Link to="/Services">Mobile Development </Link>
+                          <Link to="/MobileDev">Mobile Development </Link>
                         </li>
                         <li>
-                          <Link to="/ServicesTwo">Web Development </Link>
+                          <Link to="/WebDev">Web Development </Link>
                         </li>
                         <li>
-                          <Link to="/ServicesThree">Tech Consultation</Link>
+                          <Link to="/TechConsult">Tech Consultation</Link>
                         </li>
                         <li>
-                          <Link to="it-management.html">Automation </Link>
+                          <Link to="Automation">Automation </Link>
                         </li>
                       </ul>
                     </div>
-                  </div> */}
+                  </div>
                   <div className="col-xl-3 col-lg-3 col-md-6">
                     <div className="footer-wrapper footer-2-wrapper mb-30 pl-50">
-                      <h4 className="footer-title">Quick Links</h4>
+                      <h4 className="footer-title footer-title-dark">
+                        Quick Links
+                      </h4>
                       <ul className="fotter-menu">
                         <li>
                           <Link to="About">About Us</Link>
@@ -126,7 +130,9 @@ const FooterDark = () => {
                   </div>
                   <div className="col-xl-2 col-lg-2 col-md-6">
                     <div className="footer-wrapper footer-2-wrapper mb-30">
-                      <h4 className="footer-title">Contact Us</h4>
+                      <h4 className="footer-title footer-title-dark">
+                        Contact Us
+                      </h4>
                       {/* <div className="footer-info">
                         <p>But I must explain to you how all this mistaken</p>
                       </div> */}

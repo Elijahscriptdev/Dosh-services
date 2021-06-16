@@ -7,10 +7,10 @@ const WebDev = () => {
       <ServiceComponent
         title={"Web Development"}
         firstText={
-          "Must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth the master-builder of human happiness. No one rejects dislikes"
+          "We build top notch, responsive and user-friendly website that create credibility for your business and give you optimum result. Our websites are developed using different programming languages; (React Js, Php, Python, Node Js, Java and C++). With Dosh Services. Our execution of responsive website design practices and other present-day guidelines ensures an extraordinary user experience."
         }
         secondText={
-          "Born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth the master-builder."
+          "The rapid increase of web browsers, cross-working system similarity and a support free approach for end users has increased the prominence of web applications throughout the last decade. Regardless of whether it's a small internal system that helps your team work more proficiently or a multi-million user consumer app, our team can assist beginning with strategy entirely through delivery and maintenance. Our web application blend industry-best practices for customers experience and performance to help your project succeed. Our goal is on device sceptic solutions that works on every platform."
         }
         imgSrc={webDevImg}
       />

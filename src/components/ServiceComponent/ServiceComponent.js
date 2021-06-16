@@ -47,8 +47,8 @@ const ServiceComponent = ({ title, firstText, secondText, imgSrc }) => {
               <div className="col-xl-7 col-lg-7 mb-30">
                 <div className="experience-text">
                   <h1>{title}</h1>
-                  <p>{firstText}</p>
-                  <p>{secondText}</p>
+                  {firstText? <p>{firstText}</p> : null}
+                  {secondText? <p>{secondText}</p> : null}
                 </div>
               </div>
               <div className="col-xl-5 col-lg-5">
