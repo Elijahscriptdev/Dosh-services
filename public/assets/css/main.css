@@ -3965,6 +3965,7 @@ label {
 
 .our-goals-img img {
   width: 100%;
+  max-height: 415px;
 }
 
 .our-golas-text {

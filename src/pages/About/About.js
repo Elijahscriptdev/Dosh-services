@@ -7,11 +7,11 @@ import Header from "../../components/Headers/Header";
 import FooterDark from "../../components/Footers/FooterDark";
 
 // Imgs
-import bgFourteen from "../../custom-assets/homepage-slider.jpg";
+import bgFourteen from "../../assets/custom-assets/homepage-slider.jpg";
 import bgFifteen from "../../assets/img/bg/bg-15.jpg";
-import bgC from "../../custom-assets/mission.jpg";
+import bgC from "../../assets/custom-assets/mission.jpg";
 // import bgTwo from "../../assets/img/bg/bg-2.jpg";
-import aboutTwo from "../../custom-assets/about-us.png";
+import aboutTwo from "../../assets/custom-assets/about-us.png";
 // import brandOne from "../../assets/img/brand/01.png";
 // import brandTwo from "../../assets/img/brand/02.png";
 // import brandThree from "../../assets/img/brand/03.png";

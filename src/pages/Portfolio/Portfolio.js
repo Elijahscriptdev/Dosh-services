@@ -6,7 +6,7 @@ import { ReactTitle } from "react-meta-tags";
 import FooterDark from "../../components/Footers/FooterDark";
 
 //Imgs
-import bgFourteen from "../../custom-assets/homepage-slider.jpg";
+import bgFourteen from "../../assets/custom-assets/homepage-slider.jpg";
 // // import bgTwo from "../../assets/img/bg/bg-2.jpg";
 // import projImgOne from "../../assets/img/project/ga-01.jpg";
 // import projImgTwo from "../../assets/img/project/ga-02.jpg";

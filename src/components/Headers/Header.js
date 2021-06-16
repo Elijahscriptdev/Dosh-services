@@ -147,7 +147,7 @@ const Header = () => {
                           <Link to="/About">About</Link>
                           <ul className="sub-menu text-left">
                             <li>
-                              <Link to="/Goals">Mission & Vision</Link>
+                              <Link to="/Mission">Mission & Vision</Link>
                             </li>
                             <li>
                               <Link to="/Portfolio">Portfolio</Link>

@@ -1,6 +1,6 @@
 import React from "react";
 import ServiceComponent from "../../components/ServiceComponent/ServiceComponent";
-import techTrainingImg from "../../custom-assets/tech-training.jpg"
+import techTrainingImg from "../../assets/custom-assets/tech-training.jpg";
 const TechTraining = () => {
   return (
     <div>

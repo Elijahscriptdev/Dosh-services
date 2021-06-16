@@ -149,6 +149,25 @@ textarea {
   margin: 15px auto;
   }
 
+  .textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 1rem;
+  border: 2px solid #556;
+  color: #333;
+  border-radius: 10px;
+  resize: vertical;
+  /* background-color: var(--gray-100); */
+  box-sizing: border-box;
+  padding: 0.65rem 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
+    "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial,
+    sans-serif;
+    min-width: 300px;
+    min-height: 300px;
+}
+
 
 
   /* Modals */

@@ -1,6 +1,6 @@
 import React from "react";
 import ServiceComponent from "../../components/ServiceComponent/ServiceComponent";
-import techConsultImg from "../../custom-assets/tech-consultancy.jpg"
+import techConsultImg from "../../assets/custom-assets/tech-consultancy.jpg";
 const TechConsult = () => {
   return (
     <div>

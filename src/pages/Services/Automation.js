@@ -1,6 +1,6 @@
 import React from "react";
 import ServiceComponent from "../../components/ServiceComponent/ServiceComponent";
-import automationImg from "../../custom-assets/tech-consultancy.jpg"
+import automationImg from "../../assets/custom-assets/tech-consultancy.jpg";
 const Automation = () => {
   return (
     <div>

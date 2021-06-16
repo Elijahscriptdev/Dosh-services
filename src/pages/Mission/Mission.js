@@ -6,23 +6,9 @@ import { ReactTitle } from "react-meta-tags";
 import Header from "../../components/Headers/Header";
 import FooterDark from "../../components/Footers/FooterDark";
 
-// Imgs
-// import iconImageOne from "../../assets/img/icon/01.png";
-// import iconImageTwo from "../../assets/img/icon/02.png";
-// import iconImageThree from "../../assets/img/icon/03.png";
-// import iconImageFour from "../../assets/img/icon/04.png";
-// import iconImageFive from "../../assets/img/icon/05.png";
-// import iconImageSix from "../../assets/img/icon/06.png";
-// import brandOne from "../../assets/img/brand/brand-01.png";
-// import brandTwo from "../../assets/img/brand/brand-02.png";
-// import brandThree from "../../assets/img/brand/brand-03.png";
-// import brandFour from "../../assets/img/brand/brand-04.png";
-// import brandFive from "../../assets/img/brand/brand-05.png";
-// import bgTwo from "../../assets/img/bg/bg-2.jpg";
-import goalsImgThree from "../../assets/img/goals/03.jpg";
-import goalsImgOne from "../../assets/img/goals/01.jpg";
-import goalsImgTwo from "../../assets/img/goals/02.jpg";
-import bgFourteen from "../../assets/img/bg/bg-14.jpg";
+import goalsImgOne from "../../assets/custom-assets/mission.jpg";
+import goalsImgTwo from "../../assets/custom-assets/homepage-slider.jpg";
+import bgFourteen from "../../assets/custom-assets/homepage-slider.jpg";
 
 
 const Mission = () => {
@@ -33,13 +19,17 @@ const Mission = () => {
       <main>
         {/* <!-- breadcrumb-area-start --> */}
         <div
-          className="breadcrumb-area pt-230 pb-235"
+          className="breadcrumb-area pt-230 pb-235 slider-overlay"
           style={{ backgroundImage: `url(${bgFourteen})` }}
         >
           <div className="container">
             <div className="row">
               <div className="col-xl-12">
-                <div className="breadcrumb-text text-center">
+                <div
+                  className="breadcrumb-text text-center "
+                  data-animation="fadeInLeft"
+                  data-delay=".5s"
+                >
                   <h1>Mission & Vision</h1>
                   <ul className="breadcrumb-menu">
                     <li>
@@ -66,11 +56,11 @@ const Mission = () => {
                     <img src={goalsImgOne} alt="" />
                   </div>
                   <div className="our-golas-text">
-                    <h3>MIssion & Vision</h3>
+                    <h3>Mission & Vision</h3>
                     <p>
-                      Sedut perspiciatis unde omnis natus error voluptatem
-                      accusantium doloremque laudantium totam rem aperiam eaque
-                      ipsa quae
+                      To provide valuable business solutions via understanding
+                      the client's needs and designing the best solution towards
+                      the business goals.
                     </p>
                   </div>
                 </div>
@@ -81,20 +71,24 @@ const Mission = () => {
                     <img src={goalsImgTwo} alt="" />
                   </div>
                   <div className="our-golas-text">
-                    <h3>What DO We Want/ Our Goals</h3>
+                    <h3> OUR GOALS </h3>
                     <p>
-                      Must explain to you how all this mistaken idea of
-                      denouncing pleasure and praising pain was born and I will
-                      give you a complete account of the system, and expound the
-                      actual teachings of the great explorer of the truth, the
-                      master-builder of human happiness. No one rejects,
-                      dislikes, or avoids pleasure itself, because
+                      Since Inception, we have provided outstanding IT solutions
+                      including Web Applications and Security services that
+                      takes businesses to the next level and bring our clients
+                      ideas to life. Our Team is comprised of experienced IT
+                      professionals to give you the best experience in
+                      information technology, Web Development and Customer
+                      services. We are the technology partner you need to
+                      accomplish your business goals.
                     </p>
                     <p className="mt-15">
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium totam rem
-                      aperiam eaque ipsa quae ab illo inventore veritatis et
-                      quasi architecto beatae vitae dictae.
+                      From requirement assembling to IT framework strategy, we
+                      furnish our clients with fair-minded and target
+                      perspective to adjust technology to their business goals.
+                      We can help you in accomplishing your business goals using
+                      technology and build out your digital transformation
+                      roadmap.
                     </p>
                   </div>
                 </div>
@@ -146,7 +140,7 @@ const Mission = () => {
         {/* <!-- brand-area-end --> */}
 
         {/* <!-- goals-area-start --> */}
-        <div className="goals-area pos-rel mt-80 mb-220">
+        {/* <div className="goals-area pos-rel mt-80 mb-220">
           <div
             className="goals-img d-none d-lg-block"
             style={{ backgroundImage: `url(${goalsImgThree})` }}
@@ -187,18 +181,18 @@ const Mission = () => {
                           Powerful Image Analysis With Google Cloud Vision
                         </span>
                       </li>
-                    </ul>
-                    {/* <Link className="btn" to="#">
+                    </ul> */}
+        {/* <Link className="btn" to="#">
                       <span className="btn-text">
                         learn more <i className="far fa-long-arrow-right"></i>
                       </span>{" "}
                     </Link> */}
-                  </div>
+        {/* </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- goals-area-end --> */}
 
         {/* <!-- services-area-start --> */}

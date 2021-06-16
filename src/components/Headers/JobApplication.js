@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Formik } from "formik";
 import Dropzone from "react-dropzone";
+import emailjs from 'emailjs-com'
 
 import "./Header.css";
 
@@ -27,8 +28,16 @@ const JobApplication = ({ applyBtnStyle }) => {
           return errors;
         }}
         onSubmit={(values, { setSubmitting }) => {
-          setTimeout(() => {
+          setTimeout((e) => {
             alert(JSON.stringify(values, null, 2));
+            emailjs.sendForm(
+              "service_pxh457i",
+              "template_gpycq4n",
+              e.target,
+              "user_HiIFdOLlDrZNyrCGNQo0Q"
+            ).then(res=>{
+              console.log(res)
+            });
             setSubmitting(false);
           }, 400);
           console.log(values);
@@ -50,21 +59,20 @@ const JobApplication = ({ applyBtnStyle }) => {
               <div>
                 <input
                   type="text"
-                  name="fullName"
+                  name="user_name"
                   onChange={handleChange}
                   onBlur={handleBlur}
                   value={values.fullName}
                   placeholder="Business Name"
                   className="mb-3"
                 />
-                {/* {errors.email && touched.email && errors.email} */}
               </div>
 
               {/* email */}
               <div>
                 <input
                   type="email"
-                  name="email"
+                  name="user_email"
                   onChange={handleChange}
                   onBlur={handleBlur}
                   value={values.email}
@@ -85,7 +93,6 @@ const JobApplication = ({ applyBtnStyle }) => {
                   placeholder="Mobile"
                   className="mb-3"
                 />
-                {/* {errors.email && touched.email && errors.email} */}
               </div>
 
               {/* Select Project Type */}
@@ -98,6 +105,20 @@ const JobApplication = ({ applyBtnStyle }) => {
                   <option value="Automation">Automation</option>
                 </select>
               </div>
+            </div>
+
+            {/* User message */}
+            <div>
+              <input
+                type="text"
+                name="user_message"
+                onChange={handleChange}
+                onBlur={handleBlur}
+                value={values.fullName}
+                placeholder="Please describe your project in two paragraphs..."
+                className="mb-3 text-area"
+              />
+              {/* {errors.email && touched.email && errors.email} */}
             </div>
 
             {/* Handle drag and drop */}
