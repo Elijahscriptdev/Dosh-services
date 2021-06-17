@@ -232,6 +232,7 @@ textarea {
 }
 
 .modalBtn {
+  cursor: pointer;
   font-family: Poppins;
   text-align: center;
   color: #ffffff;

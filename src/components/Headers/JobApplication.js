@@ -15,7 +15,7 @@ const JobApplication = ({ applyBtnStyle }) => {
   return (
     <div className="form-wrapper">
       <Formik
-        initialValues={{ email: "", password: "" }}
+        initialValues={{ email: "" }}
         validate={(values) => {
           const errors = {};
           if (!values.email) {
@@ -27,18 +27,19 @@ const JobApplication = ({ applyBtnStyle }) => {
           }
           return errors;
         }}
-        onSubmit={(values, { setSubmitting }) => {
-          setTimeout((e) => {
-            alert(JSON.stringify(values, null, 2));
+        onSubmit={(values) => {
+          setTimeout(() => {
+            alert("Your information has been received and is on it's way to the admin, Thank you for choosing DOSH!!!")
+            console.log(`The following details are being sent to the admin: ${JSON.stringify(values, null, 2)}`);
             emailjs.sendForm(
               "service_pxh457i",
               "template_gpycq4n",
-              e.target,
+              values.target,
               "user_HiIFdOLlDrZNyrCGNQo0Q"
             ).then(res=>{
               console.log(res)
             });
-            setSubmitting(false);
+            // setSubmitting(false);
           }, 400);
           console.log(values);
         }}
@@ -59,7 +60,7 @@ const JobApplication = ({ applyBtnStyle }) => {
               <div>
                 <input
                   type="text"
-                  name="user_name"
+                  name="name"
                   onChange={handleChange}
                   onBlur={handleBlur}
                   value={values.fullName}
@@ -72,7 +73,7 @@ const JobApplication = ({ applyBtnStyle }) => {
               <div>
                 <input
                   type="email"
-                  name="user_email"
+                  name="email"
                   onChange={handleChange}
                   onBlur={handleBlur}
                   value={values.email}

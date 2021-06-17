@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
-import closeModalIcon from "../../assets/img//closeModalIcon.svg";
+import closeModalIcon from "../../assets/img/closeModalIcon.svg";
 import doshLogo from "../../assets/img/logo/logo.jpg";
+// import doshLogo from "../../assets/custom-assets/dosh-logo-1.png";
 import { Modal } from "react-bootstrap";
 import JobApplication from "./JobApplication";
 

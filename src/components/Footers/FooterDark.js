@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 //Imgs
-import doshLogo from "../../assets/img/logo/logo.jpg";
+import doshLogo from "../../assets/custom-assets/dosh-logo-2.png";
 import bgSeven from "../../assets/img/bg/bg-7.jpg";
 
 
