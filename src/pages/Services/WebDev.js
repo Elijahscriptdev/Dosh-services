@@ -1,6 +1,6 @@
 import React from "react";
 import ServiceComponent from "../../components/ServiceComponent/ServiceComponent";
-import webDevImg from "../../custom-assets/web-dev.jpg"
+import webDevImg from "../../assets/custom-assets/web-dev.jpg";
 const WebDev = () => {
   return (
     <div>

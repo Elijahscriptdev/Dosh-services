@@ -1,6 +1,6 @@
 import React from "react";
 import ServiceComponent from "../../components/ServiceComponent/ServiceComponent";
-import mobileDevImg from "../../custom-assets/tech-consultancy.jpg"
+import mobileDevImg from "../../assets/custom-assets/tech-consultancy.jpg";
 const MobileDev = () => {
   return (
     <div>

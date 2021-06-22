@@ -20,7 +20,7 @@ import brandThree from "../../assets/img/brand/brand-03.png";
 import brandFour from "../../assets/img/brand/brand-04.png";
 import brandFive from "../../assets/img/brand/brand-05.png";
 import bgOne from "../../assets/img/bg/bg-1.jpg";
-import bgFourteen from "../../custom-assets/homepage-slider.jpg";
+import bgFourteen from "../../assets/custom-assets/homepage-slider.jpg";
 
 const cardsTexts = {
   techConsulting: "At Dosh Services, We are not only inventors; we also offer consultations to businesses struggling to stay in business. We equally work with businesses seeking to meet up with the latest technology standard and trends.",

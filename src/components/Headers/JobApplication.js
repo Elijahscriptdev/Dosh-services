@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Formik } from "formik";
 import Dropzone from "react-dropzone";
+import emailjs from 'emailjs-com'
 
 import "./Header.css";
 
@@ -14,7 +15,7 @@ const JobApplication = ({ applyBtnStyle }) => {
   return (
     <div className="form-wrapper">
       <Formik
-        initialValues={{ email: "", password: "" }}
+        initialValues={{ email: "" }}
         validate={(values) => {
           const errors = {};
           if (!values.email) {
@@ -26,10 +27,19 @@ const JobApplication = ({ applyBtnStyle }) => {
           }
           return errors;
         }}
-        onSubmit={(values, { setSubmitting }) => {
+        onSubmit={(values) => {
           setTimeout(() => {
-            alert(JSON.stringify(values, null, 2));
-            setSubmitting(false);
+            alert("Your information has been received and is on it's way to the admin, Thank you for choosing DOSH!!!")
+            console.log(`The following details are being sent to the admin: ${JSON.stringify(values, null, 2)}`);
+            emailjs.sendForm(
+              "service_pxh457i",
+              "template_gpycq4n",
+              values.target,
+              "user_HiIFdOLlDrZNyrCGNQo0Q"
+            ).then(res=>{
+              console.log(res)
+            });
+            // setSubmitting(false);
           }, 400);
           console.log(values);
         }}
@@ -50,14 +60,13 @@ const JobApplication = ({ applyBtnStyle }) => {
               <div>
                 <input
                   type="text"
-                  name="fullName"
+                  name="name"
                   onChange={handleChange}
                   onBlur={handleBlur}
                   value={values.fullName}
                   placeholder="Business Name"
                   className="mb-3"
                 />
-                {/* {errors.email && touched.email && errors.email} */}
               </div>
 
               {/* email */}
@@ -85,7 +94,6 @@ const JobApplication = ({ applyBtnStyle }) => {
                   placeholder="Mobile"
                   className="mb-3"
                 />
-                {/* {errors.email && touched.email && errors.email} */}
               </div>
 
               {/* Select Project Type */}
@@ -98,6 +106,20 @@ const JobApplication = ({ applyBtnStyle }) => {
                   <option value="Automation">Automation</option>
                 </select>
               </div>
+            </div>
+
+            {/* User message */}
+            <div>
+              <input
+                type="text"
+                name="user_message"
+                onChange={handleChange}
+                onBlur={handleBlur}
+                value={values.fullName}
+                placeholder="Please describe your project in two paragraphs..."
+                className="mb-3 text-area"
+              />
+              {/* {errors.email && touched.email && errors.email} */}
             </div>
 
             {/* Handle drag and drop */}

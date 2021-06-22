@@ -1,6 +1,6 @@
 import React from "react";
 import ServiceComponent from "../../components/ServiceComponent/ServiceComponent";
-import cyberSecurityImg from "../../custom-assets/cyber-security.jpg"
+import cyberSecurityImg from "../../assets/custom-assets/cyber-security.jpg";
 const CyberSecurity = () => {
   return (
     <div>

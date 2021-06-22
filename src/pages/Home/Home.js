@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ReactTitle } from "react-meta-tags";
 
 // Imgs
-import sliderOne from "../../custom-assets/homepage-slider.jpg";
+import sliderOne from "../../assets/custom-assets/homepage-slider.jpg";
 import bgFour from "../../assets/img/bg/bg-4.jpg";
 import bgFive from "../../assets/img/bg/bg-5.jpg";
 import bgMap from "../../assets/img/bg/map.png";
@@ -12,13 +12,13 @@ import shapeThree from "../../assets/img/shape/03.png";
 import shapeTwo from "../../assets/img/shape/02.png";
 import shapeOne from "../../assets/img/shape/01.png";
 import shapeFour from "../../assets/img/shape/04.png";
-import aboutTwo from "../../custom-assets/about-us.png";
-import serviceOne from "../../custom-assets/mobile-app-dev.jpg";
-import cyberSecurity from "../../custom-assets/cyber-security.jpg";
-import webDevImg from "../../custom-assets/web-dev.jpg";
-import serviceTwo from "../../custom-assets/tech-training.jpg";
+import aboutTwo from "../../assets/custom-assets/about-us.png";
+import serviceOne from "../../assets/custom-assets/mobile-app-dev.jpg";
+import cyberSecurity from "../../assets/custom-assets/cyber-security.jpg";
+import webDevImg from "../../assets/custom-assets/web-dev.jpg";
+import serviceTwo from "../../assets/custom-assets/tech-training.jpg";
 import serviceThree from "../../assets/img/service/ser-03.jpg";
-import serviceFour from "../../custom-assets/tech-consultancy.jpg";
+import serviceFour from "../../assets/custom-assets/tech-consultancy.jpg";
 import brandOne from "../../assets/img/brand/brand-01.png";
 import brandTwo from "../../assets/img/brand/brand-02.png";
 import brandThree from "../../assets/img/brand/brand-03.png";

@@ -7,7 +7,7 @@ import Header from "../Headers/Header";
 import FooterDark from "../Footers/FooterDark";
 
 //Imgs
-import bgFourteen from "../../custom-assets/homepage-slider.jpg";
+import bgFourteen from "../../assets/custom-assets/homepage-slider.jpg";
 
 const ServiceComponent = ({ title, firstText, secondText, imgSrc }) => {
   return (

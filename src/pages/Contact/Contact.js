@@ -18,7 +18,7 @@ import Header from "../../components/Headers/Header";
 import FooterDark from "../../components/Footers/FooterDark";
 
 // Imgs
-import bgFourteen from "../../custom-assets/homepage-slider.jpg";
+import bgFourteen from "../../assets/custom-assets/homepage-slider.jpg";
 import contactBg from "../../assets/img/bg/contact-bg.png";
 
 const Contact = () => {

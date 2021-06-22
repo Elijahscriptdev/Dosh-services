@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
-import closeModalIcon from "../../assets/img//closeModalIcon.svg";
+import closeModalIcon from "../../assets/img/closeModalIcon.svg";
 import doshLogo from "../../assets/img/logo/logo.jpg";
+// import doshLogo from "../../assets/custom-assets/dosh-logo-1.png";
 import { Modal } from "react-bootstrap";
 import JobApplication from "./JobApplication";
 
@@ -147,7 +148,7 @@ const Header = () => {
                           <Link to="/About">About</Link>
                           <ul className="sub-menu text-left">
                             <li>
-                              <Link to="/Goals">Mission & Vision</Link>
+                              <Link to="/Mission">Mission & Vision</Link>
                             </li>
                             <li>
                               <Link to="/Portfolio">Portfolio</Link>
