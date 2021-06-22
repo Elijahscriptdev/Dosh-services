@@ -1,7 +1,6 @@
 {
   "name": "dosh-services",
   "version": "0.1.0",
-  "homepage": "doshservices.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

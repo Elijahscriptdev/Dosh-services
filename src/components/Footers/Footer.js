@@ -9,7 +9,6 @@ import doshLogo from "../../assets/img/logo/logo.jpg";
 const Footer = () => {
   return (
     <>
-      <body>
         {/* <!-- footer-area-start --> */}
         <footer>
           <div className="footer-area grey-bg pt-80 pb-30">
@@ -193,7 +192,6 @@ const Footer = () => {
           </div>
         </footer>
         {/* <!-- footer-area-end --> */}
-      </body>
     </>
   );
 };

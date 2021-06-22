@@ -48,31 +48,31 @@ const Portfolio = () => {
         {/* <!-- breadcrumb-area-ends --> */}
 
         {/* <!-- latest-gallery-area --> */}
-        <div class="gallery-area pt-125 pb-130">
-          <div class="container">
-            <div class="row mb-40">
-              <div class="col-xl-5 col-lg-5">
-                <div class="section-title  mb-30">
-                  <span class="b-sm-left-2"></span>
-                  <span class="sub-t-left">our project</span>
+        <div className="gallery-area pt-125 pb-130">
+          <div className="container">
+            <div className="row mb-40">
+              <div className="col-xl-5 col-lg-5">
+                <div className="section-title  mb-30">
+                  <span className="b-sm-left-2"></span>
+                  <span className="sub-t-left">our project</span>
                   <h1>Our Portfolio</h1>
                 </div>
               </div>
-              <div class="col-xl-7 col-lg-7mb-30">
-                <div class="portfolio-menu mt-120 text-lg-right mb-30">
-                  <button class="active" data-filter="*">
+              <div className="col-xl-7 col-lg-7mb-30">
+                <div className="portfolio-menu mt-120 text-lg-right mb-30">
+                  <button className="active" data-filter="*">
                     All Projects
                   </button>
-                  <button data-filter=".cat1" class="">
+                  <button data-filter=".cat1" className="">
                     Web Apps
                   </button>
-                  <button data-filter=".cat2" class="">
+                  <button data-filter=".cat2" className="">
                     Mobile Apps
                   </button>
-                  <button data-filter=".cat3" class="">
+                  <button data-filter=".cat3" className="">
                     Tech Trainings
                   </button>
-                  <button data-filter=".cat4" class="">
+                  <button data-filter=".cat4" className="">
                     Automations
                   </button>
                 </div>
@@ -81,122 +81,122 @@ const Portfolio = () => {
             <div id="portfolio-grid" className="row row-portfolio mb-230 mt-100">
               <h3 style={{margin: "2em auto"}}>Gallery coming soon...</h3>
             </div>
-            {/*<div id="portfolio-grid" class="row row-portfolio">
-              <div class="grid-sizer"></div>
-              <div class="col-xl-4 col-lg-4 col-md-6 grid-item cat2 cat4 mb-30">
-                <div class="portfolio-wrapper">
-                  <div class="portfolio-img">
+            {/*<div id="portfolio-grid" className="row row-portfolio">
+              <div className="grid-sizer"></div>
+              <div className="col-xl-4 col-lg-4 col-md-6 grid-item cat2 cat4 mb-30">
+                <div className="portfolio-wrapper">
+                  <div className="portfolio-img">
                     <Link to="#">
                       <img src={projImgOne} alt="" />
                     </Link>
-                    <div class="portfolio-text">
+                    <div className="portfolio-text">
                       <span>product design</span>
                       <h3>
                         <Link to="#">Best System How To Product Design</Link>
                       </h3>
-                      <Link class="btn" to="#">
-                        <span class="btn-text">
-                          learn more <i class="far fa-long-arrow-right"></i>
+                      <Link className="btn" to="#">
+                        <span className="btn-text">
+                          learn more <i className="far fa-long-arrow-right"></i>
                         </span>{" "}
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 grid-item cat4 cat1 cat2 mb-30">
-                <div class="portfolio-wrapper">
-                  <div class="portfolio-img">
+              <div className="col-xl-4 col-lg-4 col-md-6 grid-item cat4 cat1 cat2 mb-30">
+                <div className="portfolio-wrapper">
+                  <div className="portfolio-img">
                     <Link to="#">
                       <img src={projImgTwo} alt="" />
                     </Link>
-                    <div class="portfolio-text">
+                    <div className="portfolio-text">
                       <span>product design</span>
                       <h3>
                         <Link to="#">Best System How To Product Design</Link>
                       </h3>
-                      <Link class="btn" to="#">
-                        <span class="btn-text">
-                          learn more <i class="far fa-long-arrow-right"></i>
+                      <Link className="btn" to="#">
+                        <span className="btn-text">
+                          learn more <i className="far fa-long-arrow-right"></i>
                         </span>{" "}
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 grid-item cat3 cat2 cat1 mb-30">
-                <div class="portfolio-wrapper">
-                  <div class="portfolio-img">
+              <div className="col-xl-4 col-lg-4 col-md-6 grid-item cat3 cat2 cat1 mb-30">
+                <div className="portfolio-wrapper">
+                  <div className="portfolio-img">
                     <Link to="#">
                       <img src={projImgThree} alt="" />
                     </Link>
-                    <div class="portfolio-text">
+                    <div className="portfolio-text">
                       <span>product design</span>
                       <h3>
                         <Link to="#">Best System How To Product Design</Link>
                       </h3>
-                      <Link class="btn" to="#">
-                        <span class="btn-text">
-                          learn more <i class="far fa-long-arrow-right"></i>
+                      <Link className="btn" to="#">
+                        <span className="btn-text">
+                          learn more <i className="far fa-long-arrow-right"></i>
                         </span>{" "}
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 grid-item cat1 cat4 mb-30">
-                <div class="portfolio-wrapper">
-                  <div class="portfolio-img">
+              <div className="col-xl-4 col-lg-4 col-md-6 grid-item cat1 cat4 mb-30">
+                <div className="portfolio-wrapper">
+                  <div className="portfolio-img">
                     <Link to="#">
                       <img src={projImgFour} alt="" />
                     </Link>
-                    <div class="portfolio-text">
+                    <div className="portfolio-text">
                       <span>product design</span>
                       <h3>
                         <Link to="#">Best System How To Product Design</Link>
                       </h3>
-                      <Link class="btn" to="#">
-                        <span class="btn-text">
-                          learn more <i class="far fa-long-arrow-right"></i>
+                      <Link className="btn" to="#">
+                        <span className="btn-text">
+                          learn more <i className="far fa-long-arrow-right"></i>
                         </span>{" "}
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 grid-item cat3 cat2 mb-30">
-                <div class="portfolio-wrapper">
-                  <div class="portfolio-img">
+              <div className="col-xl-4 col-lg-4 col-md-6 grid-item cat3 cat2 mb-30">
+                <div className="portfolio-wrapper">
+                  <div className="portfolio-img">
                     <Link to="#">
                       <img src={projImgFive} alt="" />
                     </Link>
-                    <div class="portfolio-text">
+                    <div className="portfolio-text">
                       <span>product design</span>
                       <h3>
                         <Link to="#">Best System How To Product Design</Link>
                       </h3>
-                      <Link class="btn" to="#">
-                        <span class="btn-text">
-                          learn more <i class="far fa-long-arrow-right"></i>
+                      <Link className="btn" to="#">
+                        <span className="btn-text">
+                          learn more <i className="far fa-long-arrow-right"></i>
                         </span>{" "}
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 grid-item cat4 cat3 mb-30">
-                <div class="portfolio-wrapper">
-                  <div class="portfolio-img">
+              <div className="col-xl-4 col-lg-4 col-md-6 grid-item cat4 cat3 mb-30">
+                <div className="portfolio-wrapper">
+                  <div className="portfolio-img">
                     <Link to="#">
                       <img src={projImgSix} alt="" />
                     </Link>
-                    <div class="portfolio-text">
+                    <div className="portfolio-text">
                       <span>product design</span>
                       <h3>
                         <Link to="#">Best System How To Product Design</Link>
                       </h3>
-                      <Link class="btn" to="#">
-                        <span class="btn-text">
-                          learn more <i class="far fa-long-arrow-right"></i>
+                      <Link className="btn" to="#">
+                        <span className="btn-text">
+                          learn more <i className="far fa-long-arrow-right"></i>
                         </span>{" "}
                       </Link>
                     </div>
@@ -204,12 +204,12 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-xl-12">
-                <div class="portfolio-button text-center mt-30">
-                  <Link class="btn" to="/">
-                    <span class="btn-text">
-                      view more <i class="far fa-long-arrow-right"></i>
+            <div className="row">
+              <div className="col-xl-12">
+                <div className="portfolio-button text-center mt-30">
+                  <Link className="btn" to="/">
+                    <span className="btn-text">
+                      view more <i className="far fa-long-arrow-right"></i>
                     </span>{" "}
                   </Link>
                 </div>

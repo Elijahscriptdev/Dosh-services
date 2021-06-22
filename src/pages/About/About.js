@@ -22,7 +22,6 @@ const About = () => {
   return (
     <>
       <ReactTitle title="Dosh Services - About Page" />
-      <body>
         <Header />
         <main>
           {/* <!-- breadcrumb-area-start --> */}
@@ -332,80 +331,11 @@ const About = () => {
             </div>
           </div>
           {/* <!-- choose-area-end --> */}
-
-          {/* <!-- cta-area-start --> */}
-          {/* <div
-            className="cta-area pt-125 pb-95"
-            style={{ backgroundImage: `url(${bgTwo})` }}
-          >
-            <div className="container">
-              <div className="row">
-                <div className="col-xl-7 col-lg-6">
-                  <div className="cta-text mb-30">
-                    <span>do you have any project ?</span>
-                    <h1>Let’s Talk About Business Solutions With Us</h1>
-                  </div>
-                </div>
-                <div className="col-xl-5 col-lg-6">
-                  <div className="cta-button text-lg-right mb-30">
-                    <Link className="btn btn-white btn-none" to="#">
-                      <span className="btn-text">
-                        contact us <i className="far fa-long-arrow-right"></i>
-                      </span>{" "}
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
-          {/* <!-- cta-area-end --> */}
-
-          {/* <!-- brand-area-start --> */}
-          {/* <div className="brand-area pt-130 pb-130">
-            <div className="container">
-              <div className="row">
-                <div className="brand-active owl-carousel">
-                  <div className="col-xl-12">
-                    <div className="brand-img text-center">
-                      <img src={brandOne} alt="" />
-                    </div>
-                  </div>
-                  <div className="col-xl-12">
-                    <div className="brand-img text-center">
-                      <img src={brandTwo} alt="" />
-                    </div>
-                  </div>
-                  <div className="col-xl-12">
-                    <div className="brand-img text-center">
-                      <img src={brandThree} alt="" />
-                    </div>
-                  </div>
-                  <div className="col-xl-12">
-                    <div className="brand-img text-center">
-                      <img src={brandFour} alt="" />
-                    </div>
-                  </div>
-                  <div className="col-xl-12">
-                    <div className="brand-img text-center">
-                      <img src={brandFive} alt="" />
-                    </div>
-                  </div>
-                  <div className="col-xl-12 text-center">
-                    <div className="brand-img">
-                      <img src={brandTwo} alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
-          {/* <!-- brand-area-end --> */}
         </main>
 <div className="mt-130">
 
         <FooterDark />
 </div>
-      </body>
     </>
   );
 };

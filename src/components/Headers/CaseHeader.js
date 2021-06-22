@@ -7,7 +7,6 @@ import flagImg from "../../assets/img/icon/flag.png";
 const CaseHeader = () => {
     return (
       <>
-        <body>
             {/* header-start */}
 <header>
             <div className="header-top-area grey-bg d-none d-md-block">
@@ -118,7 +117,6 @@ const CaseHeader = () => {
         </header>
         {/* <!-- header-end --> */}
     
-        </body>
       </>
     );
 }

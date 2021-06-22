@@ -31,7 +31,6 @@ const Home = () => {
   return (
     <>
       <ReactTitle title="Dosh Services - IT Solutions Service Providers" />
-      <body>
         <Header />
 
         <main>
@@ -295,90 +294,9 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              {/* <div className="row">
-                <div className="col-xl-12">
-                  <div className="services-button text-center mt-30">
-                    <Link className="btn" to="/Services">
-                      <span className="btn-text">
-                        View All Services{" "}
-                        <i className="far fa-long-arrow-right"></i>
-                      </span>
-                    </Link>
-                  </div>
-                </div>
-              </div> */}
             </div>
           </div>
           {/* <!-- our-services-area-end --> */}
-
-          {/* <!-- testmonial-area-start --> */}
-          {/* <div className="testimonial-area testimonial pb-100 pt-120">
-            <div className="container">
-              <div className="row">
-                <div className="col-xl-6 col-lg-6 mb-30">
-                  <div className="section-title  mb-45">
-                    <span className="b-sm-left-1"></span>
-                    <span className="b-sm-left-2"></span>
-                    <span className="sub-t-left">Testimonials</span>
-                    <h1>
-                      What Our Client’s <br />
-                      Say About us
-                    </h1>
-                  </div>
-                  <div className="testimonial-active owl-carousel">
-                    <div className="testimonial-wrapper">
-                      <div className="testimonial-text">
-                        <p>
-                          Sed ut perspiciatis unde omnis iste natus error sit
-                          voluptatem accusantium doloremque laudantie totam rem
-                          aperiam, eaque ipsa quae ab illo inventore veritatis
-                          et quasi artectbeatae vitae dicta sunt explicabo. Nemo
-                          enim ipsam voluptatem quia voluptas sipernatur aut
-                          odit aut fugit sed quia consequunture
-                        </p>
-                        <h4>Kane Willumsons</h4>
-                        <span>SR Developer</span>
-                      </div>
-                    </div>
-                    <div className="testimonial-wrapper">
-                      <div className="testimonial-text">
-                        <p>
-                          Sed ut perspiciatis unde omnis iste natus error sit
-                          voluptatem accusantium doloremque laudantie totam rem
-                          aperiam, eaque ipsa quae ab illo inventore veritatis
-                          et quasi artectbeatae vitae dicta sunt explicabo. Nemo
-                          enim ipsam voluptatem quia voluptas sipernatur aut
-                          odit aut fugit sed quia consequunture
-                        </p>
-                        <h4>Kane Willumsons</h4>
-                        <span>SR Developer</span>
-                      </div>
-                    </div>
-                    <div className="testimonial-wrapper">
-                      <div className="testimonial-text">
-                        <p>
-                          Sed ut perspiciatis unde omnis iste natus error sit
-                          voluptatem accusantium doloremque laudantie totam rem
-                          aperiam, eaque ipsa quae ab illo inventore veritatis
-                          et quasi artectbeatae vitae dicta sunt explicabo. Nemo
-                          enim ipsam voluptatem quia voluptas sipernatur aut
-                          odit aut fugit sed quia consequunture
-                        </p>
-                        <h4>Kane Willumsons</h4>
-                        <span>SR Developer</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-xl-6 col-lg-6 mb-30">
-                  <div className="testimonial-img">
-                    <img src={testimonialImg} alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
-          {/* <!-- testmonial-area-end --> */}
 
           {/* <!-- video-area-start --> */}
           <div
@@ -398,8 +316,8 @@ const Home = () => {
                 <div className="col-xl-6 col-lg-6 mb-30">
                   <div className="map-wrapper">
                     <div id="contact-map" className="contact-map">
-                      <div class="col-xl-4 col-lg-4">
-                        <div class="map-img mb-30">
+                      <div className="col-xl-4 col-lg-4">
+                        <div className="map-img mb-30">
                           <img src={bgMap} alt="" />
                         </div>
                       </div>
@@ -519,7 +437,6 @@ const Home = () => {
           {/* <!-- newsletter-area-end --> */}
         </main>
         <Footer />
-      </body>
     </>
   );
 };

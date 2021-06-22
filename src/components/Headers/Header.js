@@ -23,7 +23,6 @@ const Header = () => {
 
   return (
     <>
-      <body>
         <header>
           <div className="header-top-area grey-bg d-none d-md-block">
             <div className="container">
@@ -223,7 +222,6 @@ const Header = () => {
             </div>
           </div>
         </header>
-      </body>
     </>
   );
 };

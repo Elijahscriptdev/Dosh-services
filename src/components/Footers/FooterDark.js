@@ -11,7 +11,6 @@ import bgSeven from "../../assets/img/bg/bg-7.jpg";
 const FooterDark = () => {
     return (
       <>
-        <body>
           {/* <!-- footer-area-start --> */}
           <footer>
             <div
@@ -211,7 +210,6 @@ const FooterDark = () => {
             </div>
           </footer>
           {/* <!-- footer-area-end --> */}
-        </body>
       </>
     );
 }
