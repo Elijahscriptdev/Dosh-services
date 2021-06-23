@@ -2561,6 +2561,7 @@ label {
 .about-area {
   background-size: cover;
   background-position: center center;
+  width: 100%;
 }
 
 .about-text {
@@ -2772,9 +2773,9 @@ label {
 }
 
 .about-2-wrapper {
-  padding-left: 70px;
-  padding-right: 63px;
-  padding-top: 35px;
+  padding-left: 120px;
+  padding-right: 33px;
+  padding-top: 10px;
 }
 
 .about-2-wrapper .about-text h1 {

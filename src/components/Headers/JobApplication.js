@@ -102,7 +102,8 @@ const JobApplication = ({ applyBtnStyle }) => {
                   <option value="">Project Category : </option>
                   <option value="Web App">Web App</option>
                   <option value="Mobile App">Mobile App</option>
-                  <option value="Full Stack">Full Stack App</option>
+                  <option value="Full Stack App">Full Stack App</option>
+                  <option value="Web Design">Web Design</option>
                   <option value="Automation">Automation</option>
                 </select>
               </div>

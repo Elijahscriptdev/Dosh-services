@@ -19,11 +19,7 @@ import webDevImg from "../../assets/custom-assets/web-dev.jpg";
 import serviceTwo from "../../assets/custom-assets/tech-training.jpg";
 import serviceThree from "../../assets/img/service/ser-03.jpg";
 import serviceFour from "../../assets/custom-assets/tech-consultancy.jpg";
-import brandOne from "../../assets/img/brand/brand-01.png";
-import brandTwo from "../../assets/img/brand/brand-02.png";
-import brandThree from "../../assets/img/brand/brand-03.png";
-import brandFour from "../../assets/img/brand/brand-04.png";
-import brandFive from "../../assets/img/brand/brand-05.png";
+
 import Header from "../../components/Headers/Header";
 import Footer from "../../components/Footers/Footer";
 
@@ -112,13 +108,11 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="col-xl-7 col-lg-7 mb-30">
-                  <div className="about-1-wrapper about-2-wrapper">
+                  <div className=" about-2-wrapper">
                     <div className="about-text">
                       <span>about us</span>
                       <h1>
-                        A leading <br />
-                        Nigeria based
-                        <span>A Leading Nigeria-based Information Technology Provider</span>
+                        <span>A Leading <br/> Nigeria-based Information Technology Provider</span>
                       </h1>
                       <p>
                         Since inception, we have provided outstanding IT solutions including Web Applications and Security services that takes businesses to the next level and bring our clients ideas to life. Our Team is comprised of experienced IT professionals to give you the best experience in information technology, Web Development and Customer services. We are the technology partner you need to accomplish your business goals.
@@ -313,7 +307,7 @@ const Home = () => {
           <div className="contact-area">
             <div className="container">
               <div className="row">
-                <div className="col-xl-6 col-lg-6 mb-30">
+                <div className="col-xl-6 col-lg-6 mb-200">
                   <div className="map-wrapper">
                     <div id="contact-map" className="contact-map">
                       <div className="col-xl-4 col-lg-4">
@@ -358,47 +352,6 @@ const Home = () => {
             </div>
           </div>
           {/* <!-- contact-area-end --> */}
-
-          {/* <!-- brand-area-start --> */}
-          <div className="brand-area pb-130">
-            <div className="container">
-              <div className="row">
-                <div className="brand-active owl-carousel">
-                  <div className="col-xl-12">
-                    <div className="brand-img text-center">
-                      <img src={brandOne} alt="" />
-                    </div>
-                  </div>
-                  <div className="col-xl-12">
-                    <div className="brand-img text-center">
-                      <img src={brandTwo} alt="" />
-                    </div>
-                  </div>
-                  <div className="col-xl-12">
-                    <div className="brand-img text-center">
-                      <img src={brandThree} alt="" />
-                    </div>
-                  </div>
-                  <div className="col-xl-12">
-                    <div className="brand-img text-center">
-                      <img src={brandFour} alt="" />
-                    </div>
-                  </div>
-                  <div className="col-xl-12">
-                    <div className="brand-img text-center">
-                      <img src={brandFive} alt="" />
-                    </div>
-                  </div>
-                  <div className="col-xl-12 text-center">
-                    <div className="brand-img">
-                      <img src={brandTwo} alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <!-- brand-area-end --> */}
 
           {/* <!-- newsletter-area-start --> */}
           <div

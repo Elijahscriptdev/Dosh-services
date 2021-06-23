@@ -14,11 +14,6 @@ import iconImageThree from "../../assets/img/icon/icon-3.png";
 import iconImageFour from "../../assets/img/icon/icon-4.png";
 import iconImageFive from "../../assets/img/icon/icon-5.png";
 import iconImageSix from "../../assets/img/icon/icon-6.png";
-import brandOne from "../../assets/img/brand/brand-01.png";
-import brandTwo from "../../assets/img/brand/brand-02.png";
-import brandThree from "../../assets/img/brand/brand-03.png";
-import brandFour from "../../assets/img/brand/brand-04.png";
-import brandFive from "../../assets/img/brand/brand-05.png";
 import bgOne from "../../assets/img/bg/bg-1.jpg";
 import bgFourteen from "../../assets/custom-assets/homepage-slider.jpg";
 
@@ -225,46 +220,7 @@ const Services = () => {
 
         {/* <!-- services-area-end --> */}
 
-        {/* <!-- brand-area-start --> */}
-        <div className="brand-area pt-130 pb-130">
-          <div className="container">
-            <div className="row">
-              <div className="brand-active owl-carousel">
-                <div className="col-xl-12">
-                  <div className="brand-img text-center">
-                    <img src={brandOne} alt="" />
-                  </div>
-                </div>
-                <div className="col-xl-12">
-                  <div className="brand-img text-center">
-                    <img src={brandTwo} alt="" />
-                  </div>
-                </div>
-                <div className="col-xl-12">
-                  <div className="brand-img text-center">
-                    <img src={brandThree} alt="" />
-                  </div>
-                </div>
-                <div className="col-xl-12">
-                  <div className="brand-img text-center">
-                    <img src={brandFour} alt="" />
-                  </div>
-                </div>
-                <div className="col-xl-12">
-                  <div className="brand-img text-center">
-                    <img src={brandFive} alt="" />
-                  </div>
-                </div>
-                <div className="col-xl-12 text-center">
-                  <div className="brand-img">
-                    <img src={brandTwo} alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* <!-- brand-area-end --> */}
+        
       </main>
 
       <FooterDark />

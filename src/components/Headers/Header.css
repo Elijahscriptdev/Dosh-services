@@ -106,8 +106,6 @@ textarea {
   margin: 40px 0 0px 0;
 }
 
-
-
 /* sign up */
 .signup-password-input {
   position: relative;
@@ -129,12 +127,12 @@ textarea {
   border-radius: 20px;
   transform: translate(0%, 10%);
   /* margin: 150px auto; */
-   margin: 0 auto;
+  margin: 0 auto;
   padding: 20px;
 }
 
 .consult-btn {
-  background: #0003B8;
+  background: #0003b8;
   box-shadow: 0px 6px 15px rgba(26, 33, 107, 0.15);
   border-radius: 100px;
   border: none;
@@ -147,9 +145,9 @@ textarea {
   padding: 10px 20px;
   width: 100%;
   margin: 15px auto;
-  }
+}
 
-  .textarea {
+.textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -164,22 +162,28 @@ textarea {
   font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
     "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial,
     sans-serif;
-    min-width: 300px;
-    min-height: 300px;
+  min-width: 300px;
+  min-height: 300px;
 }
 
+.logo-one {
+  width: 100%;
+  object-fit: contain;
+  height: 100px;
+  padding: 0.5em;
+  max-width: 165px;
+}
 
-
-  /* Modals */
+/* Modals */
 .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.35);
-    backdrop-filter: blur(0.75px);
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(0.75px);
+}
 
 .modal-component__wrap {
   margin: 0 auto;

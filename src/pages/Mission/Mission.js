@@ -98,47 +98,7 @@ const Mission = () => {
         </div>
         {/* <!-- our-goals-area-end --> */}
 
-        {/* <!-- brand-area-start --> */}
-        {/* <div className="brand-area pb-130">
-          <div className="container">
-            <div className="row">
-              <div className="brand-active owl-carousel">
-                <div className="col-xl-12">
-                  <div className="brand-img text-center">
-                    <img src={brandOne} alt="" />
-                  </div>
-                </div>
-                <div className="col-xl-12">
-                  <div className="brand-img text-center">
-                    <img src={brandTwo} alt="" />
-                  </div>
-                </div>
-                <div className="col-xl-12">
-                  <div className="brand-img text-center">
-                    <img src={brandThree} alt="" />
-                  </div>
-                </div>
-                <div className="col-xl-12">
-                  <div className="brand-img text-center">
-                    <img src={brandFour} alt="" />
-                  </div>
-                </div>
-                <div className="col-xl-12">
-                  <div className="brand-img text-center">
-                    <img src={brandFive} alt="" />
-                  </div>
-                </div>
-                <div className="col-xl-12 text-center">
-                  <div className="brand-img">
-                    <img src={brandTwo} alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* <!-- brand-area-end --> */}
-
+       
         {/* <!-- goals-area-start --> */}
         {/* <div className="goals-area pos-rel mt-80 mb-220">
           <div
