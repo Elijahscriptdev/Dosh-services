@@ -9,7 +9,6 @@ import Careers from "./pages/Careers/Careers";
 import Packages from "./pages/Packages/Packages";
 import Mission from "./pages/Mission/Mission";
 import Contact from "./pages/Contact/Contact";
-import SingleTeam from "./pages/SingleTeam/SingleTeam";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import TechConsult from "./pages/Services/TechConsult";
 import WebDev from "./pages/Services/WebDev";
@@ -36,7 +35,6 @@ function App() {
           <Route path="/Packages" exact component={Packages} />
           <Route path="/Portfolio" exact component={Portfolio} />
           <Route path="/Services" exact component={Services} />
-          <Route path="/SingleTeam" exact component={SingleTeam} />
           <Route path="/TechConsult" exact component={TechConsult} />
           <Route path="/TechTraining" exact component={TechTraining} />
           <Route path="/WebDev" exact component={WebDev} />
