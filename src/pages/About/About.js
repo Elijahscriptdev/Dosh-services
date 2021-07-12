@@ -22,7 +22,7 @@ const About = () => {
         {/* <!-- breadcrumb-area-start --> */}
         <div
           className="single-slider slider-height slider-overlay breadcrumb-area pt-230 pb-235"
-          style={{ backgroundImage: `url(https://res.cloudinary.com/dosh-services/image/upload/v1626084061/f_torqlt.jpg)` }}
+          style={{ backgroundImage: `url(https://res.cloudinary.com/dosh-services/image/upload/v1626092424/WhatsApp_Image_2021-07-09_at_12.27.42_AM_niym7r.jpg)` }}
         >
           <div className="container">
             <div className="row">
