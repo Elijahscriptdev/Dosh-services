@@ -35,7 +35,7 @@ const Home = () => {
             <div className="slider-active">
               <div
                 className="single-slider slider-height slider-overlay d-flex align-items-center"
-                style={{ backgroundImage: `url(${sliderOne})` }}
+                style={{ backgroundImage: `url(https://res.cloudinary.com/dosh-services/image/upload/v1626084061/f_torqlt.jpg)` }}
               >
                 <div className="container">
                   <div className="row ">

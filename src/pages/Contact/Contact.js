@@ -30,7 +30,7 @@ const Contact = () => {
         {/* <!-- breadcrumb-area-start --> */}
         <div
           className="breadcrumb-area pt-230 pb-235 single-slider slider-height slider-overlay d-flex align-items-center"
-          style={{ backgroundImage: `url(${bgFourteen})` }}
+          style={{ backgroundImage: `url(https://res.cloudinary.com/dosh-services/image/upload/v1626084061/f_torqlt.jpg)` }}
         >
           <div className="container">
             <div className="row">

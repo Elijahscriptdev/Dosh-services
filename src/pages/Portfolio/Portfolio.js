@@ -25,7 +25,7 @@ const Portfolio = () => {
         {/* <!-- breadcrumb-area-start --> */}
         <div
           className="single-slider slider-height slider-overlay breadcrumb-area pt-230 pb-235"
-          style={{ backgroundImage: `url(${bgFourteen})` }}
+          style={{ backgroundImage: `url(https://res.cloudinary.com/dosh-services/image/upload/v1626084061/f_torqlt.jpg)` }}
         >
           <div className="container">
             <div className="row">
