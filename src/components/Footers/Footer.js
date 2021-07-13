@@ -157,7 +157,7 @@ const Footer = () => {
                         <i className="far fa-map-marker-alt"></i>
                       </div>
                       <div className="contact-address-text ">
-                        <h4>12b MacDonald Akano street. Omole phase 1</h4>
+                        <h4>54, moleye str Alagomeji yaba</h4>
                       </div>
                     </li>
                   </ul>

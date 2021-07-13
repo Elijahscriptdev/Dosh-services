@@ -3194,6 +3194,11 @@ label {
   margin-bottom: 29px;
 }
 
+.footer-logo a .img-fluid {
+  width: 150px;
+  height: 60px;
+}
+
 .footer-text p {
   margin-bottom: 0;
   line-height: 30px;

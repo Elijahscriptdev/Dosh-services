@@ -14,7 +14,7 @@ const CaseHeader = () => {
                     <div className="row">
                         <div className="col-xl-8 col-lg-8 col-md-6 d-flex align-items-center">
                             <div className="header-info">
-                                <span><i className="far fa-map-marker-alt"> </i> 12b MacDonald Akano street. Omole phase 1</span>
+                                <span><i className="far fa-map-marker-alt"> </i> 54, moleye str. Alagomeji yaba</span>
                                 <span className="header-ph"><i className="far fa-phone"> </i> +234 809 454 3296</span>
                                 <span className="header-en"><i className="far fa-envelope-open"></i> <Link to="http://Dosh Services.net/cdn-cgi/l/email-protection" className="__cf_email__" data-cfemail="c3b0b6b3b3acb1b783a4aea2aaafeda0acae">info@doshservices.com</Link></span>
                             </div>

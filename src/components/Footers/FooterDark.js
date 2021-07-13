@@ -59,7 +59,7 @@ const FooterDark = () => {
                     <div className="footer-wrapper footer-2-wrapper mb-30">
                       <div className="footer-logo">
                         <Link to="/">
-                          <img src={doshLogo} alt="" />
+                          <img src="https://res.cloudinary.com/dosh-services/image/upload/v1626187016/dosh-logo-typography-1-white_awisgd.png" alt="" className="img-fluid" />
                         </Link>
                       </div>
                       <div className="footer-text">
@@ -174,7 +174,7 @@ const FooterDark = () => {
                             ></i>
                           </div>
                           <div className="contact-address-text">
-                            <h4>12b MacDonald Akano street. Omole phase 1</h4>
+                            <h4>54, moleye str Alagomeji yaba</h4>
                           </div>
                         </li>
                       </ul>
