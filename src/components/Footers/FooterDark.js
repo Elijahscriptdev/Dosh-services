@@ -100,7 +100,7 @@ const FooterDark = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-xl-3 col-lg-3 col-md-6">
+                  <div className="col-xl-2 col-lg-2 col-md-6">
                     <div className="footer-wrapper footer-2-wrapper mb-30 pl-50">
                       <h4 className="footer-title footer-title-dark">
                         Quick Links
@@ -127,7 +127,7 @@ const FooterDark = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-xl-2 col-lg-2 col-md-6">
+                  <div className="col-xl-3 col-lg-3 col-md-6">
                     <div className="footer-wrapper footer-2-wrapper mb-30">
                       <h4 className="footer-title footer-title-dark">
                         Contact Us
