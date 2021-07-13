@@ -20,7 +20,7 @@ const Mission = () => {
         {/* <!-- breadcrumb-area-start --> */}
         <div
           className="breadcrumb-area pt-230 pb-235 slider-overlay"
-          style={{ backgroundImage: `url(https://res.cloudinary.com/dosh-services/image/upload/v1626092424/WhatsApp_Image_2021-07-09_at_12.27.42_AM_niym7r.jpg)` }}
+          style={{ backgroundImage: `url(https://res.cloudinary.com/dosh-services/image/upload/v1626160906/home_page_sliderh_rjsnyv.jpg)` }}
         >
           <div className="container">
             <div className="row">
