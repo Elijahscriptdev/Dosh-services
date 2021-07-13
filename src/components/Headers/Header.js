@@ -29,8 +29,7 @@ const Header = () => {
               <div className="col-xl-8 col-lg-8 col-md-6 d-flex align-items-center">
                 <div className="header-info">
                   <span>
-                    <i className="far fa-map-marker-alt"> </i>12b MacDonald
-                    Akano street. Omole phase 1
+                    <i className="far fa-map-marker-alt"> </i>54, moleye str. Alagomeji yaba
                   </span>
                   <span className="header-ph">
                     <i className="far fa-phone"> </i> +234 809 454 3296
